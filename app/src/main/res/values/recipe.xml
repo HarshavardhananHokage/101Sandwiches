@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="classic_blt_sandwich">
-    Cook bacon until crispy, then drain on paper towels.\n
-    Toast the 8 slices of bread.\n
-    Spread 1 tablespoon mayo on each slice of toasted bread. (More or less, to taste).\n
-    Add 1 slice of lettuce to 4 pieces of mayo-spread toast.\n
-    Add 2 slices of tomato on top of lettuce.\n
-    Arrange 3 slices of bacon evenly on top of tomato. (Break bacon slices in half to fit, if needed.).\n
-    Add 1 slice of lettuce on top of bacon.\n
-    Put the remaining 4 pieces of mayo-spread toast on top to finish the sandwiches.\n
-    Enjoy!\n
-    NOTE: I also like to butter the toast slices before adding the mayo, higher in fat, but tastier, in my opinion!
+        Cook bacon until crispy, then drain on paper towels.\n
+        Toast the 8 slices of bread.\n
+        Spread 1 tablespoon mayo on each slice of toasted bread. (More or less, to taste).\n
+        Add 1 slice of lettuce to 4 pieces of mayo-spread toast.\n
+        Add 2 slices of tomato on top of lettuce.\n
+        Arrange 3 slices of bacon evenly on top of tomato. (Break bacon slices in half to fit, if needed.).\n
+        Add 1 slice of lettuce on top of bacon.\n
+        Put the remaining 4 pieces of mayo-spread toast on top to finish the sandwiches.\n
+        Enjoy!\n
+        NOTE: I also like to butter the toast slices before adding the mayo, higher in fat, but tastier, in my opinion!
     </string>
+
+    <string-array name="classic_blt_sandwich_rec">
+        <item>Cook bacon until crispy, then drain on paper towels.</item>
+        <item>Toast the 8 slices of bread.</item>
+        <item>Spread 1 tablespoon mayo on each slice of toasted bread. (More or less, to taste).</item>
+        <item>Add 1 slice of lettuce to 4 pieces of mayo-spread toast.</item>
+        <item>Add 2 slices of tomato on top of lettuce.</item>
+        <item>Arrange 3 slices of bacon evenly on top of tomato. (Break bacon slices in half to fit, if needed.).</item>
+        <item>Add 1 slice of lettuce on top of bacon.</item>
+        <item>Put the remaining 4 pieces of mayo-spread toast on top to finish the sandwiches.</item>
+        <item>Enjoy!</item>
+        <item>NOTE: I also like to butter the toast slices before adding the mayo, higher in fat, but tastier, in my opinion!</item>
+    </string-array>
 </resources>

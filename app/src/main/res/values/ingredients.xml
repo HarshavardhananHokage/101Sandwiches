@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classic_blt_sandwich">
+        <item>1⁄2 lb bacon (approx. 12 slices)</item>
+        <item>8 slices white bread</item>
+        <item>8 leaves iceberg lettuce, fresh and full</item>
+        <item>8 slices of ripened tomatoes</item>
+        <item>8 tablespoons Hellmann's mayonnaise</item>
+    </string-array>
+</resources>

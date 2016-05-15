@@ -154,12 +154,10 @@
             android:layout_alignParentBottom="true"
             android:background="@color/green"
             android:text="@string/ingredients"
-            android:textColor="@color/white"
-            android:drawablePadding="10dp"
-            android:gravity="center"/>
+            android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/fsi_bt_recipes"
+            android:id="@+id/fsi_bt_directions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -172,4 +170,8 @@
             android:background="@color/green"/>
 
     </RelativeLayout>
+    <include layout="@layout/layout_ingre_directions"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@id/fsi_rl_ads_layout"/>
 </RelativeLayout>

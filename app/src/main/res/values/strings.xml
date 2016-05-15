@@ -3,6 +3,7 @@
     <string name="sandwich_image">Sandwich Image</string>
     <string name="ingredients">INGREDIENTS</string>
     <string name="directions">DIRECTIONS</string>
+    <string name="close_list_cont_desc">Close List</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

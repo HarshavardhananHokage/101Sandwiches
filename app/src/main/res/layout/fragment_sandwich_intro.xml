@@ -44,8 +44,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_action_heart"
-                android:layout_gravity="end|right"
-                android:layout_marginRight="10dp"/>
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/favourite_sandwich_cont_desc"/>
         </android.support.v7.widget.Toolbar>
 
         <ImageView
@@ -98,8 +100,7 @@
             android:layout_width="1dp"
             android:layout_height="1dp"
             android:layout_below="@id/fst_tv_sandwich_desc"
-            android:layout_centerHorizontal="true"
-            android:background="@color/colorAccent"/>
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:id="@+id/fis_tv_cooking_time"
@@ -138,7 +139,7 @@
        <View
            android:id="@+id/fsi_view_dummy_2"
            android:layout_width="1dp"
-           android:layout_height="wrap_content"
+           android:layout_height="1dp"
            android:layout_below="@id/fis_tv_calories_count"
            android:layout_centerHorizontal="true" />
 
@@ -170,8 +171,15 @@
             android:background="@color/green"/>
 
     </RelativeLayout>
-    <include layout="@layout/layout_ingre_directions"
+    <!--<include layout="@layout/layout_ingre_directions"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_above="@id/fsi_rl_ads_layout"/> -->
+    <ViewStub
+        android:id="@+id/fsi_vs_ing_directions_stub"
+        android:inflatedId="@+id/fsi_lid_rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_ingre_directions"
         android:layout_above="@id/fsi_rl_ads_layout"/>
 </RelativeLayout>

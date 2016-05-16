@@ -4,6 +4,10 @@
     <string name="ingredients">INGREDIENTS</string>
     <string name="directions">DIRECTIONS</string>
     <string name="close_list_cont_desc">Close List</string>
+    <string name="favourite_sandwich_cont_desc">Favourite Sandwich</string>
+    <string name="search_sandwiches_cont_desc">Search Sandwich</string>
+    <string name="all_recipes">All Recipes</string>
+    <string name="try_out_now">Try It Now!</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

@@ -17,6 +17,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewStub;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -41,6 +42,7 @@ public class IntroFragment extends Fragment {
 
     View introFragView;
     Toolbar introToolbar;
+    ViewStub vs_ingDirStub;
 
     AdView adView_introPage;
     AdRequest adRequest_introPage;
@@ -58,6 +60,7 @@ public class IntroFragment extends Fragment {
     String[] directions;
 
     ImageButton ib_closeList;
+    boolean isStubInflated = false;
 
     @Nullable
     @Override
@@ -65,23 +68,25 @@ public class IntroFragment extends Fragment {
 
         introFragView = inflater.inflate(R.layout.fragment_sandwich_intro, container, false);
         introToolbar = (Toolbar) introFragView.findViewById(R.id.fsi_toolbar_custom);
-        rl_detailsPane = (RelativeLayout) introFragView.findViewById(R.id.fsi_lid_rl_layout);
         rl_contentLayout = (RelativeLayout) introFragView.findViewById(R.id.fsi_rl_content_layout);
-        ll_ing_directions_lists = (LinearLayout) introFragView.findViewById(R.id.fsi_lid_ll_lists);
+        vs_ingDirStub = (ViewStub) introFragView.findViewById(R.id.fsi_vs_ing_directions_stub);
 
         bt_ingredients = (Button) introFragView.findViewById(R.id.fsi_bt_ingredients);
         bt_directions = (Button) introFragView.findViewById(R.id.fsi_bt_directions);
 
-        bt_lid_directions_list = (Button) introFragView.findViewById(R.id.fsi_lid_bt_directions);
-        bt_lid_ingredients_list = (Button) introFragView.findViewById(R.id.fsi_lid_bt_ingredients);
-
-        ib_closeList = (ImageButton) introFragView.findViewById(R.id.fsi_lid_ib_close_list);
-
-        rl_detailsPane.setVisibility(View.GONE);
+        //rl_detailsPane.setVisibility(View.GONE);
         introToolbar.setTitle("");
         ((AppCompatActivity) getActivity()).setSupportActionBar(introToolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+        try
+        {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+        }catch (NullPointerException npe)
+        {
+            Log.e(TAG, "Toolbar is returned as null");
+        }
+
+
         /*((AppCompatActivity) getActivity()).getSupportActionBar().
                 setIcon(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_list));*/
 
@@ -102,6 +107,7 @@ public class IntroFragment extends Fragment {
         bt_ingredients.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                inflateViewStub();
                 startListDisplayAnimation(true);
             }
         });
@@ -109,9 +115,28 @@ public class IntroFragment extends Fragment {
         bt_directions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                inflateViewStub();
                 startListDisplayAnimation(false);
             }
         });
+
+
+
+        return introFragView;
+    }
+
+    public void inflateViewStub()
+    {
+        if(!isStubInflated)
+        {
+            vs_ingDirStub.inflate();
+            isStubInflated = true;
+            rl_detailsPane = (RelativeLayout) introFragView.findViewById(R.id.fsi_lid_rl_layout);
+            ll_ing_directions_lists = (LinearLayout) introFragView.findViewById(R.id.fsi_lid_ll_lists);
+            bt_lid_directions_list = (Button) introFragView.findViewById(R.id.fsi_lid_bt_directions);
+            bt_lid_ingredients_list = (Button) introFragView.findViewById(R.id.fsi_lid_bt_ingredients);
+            ib_closeList = (ImageButton) introFragView.findViewById(R.id.fsi_lid_ib_close_list);
+        }
 
         bt_lid_ingredients_list.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -133,8 +158,6 @@ public class IntroFragment extends Fragment {
                 startIntroDisplayAnimation();
             }
         });
-
-        return introFragView;
     }
 
     public void startListDisplayAnimation(final boolean isIngredient) {

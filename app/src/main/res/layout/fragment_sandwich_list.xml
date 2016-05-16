@@ -85,7 +85,8 @@
                     android:background="@color/green"
                     android:src="@drawable/ic_left_arrow"
                     android:scaleType="center"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/white"
+                    android:contentDescription="@string/go_left"/>
 
                 <ImageButton
                     android:id="@+id/fsl_cv_iv_go_right"
@@ -96,7 +97,8 @@
                     android:layout_alignParentEnd="true"
                     android:src="@drawable/ic_right_arrow"
                     android:scaleType="center"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/white"
+                    android:contentDescription="@string/go_right"/>
 
                 <TextView
                     android:layout_width="50dp"

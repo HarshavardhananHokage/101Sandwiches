@@ -8,6 +8,8 @@
     <string name="search_sandwiches_cont_desc">Search Sandwich</string>
     <string name="all_recipes">All Recipes</string>
     <string name="try_out_now">Try It Now!</string>
+    <string name="go_right">Go Right</string>
+    <string name="go_left">Go Left</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

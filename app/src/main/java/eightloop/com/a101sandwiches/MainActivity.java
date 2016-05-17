@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ingredients = getResources().getStringArray(R.array.classic_blt_sandwich_ing);
-        recipes = getResources().getStringArray(R.array.classic_blt_sandwich_rec);
+        recipes = getResources().getStringArray(R.array.classic_blt_sandwich_dir);
 
         linearLayout = (LinearLayout) findViewById(R.id.am_ll_main);
 

@@ -242,7 +242,7 @@ public class IntroFragment extends Fragment {
         {
             ll_ing_directions_lists.removeAllViews();
         }
-        directions = getResources().getStringArray(R.array.classic_blt_sandwich_rec);
+        directions = getResources().getStringArray(R.array.classic_blt_sandwich_dir);
         LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, getActivity().getResources().getDisplayMetrics());

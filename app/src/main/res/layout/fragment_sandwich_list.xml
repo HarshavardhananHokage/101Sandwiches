@@ -101,9 +101,9 @@
                     android:contentDescription="@string/go_right"/>
 
                 <TextView
+                    android:id="@+id/fsl_cv_tv_sandwich_number"
                     android:layout_width="50dp"
                     android:layout_height="40dp"
-                    android:text="21/101"
                     android:layout_centerHorizontal="true"
                     android:gravity="center"
                     android:textStyle="bold" />
@@ -114,7 +114,6 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_below="@id/fsl_cv_iv_go_left"
-                    android:src="@drawable/classic_blt_sandwich"
                     android:scaleType="fitXY"
                     android:adjustViewBounds="true"
                     android:layout_marginTop="5dp"
@@ -122,10 +121,9 @@
                     android:background="@android:drawable/dialog_holo_light_frame"/>
 
                 <TextView
-                    android:id="@+id/fls_cv_tv_sandwich_name"
+                    android:id="@+id/fsl_cv_tv_sandwich_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Classic BLT Sandwich"
                     android:layout_below="@id/fsl_cv_iv_sandwich_image"
                     android:layout_marginTop="13dp"
                     android:layout_centerHorizontal="true"
@@ -137,7 +135,7 @@
                     android:id="@+id/fsl_cv_view_dummy_1"
                     android:layout_width="1dp"
                     android:layout_height="1dp"
-                    android:layout_below="@id/fls_cv_tv_sandwich_name"
+                    android:layout_below="@id/fsl_cv_tv_sandwich_name"
                     android:layout_centerHorizontal="true" />
 
                 <TextView
@@ -145,18 +143,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@id/fls_cv_tv_sandwich_name"
+                    android:layout_below="@id/fsl_cv_tv_sandwich_name"
                     android:layout_marginRight="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginTop="10dp"
-                    android:text="10 minutes"
                     android:gravity="bottom"
                     android:drawableLeft="@drawable/ic_cooking"
                     android:drawableStart="@drawable/ic_cooking"
                     android:drawablePadding="10dp"/>
 
                 <Button
-                    android:id="@+id/fsi_lid_bt_ingredients"
+                    android:id="@+id/fsl_cv_bt_try_now"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/fsl_cv_tv_cooking_time"

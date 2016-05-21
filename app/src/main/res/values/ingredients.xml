@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="classic_blt_sandwich_ing">
-        <item>1⁄2 lb bacon (approx. 12 slices)</item>
+        <item>&#189; lb bacon (approx. 12 slices)</item>
         <item>8 slices white bread</item>
         <item>8 leaves iceberg lettuce, fresh and full</item>
         <item>8 slices of ripened tomatoes</item>
         <item>8 tablespoons Hellmann\'s mayonnaise</item>
+    </string-array>
+
+    <string-array name="best_grilled_cheese_sandwich_ing">
+        <item>&#189; purple onion (small, thinly sliced)</item>
+        <item>4 slices bread (choice, sliced)</item>
+        <item>4 ozs cheddar cheese</item>
+        <item>2 &#189; tbsps unsalted butter (softened)</item>
+    </string-array>
+
+    <string-array name="roasted_vegetable_sandwich_ing">
+        <item>2 red bell peppers</item>
+        <item>2 green chili peppers</item>
+        <item>3 Tbsp. coconut oil, divided into three for sauteing</item>
+        <item>White onion, sliced</item>
+        <item>1 sweet potato</item>
+        <item>16 ounce button mushrooms</item>
+        <item>&#189; cup Italian dressing or a mix of oil and vinegar</item>
+        <item>4 big sandwich rolls</item>
+        <item>Any lettuce that you like for the sandwiches</item>
+    </string-array>
+
+    <string-array name="cuban_sandwich_ing">
+        <item>&#8531; loaf of Cuban bread (approximately 7 or 8 inches) or a soft white sandwich or hoagie roll with a crispy crust</item>
+        <item>3 thin slices roast pork (shoulder or tenderloin)</item>
+        <item>3 thin slices of ham</item>
+        <item>3 thin slices of Swiss cheese</item>
+        <item>3 or 4 slices dill pickle (sliced lengthwise)</item>
+        <item>Yellow mustard</item>
     </string-array>
 </resources>

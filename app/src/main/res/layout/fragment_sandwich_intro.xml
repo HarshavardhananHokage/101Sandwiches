@@ -54,7 +54,7 @@
             android:id="@+id/fsi_iv_sandwich_image"
             android:layout_width="300dp"
             android:layout_height="200dp"
-            android:src="@drawable/classic_blt_sandwich"
+            android:src="@drawable/classic_blt_sandwich_pic"
             android:layout_below="@id/fsi_toolbar_custom"
             android:layout_marginTop="10dp"
             android:scaleType="fitXY"

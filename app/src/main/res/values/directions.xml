@@ -13,4 +13,51 @@
         <item>Enjoy!</item>
         <item>NOTE: I also like to butter the toast slices before adding the mayo, higher in fat, but tastier, in my opinion!</item>
     </string-array>
+
+    <string-array name="best_grilled_cheese_sandwich_dir">
+        <item>Preheat oven to 350 degrees</item>
+        <item>In a skillet, melt &#189; teaspoon of butter and add the red onion. Cook until softened, about 5 minutes. Set the onion aside.</item>
+        <item>Place 2 slices of bread on your work surface. Top each with an equal amount of cheese. Top with the onions and place the remaining bread slices on top.</item>
+        <item>Put 1 tablespoon butter in your skillet and cook on low heat to brown the butter. Be sure not to burn the butter.</item>
+        <item>Add the sandwiches and cook until browned and toasty on the first side, about 1 &#189; minutes.</item>
+        <item>Flip the sandwiches and cook for less than a minute.</item>
+        <item>Remove the sandwiches from the skillet and place on a baking sheet. Spread the remaining butter on the sandwiches and place in the oven for 4 minutes, until everything is melted through.</item>
+    </string-array>
+
+    <string-array name="roasted_vegetable_sandwich_dir">
+        <item>First - roast your pepper. All can be done at the same time. The red and green peppers.</item>
+        <item>Heat the broiler.</item>
+        <item>With tongs place the bell pepper on the top shelf turning often to get all sides blackened.</item>
+        <item>It is a good idea to put a baking sheet on the rack below the peppers because when you go to turn them with your tongs juices can drip out.</item>
+        <item>When the peppers are black, take them out of the over.</item>
+        <item>Let cool and then rub off the blackened skin with a damp paper towel or peel with a paring knife if you are having trouble. Just grab an edge of the skin with the knife and peel off.</item>
+        <item>Cut out the stem end and take out all of the pepper seeds. Set aside.</item>
+        <item>While the peppers are roasting. Heat 1 tablespoon coconut oil in a skillet to medium heat.</item>
+        <item>Add the onions and saute until the onions are translucent. About 10&#8211;15 minutes.</item>
+        <item>You can also do the mushrooms at the same time. In fact, You can do all of this at the same time but you will dirty more pans. Do it all at once or do it back to back, overlapping a little.</item>
+        <item>In a skillet heat 1 Tablespoon oil to medium high heat.</item>
+        <item>Add the sliced sweet potatoes, brown on one side and then flip and brown on the other.</item>
+        <item>Remove from heat and set aside.</item>
+        <item>In the skillet add 1 Tablespoon oil and heat to medium high heat.</item>
+        <item>Add the sliced mushrooms and saute for about 20 minutes. drain the liquid and then set aside.</item>
+        <item>There you have all your prepared vegetables.</item>
+        <item>Cut the rolls down the center and spread apart. Drizzle 1/8 cup of Italian dressing on each side of the rolls.</item>
+        <item>Add any other condiment that you might like such as mustard or ketchup.</item>
+        <item>Divide all the vegetable in layers between the four rolls.</item>
+        <item>Add a lettuce layer of your favorite lettuce.</item>
+        <item>Put the top on and take a big bite!</item>
+    </string-array>
+
+    <string-array name="cuban_sandwich_dir">
+        <item>Cut the bread in half lengthwise.</item>
+        <item>Spread a thin layer of yellow mustard on the inside of each half of the bread.</item>
+        <item>To assemble the sandwich, add a layer of pickles on the bottom piece of bread.</item>
+        <item>Add the slices of roast pork, then add alternating layers of ham and cheese.</item>
+        <item>Top with the other piece of bread.</item>
+        <item>Spray a skillet, griddle, or sandwich press with cooking spray, like canola oil, and warm over medium-high heat.</item>
+        <item>Place sandwich in pan and lightly spray top of the sandwich with canola oil or spread it with a little butter.</item>
+        <item>Place a heavy weight on top of the sandwich, like a cast iron skillet, and press the sandwich.</item>
+        <item>Cook the sandwich for about 4 minutes, then use a spatula to flip.</item>
+        <item>Cook another 3 to 4 minutes, until the cheese is melted and the bread is toasted.</item>
+    </string-array>
 </resources>

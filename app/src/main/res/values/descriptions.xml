@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="classic_blt_sandwich_desc">A near-perfect balance of sweet, smoky, crusty, and salty,
-        the BLT is what food dreams are made of. If only it were healthy to eat bacon and mayo on a daily basis.</string>
+    <string name="classic_blt_sandwich_desc">A near-perfect balance of sweet, smoky, crusty, and salty, the BLT is what food dreams are made of. If only it were healthy to eat bacon and mayo on a daily basis.</string>
+    <string name="best_grilled_cheese_sandwich_desc">It\'s the first meal that most of us learn how to cook at home by ourselves. It\'s salty, gooey, crisp, buttery, and comforting in all the right ways.</string>
+    <string name="roasted_vegetable_sandwich_desc">This wonderful Italian style sandwich is finished off with a drizzling of vinaigrette. Pile it high!</string>
+    <string name="cuban_sandwich_desc">Despite being so simple, the Cuban sandwich is packed full of flavour and all of the flavours work so well together!</string>
 </resources>

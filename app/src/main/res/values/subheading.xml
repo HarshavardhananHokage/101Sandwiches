@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="classic_blt_sandwich_sub">Bacon, Lettuce and Tomato</string>
+    <string name="best_grilled_cheese_sandwich_sub">The basic grilled - with a toasty twist</string>
+    <string name="roasted_vegetable_sandwich_sub">Italian style sandwich with a vinaigrette</string>
+    <string name="cuban_sandwich_sub"> This humble sandwich is workingman\'s fare</string>
 </resources>

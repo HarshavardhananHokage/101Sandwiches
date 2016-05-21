@@ -1,9 +1,11 @@
 package eightloop.com.a101sandwiches.models;
 
+import java.io.Serializable;
+
 /**
  * Created by Harshavardhan on 5/17/2016.
  */
-public class Sandwich {
+public class Sandwich implements Serializable{
 
     private int id;
     private int isFavourite;

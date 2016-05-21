@@ -1,24 +1,36 @@
 package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import org.w3c.dom.Text;
 
 import java.util.List;
 import java.util.Locale;
 
+import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.database.SandwichManager;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
@@ -31,16 +43,16 @@ public class SandwichListFragment extends Fragment {
 
     View sandwichListFragView;
     Toolbar toolbar_sandwichList;
+    RecyclerView recView_sandwichListItem;
 
     Button bt_tryNow;
 
-    TextView tv_sandwichNumber;
-    TextView tv_SandwichName;
-    TextView tv_cookingTime;
-    ImageView iv_sandwichImage;
-
     SandwichManager sandwichManager;
+    SandwichListAdapter sandwichListAdapter;
     List<Sandwich> allSandwiches;
+
+    AdView adView_listPage;
+    AdRequest adRequest_listPage;
 
     @Nullable
     @Override
@@ -56,27 +68,36 @@ public class SandwichListFragment extends Fragment {
             ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
         }
 
+        adView_listPage = (AdView) sandwichListFragView.findViewById(R.id.fsl_adv_googleAds);
+        ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+        if(networkInfo !=null && networkInfo.isConnected())
+        {
+
+            adRequest_listPage = new AdRequest.Builder().build();
+            adView_listPage.loadAd(adRequest_listPage);
+        }
+        else
+        {
+            adView_listPage.setVisibility(View.GONE);
+        }
+
+        recView_sandwichListItem = (RecyclerView) sandwichListFragView.findViewById(R.id.fsl_recv_sandwich_list);
+
         bt_tryNow = (Button) sandwichListFragView.findViewById(R.id.fsl_cv_bt_try_now);
-        tv_SandwichName = (TextView) sandwichListFragView.findViewById(R.id.fsl_cv_tv_sandwich_name);
-        tv_cookingTime = (TextView) sandwichListFragView.findViewById(R.id.fsl_cv_tv_cooking_time);
-        tv_sandwichNumber = (TextView) sandwichListFragView.findViewById(R.id.fsl_cv_tv_sandwich_number);
-        iv_sandwichImage = (ImageView) sandwichListFragView.findViewById(R.id.fsl_cv_iv_sandwich_image);
 
         sandwichManager = new SandwichManager(getActivity());
         allSandwiches = sandwichManager.getAllSandwiches();
 
-        Sandwich sandwich = allSandwiches.get(0);
+        sandwichListAdapter = new SandwichListAdapter(getActivity(), allSandwiches);
 
-        String sCookTime = String.format("%s minutes", sandwich.getCookingTime());
-        String sSandNumber = String.format(Locale.ENGLISH, "%d/101", sandwich.getId());
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity().getApplicationContext()
+                , LinearLayoutManager.HORIZONTAL, false);
+        recView_sandwichListItem.setLayoutManager(layoutManager);
+        recView_sandwichListItem.setItemAnimator(new DefaultItemAnimator());
+        recView_sandwichListItem.setHasFixedSize(true);
 
-        tv_SandwichName.setText(sandwich.getName());
-        tv_cookingTime.setText(sCookTime);
-        tv_sandwichNumber.setText(sSandNumber);
-
-        int imgID = getResources().getIdentifier(sandwich.getImageName(), "drawable", getActivity().getPackageName());
-
-        iv_sandwichImage.setImageDrawable(ContextCompat.getDrawable(getActivity(), imgID));
+        recView_sandwichListItem.setAdapter(sandwichListAdapter);
 
         return sandwichListFragView;
     }

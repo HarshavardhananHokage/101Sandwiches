@@ -37,7 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textColor="@color/greyishBlack"
-                android:text="101 SANDWICHES"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
                 android:textSize="15sp" />
 
             <ImageView
@@ -67,7 +68,6 @@
             android:id="@+id/fsi_tv_sandwich_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CLASSIC BLT SANDWICH"
             android:textAllCaps="true"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/fsi_iv_sandwich_image"
@@ -81,15 +81,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Bacon, Lettuce and Tomato"
             android:layout_below="@id/fsi_tv_sandwich_name"/>
 
         <TextView
-            android:id="@+id/fst_tv_sandwich_desc"
+            android:id="@+id/fsi_tv_sandwich_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/fsi_tv_sandwich_subheading"
-            android:text="@string/classic_blt_sandwich_desc"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="20dp"
@@ -100,20 +98,19 @@
             android:id="@+id/fsi_view_dummy_1"
             android:layout_width="1dp"
             android:layout_height="1dp"
-            android:layout_below="@id/fst_tv_sandwich_desc"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
             android:layout_centerHorizontal="true" />
 
         <TextView
-            android:id="@+id/fis_tv_cooking_time"
+            android:id="@+id/fsi_tv_cooking_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/fst_tv_sandwich_desc"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
             android:layout_toLeftOf="@id/fsi_view_dummy_1"
             android:layout_toStartOf="@id/fsi_view_dummy_1"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp"
-            android:text="10 minutes"
             android:layout_marginTop="20dp"
             android:gravity="bottom"
             android:drawableStart="@drawable/ic_cooking"
@@ -121,16 +118,15 @@
             android:drawablePadding="10dp"/>
 
         <TextView
-            android:id="@+id/fis_tv_calories_count"
+            android:id="@+id/fsi_tv_calories_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/fst_tv_sandwich_desc"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
             android:layout_toRightOf="@id/fsi_view_dummy_1"
             android:layout_toEndOf="@id/fsi_view_dummy_1"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:text="516.8 calories"
             android:layout_marginTop="20dp"
             android:gravity="bottom"
             android:drawableStart="@drawable/ic_count_calories"
@@ -141,7 +137,7 @@
            android:id="@+id/fsi_view_dummy_2"
            android:layout_width="1dp"
            android:layout_height="1dp"
-           android:layout_below="@id/fis_tv_calories_count"
+           android:layout_below="@id/fsi_tv_calories_count"
            android:layout_centerHorizontal="true" />
 
         <Button

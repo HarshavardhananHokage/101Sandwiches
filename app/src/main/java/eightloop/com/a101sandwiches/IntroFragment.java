@@ -23,6 +23,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
@@ -30,8 +31,14 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.internal.request.StringParcel;
 
 import org.w3c.dom.Text;
+
+import java.util.Locale;
+
+import eightloop.com.a101sandwiches.constants.AppConstants;
+import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
  * Created by Harshavardhan on 5/13/2016.
@@ -52,6 +59,13 @@ public class IntroFragment extends Fragment {
     Button bt_lid_ingredients_list;
     Button bt_lid_directions_list;
 
+    ImageView iv_sandwichImage;
+    TextView tv_sandwichName;
+    TextView tv_sandwichSubheading;
+    TextView tv_sandwichDescription;
+    TextView tv_sandwichCookingTime;
+    TextView tv_sandwichCalorieCount;
+
     RelativeLayout rl_detailsPane;
     RelativeLayout rl_contentLayout;
     LinearLayout ll_ing_directions_lists;
@@ -62,17 +76,30 @@ public class IntroFragment extends Fragment {
     ImageButton ib_closeList;
     boolean isStubInflated = false;
 
+    Sandwich sandwich;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         introFragView = inflater.inflate(R.layout.fragment_sandwich_intro, container, false);
+
+        sandwich = (Sandwich) getArguments().getSerializable(AppConstants.SANDWICH);
         introToolbar = (Toolbar) introFragView.findViewById(R.id.fsi_toolbar_custom);
         rl_contentLayout = (RelativeLayout) introFragView.findViewById(R.id.fsi_rl_content_layout);
         vs_ingDirStub = (ViewStub) introFragView.findViewById(R.id.fsi_vs_ing_directions_stub);
 
         bt_ingredients = (Button) introFragView.findViewById(R.id.fsi_bt_ingredients);
         bt_directions = (Button) introFragView.findViewById(R.id.fsi_bt_directions);
+
+        iv_sandwichImage = (ImageView) introFragView.findViewById(R.id.fsi_iv_sandwich_image);
+        tv_sandwichName = (TextView) introFragView.findViewById(R.id.fsi_tv_sandwich_name);
+        tv_sandwichSubheading = (TextView) introFragView.findViewById(R.id.fsi_tv_sandwich_subheading);
+        tv_sandwichDescription = (TextView) introFragView.findViewById(R.id.fsi_tv_sandwich_desc);
+        tv_sandwichCookingTime = (TextView) introFragView.findViewById(R.id.fsi_tv_cooking_time);
+        tv_sandwichCalorieCount = (TextView) introFragView.findViewById(R.id.fsi_tv_calories_count);
+
+        setBasicDetails();
 
         //rl_detailsPane.setVisibility(View.GONE);
         introToolbar.setTitle("");
@@ -107,7 +134,6 @@ public class IntroFragment extends Fragment {
         bt_ingredients.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                inflateViewStub();
                 startListDisplayAnimation(true);
             }
         });
@@ -115,14 +141,32 @@ public class IntroFragment extends Fragment {
         bt_directions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                inflateViewStub();
                 startListDisplayAnimation(false);
             }
         });
 
-
-
         return introFragView;
+    }
+
+    public void setBasicDetails()
+    {
+        String packageName = getActivity().getPackageName();
+        tv_sandwichName.setText(sandwich.getName());
+
+        int id = getResources().getIdentifier(sandwich.getImageName(), "drawable", packageName);
+        iv_sandwichImage.setImageDrawable(ContextCompat.getDrawable(getActivity(), id));
+
+        String subHeading = getString(getResources().getIdentifier(sandwich.getSubheading(), "string", packageName));
+        tv_sandwichSubheading.setText(subHeading);
+
+        String description = getString(getResources().getIdentifier(sandwich.getDescription(), "string", packageName));
+        tv_sandwichDescription.setText(description);
+
+        String cookingTime = String.format("%s minutes", sandwich.getCookingTime());
+        String calorieCount = String.format("%s calories", sandwich.getCalorieCount());
+
+        tv_sandwichCookingTime.setText(cookingTime);
+        tv_sandwichCalorieCount.setText(calorieCount);
     }
 
     public void inflateViewStub()
@@ -172,6 +216,7 @@ public class IntroFragment extends Fragment {
             @Override
             public void onAnimationEnd(Animation animation) {
                 rl_contentLayout.setVisibility(View.GONE);
+                inflateViewStub();
                 rl_detailsPane.setVisibility(View.VISIBLE);
                 rl_detailsPane.startAnimation(fadein);
                 if (isIngredient) {
@@ -220,7 +265,9 @@ public class IntroFragment extends Fragment {
         {
             ll_ing_directions_lists.removeAllViews();
         }
-        ingredients = getResources().getStringArray(R.array.classic_blt_sandwich_ing);
+
+        int ingArrayId = getResources().getIdentifier(sandwich.getIngredients(), "array", getActivity().getPackageName());
+        ingredients = getResources().getStringArray(ingArrayId);
         //recipes = getResources().getStringArray(R.array.classic_blt_sandwich_rec);
         /*LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -242,34 +289,26 @@ public class IntroFragment extends Fragment {
         {
             ll_ing_directions_lists.removeAllViews();
         }
-        directions = getResources().getStringArray(R.array.classic_blt_sandwich_dir);
+
+        int dirArrayId = getResources().getIdentifier(sandwich.getDirections(), "array", getActivity().getPackageName());
+        directions = getResources().getStringArray(dirArrayId);
+
         LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, getActivity().getResources().getDisplayMetrics());
         layoutParams.bottomMargin = margin;
 
+        int count = 1;
         for(String direction: directions)
         {
+            String formatedDirection = String.format(Locale.ENGLISH, "%d.) %s", count, direction);
+            count++;
             TextView textView = new TextView(getActivity());
-            textView.setText(direction);
+            textView.setText(formatedDirection);
             textView.setTypeface(null, Typeface.ITALIC);
             textView.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
             textView.setLayoutParams(layoutParams);
             ll_ing_directions_lists.addView(textView);
-
-            /*RadioButton radioButton = new RadioButton(getActivity());
-            radioButton.setText(direction);
-            radioButton.setTypeface(null, Typeface.ITALIC);
-            radioButton.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
-            radioButton.setLayoutParams(layoutParams);
-            ll_ing_directions_lists.addView(radioButton);*/
-
-            /*CheckBox checkBox = new CheckBox(getActivity());
-            checkBox.setText(direction);
-            checkBox.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
-            checkBox.setTypeface(null, Typeface.ITALIC);
-            checkBox.setLayoutParams(layoutParams);
-            ll_ing_directions_lists.addView(checkBox);*/
         }
     }
 }

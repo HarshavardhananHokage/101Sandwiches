@@ -9,11 +9,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.view.ContextThemeWrapper;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.util.TypedValue;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,15 +23,11 @@ import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.internal.request.StringParcel;
-
-import org.w3c.dom.Text;
 
 import java.util.Locale;
 
@@ -41,7 +35,7 @@ import eightloop.com.a101sandwiches.constants.AppConstants;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
- * Created by Harshavardhan on 5/13/2016.
+ * Created by Harshavardhan
  */
 public class IntroFragment extends Fragment {
 
@@ -106,8 +100,9 @@ public class IntroFragment extends Fragment {
         ((AppCompatActivity) getActivity()).setSupportActionBar(introToolbar);
         try
         {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeAsUpIndicator(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_bars));
         }catch (NullPointerException npe)
         {
             Log.e(TAG, "Toolbar is returned as null");
@@ -295,8 +290,7 @@ public class IntroFragment extends Fragment {
 
         LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, getActivity().getResources().getDisplayMetrics());
-        layoutParams.bottomMargin = margin;
+        layoutParams.bottomMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, getActivity().getResources().getDisplayMetrics());;
 
         int count = 1;
         for(String direction: directions)

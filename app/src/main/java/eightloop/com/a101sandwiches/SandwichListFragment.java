@@ -2,7 +2,6 @@ package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -13,29 +12,22 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.GestureDetector;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
-import java.util.Locale;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.database.SandwichManager;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
- * Created by Harshavardhan on 5/16/2016.
+ * Created by Harshavardhan
  */
 public class SandwichListFragment extends Fragment {
 
@@ -66,6 +58,7 @@ public class SandwichListFragment extends Fragment {
         {
             ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeAsUpIndicator(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_bars));
         }
 
         adView_listPage = (AdView) sandwichListFragView.findViewById(R.id.fsl_adv_googleAds);

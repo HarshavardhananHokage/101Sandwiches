@@ -10,6 +10,8 @@
     <string name="try_out_now">Try It Now!</string>
     <string name="go_right">Go Right</string>
     <string name="go_left">Go Left</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

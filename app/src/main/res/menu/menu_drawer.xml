@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/md_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item android:id="@+id/md_fav_sandwiches"
+            android:icon="@drawable/ic_action_favorite_heart_button"
+            android:title="Favourites" />
+        <item android:id="@+id/md_suprise_me"
+            android:title="Suprise Me"
+            android:icon="@drawable/ic_action_random_line"/>
+
+        <item android:id="@+id/md_grouping_header"
+            android:title="SANDWICHES">
+
+            <menu>
+                <item
+                    android:id="@+id/md_sub_item_classic"
+                    android:title="Classic"
+                    android:icon="@drawable/ic_action_sandwich_classic"/>
+                <item
+                    android:id="@+id/md_sub_item_luxe"
+                    android:title="Luxe"
+                    android:icon="@drawable/ic_action_sandwich_luxe"/>
+                <item
+                    android:id="@+id/md_sub_item_guilty"
+                    android:title="Guilty"
+                    android:icon="@drawable/ic_action_sandwich_guilty"/>
+                <item
+                    android:id="@+id/md_sub_item_spice"
+                    android:title="Spice"
+                    android:icon="@drawable/ic_action_sandwich_spicy"/>
+                <item
+                    android:id="@+id/md_sub_item_sweet"
+                    android:title="Sweet"
+                    android:icon="@drawable/ic_action_sandwich_sweet"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/md_sub_grouping_support"
+            android:title="SUPPORT">
+            <menu>
+                <item
+                    android:id="@+id/md_sub_item_rate_app"
+                    android:icon="@drawable/ic_action_rate_app"
+                    android:title="Rate App" />
+                <item
+                    android:id="@+id/md_sub_item_remove_ads"
+                    android:icon="@drawable/ic_action_remove_ads"
+                    android:title="Remove Ads"/>
+                <item
+                    android:id="@+id/md_sub_item_other_apps"
+                    android:icon="@drawable/ic_action_other_apps"
+                    android:title="Other Apps"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

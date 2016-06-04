@@ -2,21 +2,25 @@ package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.app.FragmentManager;
+import android.support.annotation.Nullable;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.MenuItem;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.constants.AppConstants;
-import eightloop.com.a101sandwiches.database.SandwichDBHelper;
-import eightloop.com.a101sandwiches.helpers.CopyDBFromAssets;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
- * Created by Harshavardhan on 5/13/2016.
+ * Created by Harshavardhan
  */
-public class IntroActivity extends AppCompatActivity implements SandwichListAdapter.OnClickLoadSandwichDetails{
+public class IntroActivity extends AppCompatActivity implements SandwichListAdapter.OnClickLoadSandwichDetails, NavigationView.OnNavigationItemSelectedListener{
 
     public static final String TAG = "IntroActivity";
 
@@ -25,13 +29,23 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
     IntroFragment introFragment;
     SandwichListFragment sandwichListFragment;
 
+    NavigationView navView_sandwichDrawer;
+    DrawerLayout drawLay_introDrawer;
+    ActionBarDrawerToggle actionBarDrawerToggle;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-        //introFragment = new IntroFragment();
-        //replaceFragment(introFragment, IntroFragment.TAG);
+        drawLay_introDrawer = (DrawerLayout) findViewById(R.id.ai_drawer_layout);
+        navView_sandwichDrawer = (NavigationView) findViewById(R.id.ai_drawer_navigation_view);
+        navView_sandwichDrawer.setItemIconTintList(null);
+        navView_sandwichDrawer.setNavigationItemSelectedListener(this);
+
+        actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawLay_introDrawer, R.string.drawer_open, R.string.drawer_close);
+        actionBarDrawerToggle.setDrawerIndicatorEnabled(true);
+        drawLay_introDrawer.setDrawerListener(actionBarDrawerToggle);
 
         sandwichListFragment = new SandwichListFragment();
         replaceFragment(sandwichListFragment, SandwichListFragment.TAG);
@@ -69,5 +83,32 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
         {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        Log.e(TAG, "Item Selected: " +item.getTitle());
+        return false;
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        actionBarDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    @Override
+    protected void onPostCreate(@Nullable Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        //actionBarDrawerToggle.syncState();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

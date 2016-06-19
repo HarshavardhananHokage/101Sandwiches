@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
+    <group  android:checkableBehavior="single">
         <item android:id="@+id/md_home"
             android:icon="@drawable/ic_action_home"
             android:title="Home" />
@@ -13,8 +13,8 @@
 
         <item android:id="@+id/md_grouping_header"
             android:title="SANDWICHES">
-
             <menu>
+                <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/md_sub_item_classic"
                     android:title="Classic"
@@ -35,6 +35,7 @@
                     android:id="@+id/md_sub_item_sweet"
                     android:title="Sweet"
                     android:icon="@drawable/ic_action_sandwich_sweet"/>
+                </group>
             </menu>
         </item>
 
@@ -42,6 +43,7 @@
             android:id="@+id/md_sub_grouping_support"
             android:title="SUPPORT">
             <menu>
+                <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/md_sub_item_rate_app"
                     android:icon="@drawable/ic_action_rate_app"
@@ -54,6 +56,7 @@
                     android:id="@+id/md_sub_item_other_apps"
                     android:icon="@drawable/ic_action_other_apps"
                     android:title="Other Apps"/>
+                </group>
             </menu>
         </item>
 

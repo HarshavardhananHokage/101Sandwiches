@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,7 +26,7 @@ import eightloop.com.a101sandwiches.R;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
- * Created by Harshavardhan on 5/21/2016.
+ * Created on 5/21/2016.
  */
 public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapter.SandwichViewHolder> {
 
@@ -33,15 +34,23 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
 
     List<Sandwich> sandwiches;
     Context mContext;
+    MoveSandwichListener moveSandwichListener;
 
     public interface OnClickLoadSandwichDetails
     {
         void loadSandwichDetails(Sandwich sandwich);
     }
-    public SandwichListAdapter(Context context, List<Sandwich> sandwichList)
+
+    public interface MoveSandwichListener
+    {
+        void moveToPosition(int postion);
+    }
+
+    public SandwichListAdapter(Context context, List<Sandwich> sandwichList, MoveSandwichListener moveSandwichListener)
     {
         this.mContext = context;
         this.sandwiches = sandwichList;
+        this.moveSandwichListener = moveSandwichListener;
     }
 
     public static class SandwichViewHolder extends RecyclerView.ViewHolder
@@ -55,6 +64,9 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
         ImageView iv_sandwichImage;
         Button bt_tryItNow;
 
+        ImageButton ibt_moveRight;
+        ImageButton ibt_moveLeft;
+
         public SandwichViewHolder(View view)
         {
             super(view);
@@ -64,6 +76,8 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
             tv_cookingTime = (TextView) view.findViewById(R.id.fsl_cv_tv_cooking_time);
             iv_sandwichImage = (ImageView) view.findViewById(R.id.fsl_cv_iv_sandwich_image);
             bt_tryItNow = (Button) view.findViewById(R.id.fsl_cv_bt_try_now);
+            ibt_moveLeft = (ImageButton) view.findViewById(R.id.fsl_cv_ibt_go_left);
+            ibt_moveRight = (ImageButton) view.findViewById(R.id.fsl_cv_ibt_go_right);
             /*bt_tryItNow.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -83,7 +97,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
     }
 
     @Override
-    public void onBindViewHolder(SandwichViewHolder holder, int position) {
+    public void onBindViewHolder(final SandwichViewHolder holder, final int position) {
         final Sandwich sandwich = sandwiches.get(position);
 
         String format = String.format(Locale.ENGLISH, "%d/%d", position + 1, getItemCount());
@@ -101,6 +115,38 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
                 {
                     ((OnClickLoadSandwichDetails) mContext).loadSandwichDetails(sandwich);
                 }
+            }
+        });
+
+        holder.ibt_moveLeft.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int currPositon = holder.getAdapterPosition();
+                if(currPositon == 0)
+                {
+                    currPositon = getItemCount() - 1;
+                }
+                else
+                {
+                    currPositon = currPositon - 1;
+                }
+                moveSandwichListener.moveToPosition(currPositon);
+            }
+        });
+
+        holder.ibt_moveRight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int currPositon = holder.getAdapterPosition();
+                if(currPositon == getItemCount() - 1)
+                {
+                    currPositon = 0;
+                }
+                else
+                {
+                    currPositon = currPositon + 1;
+                }
+                moveSandwichListener.moveToPosition(currPositon);
             }
         });
     }

@@ -57,4 +57,25 @@ public class SandwichManager {
         return list_allSandwiches;
     }
 
+    public List<Sandwich> getFavSandwiches()
+    {
+        list_allSandwiches = new ArrayList<>();
+        String whereClause = SandwichTable.Cols.IS_FAV + "=?";
+        String[] whereArgs = {"1"};
+        SandwichCursorWrapper sandCursor = querySandwiches(whereClause, whereArgs);
+
+        try
+        {
+            sandCursor.moveToFirst();
+            while(!sandCursor.isAfterLast())
+            {
+                list_allSandwiches.add(sandCursor.getSandwich());
+                sandCursor.moveToNext();
+            }
+        }finally {
+            sandCursor.close();
+        }
+
+        return list_allSandwiches;
+    }
 }

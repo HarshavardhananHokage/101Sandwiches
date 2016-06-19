@@ -16,7 +16,7 @@
         android:layout_height="match_parent">
 
         <ImageButton
-            android:id="@+id/fsl_cv_iv_go_left"
+            android:id="@+id/fsl_cv_ibt_go_left"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:background="@color/green"
@@ -26,7 +26,7 @@
             android:contentDescription="@string/go_left"/>
 
         <ImageButton
-            android:id="@+id/fsl_cv_iv_go_right"
+            android:id="@+id/fsl_cv_ibt_go_right"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:background="@color/green"
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/fsl_cv_iv_go_left"
+            android:layout_below="@id/fsl_cv_ibt_go_left"
             android:scaleType="fitXY"
             android:adjustViewBounds="true"
             android:layout_marginTop="5dp"

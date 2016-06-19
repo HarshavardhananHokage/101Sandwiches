@@ -12,6 +12,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,7 @@ import android.widget.Button;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
@@ -29,7 +31,7 @@ import eightloop.com.a101sandwiches.models.Sandwich;
 /**
  * Created by Harshavardhan
  */
-public class SandwichListFragment extends Fragment {
+public class SandwichListFragment extends Fragment implements SandwichListAdapter.MoveSandwichListener{
 
     public static final String TAG = "SandwichListFragment";
 
@@ -82,7 +84,7 @@ public class SandwichListFragment extends Fragment {
         sandwichManager = new SandwichManager(getActivity());
         allSandwiches = sandwichManager.getAllSandwiches();
 
-        sandwichListAdapter = new SandwichListAdapter(getActivity(), allSandwiches);
+        sandwichListAdapter = new SandwichListAdapter(getActivity(), allSandwiches, this);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity().getApplicationContext()
                 , LinearLayoutManager.HORIZONTAL, false);
@@ -93,5 +95,18 @@ public class SandwichListFragment extends Fragment {
         recView_sandwichListItem.setAdapter(sandwichListAdapter);
 
         return sandwichListFragView;
+    }
+
+    @Override
+    public void moveToPosition(int postion) {
+        recView_sandwichListItem.smoothScrollToPosition(postion);
+    }
+
+    public void getFavSandwiches()
+    {
+        Log.e(TAG, "Came into sandwiches");
+        List<Sandwich> favSandwich = sandwichManager.getFavSandwiches();
+        sandwichListAdapter = new SandwichListAdapter(getActivity(), favSandwich, this);
+        recView_sandwichListItem.setAdapter(sandwichListAdapter);
     }
 }

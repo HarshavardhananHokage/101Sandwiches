@@ -7,11 +7,14 @@ import android.os.Bundle;
 import android.app.FragmentManager;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
+
+import java.util.Random;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.constants.AppConstants;
@@ -88,7 +91,9 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         Log.e(TAG, "Item Selected: " +item.getTitle());
-        return false;
+        drawLay_introDrawer.closeDrawer(GravityCompat.START);
+        navItemSelected(item.getTitle().toString());
+        return true;
     }
 
     @Override
@@ -110,5 +115,31 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void navItemSelected(String item)
+    {
+        Fragment currVisibleFrag = fm.findFragmentByTag(SandwichListFragment.TAG);
+        if(currVisibleFrag != null && currVisibleFrag.isVisible())
+        {
+            switch (item)
+            {
+                case "Home":
+                /*currVisibleFrag = fm.findFragmentByTag(IntroFragment.TAG);
+                if(currVisibleFrag != null && currVisibleFrag.isVisible())
+                {
+                    Log.e(TAG, "Came into moving to home");
+                    onBackPressed();
+                }*/
+                    break;
+                case "Suprise Me":
+                    ((SandwichListFragment) currVisibleFrag).moveToPosition(new Random().nextInt(4));
+                    break;
+                case "Favourites":
+                    ((SandwichListFragment) currVisibleFrag).getFavSandwiches();
+                    break;
+            }
+        }
+
     }
 }

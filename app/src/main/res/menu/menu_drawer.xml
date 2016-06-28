@@ -3,37 +3,37 @@
     <group  android:checkableBehavior="single">
         <item android:id="@+id/md_home"
             android:icon="@drawable/ic_action_home"
-            android:title="Home" />
+            android:title="@string/menu_home" />
         <item android:id="@+id/md_fav_sandwiches"
             android:icon="@drawable/ic_action_favorite_heart_button"
-            android:title="Favourites" />
-        <item android:id="@+id/md_suprise_me"
-            android:title="Suprise Me"
+            android:title="@string/menu_favourites" />
+        <item android:id="@+id/md_surprise_me"
+            android:title="@string/menu_surprise_me"
             android:icon="@drawable/ic_action_random_line"/>
 
         <item android:id="@+id/md_grouping_header"
-            android:title="SANDWICHES">
+            android:title="@string/menu_sub_head_1">
             <menu>
                 <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/md_sub_item_classic"
-                    android:title="Classic"
+                    android:title="@string/menu_classic"
                     android:icon="@drawable/ic_action_sandwich_classic"/>
                 <item
                     android:id="@+id/md_sub_item_luxe"
-                    android:title="Luxe"
+                    android:title="@string/menu_luxe"
                     android:icon="@drawable/ic_action_sandwich_luxe"/>
                 <item
                     android:id="@+id/md_sub_item_guilty"
-                    android:title="Guilty"
+                    android:title="@string/menu_guilty"
                     android:icon="@drawable/ic_action_sandwich_guilty"/>
                 <item
                     android:id="@+id/md_sub_item_spice"
-                    android:title="Spice"
+                    android:title="@string/menu_spice"
                     android:icon="@drawable/ic_action_sandwich_spicy"/>
                 <item
                     android:id="@+id/md_sub_item_sweet"
-                    android:title="Sweet"
+                    android:title="@string/menu_sweet"
                     android:icon="@drawable/ic_action_sandwich_sweet"/>
                 </group>
             </menu>
@@ -41,21 +41,21 @@
 
         <item
             android:id="@+id/md_sub_grouping_support"
-            android:title="SUPPORT">
+            android:title="@string/menu_sub_head_2">
             <menu>
                 <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/md_sub_item_rate_app"
                     android:icon="@drawable/ic_action_rate_app"
-                    android:title="Rate App" />
+                    android:title="@string/menu_rate_app" />
                 <item
                     android:id="@+id/md_sub_item_remove_ads"
                     android:icon="@drawable/ic_action_remove_ads"
-                    android:title="Remove Ads"/>
+                    android:title="@string/menu_remove_ads"/>
                 <item
                     android:id="@+id/md_sub_item_other_apps"
                     android:icon="@drawable/ic_action_other_apps"
-                    android:title="Other Apps"/>
+                    android:title="@string/menu_other_apps"/>
                 </group>
             </menu>
         </item>

@@ -1,5 +1,6 @@
 package eightloop.com.a101sandwiches.database;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.database.Cursor;
@@ -33,8 +34,6 @@ public class SandwichManager {
     public SandwichCursorWrapper querySandwiches(String where, String[] whereArgs)
     {
         Cursor cursor = mSandwichDatabase.query(SandwichTable.NAME, null, where, whereArgs, null, null, null);
-
-        Log.e(TAG, "Count: " +cursor.getCount());
         return new SandwichCursorWrapper(cursor);
     }
 
@@ -77,5 +76,36 @@ public class SandwichManager {
         }
 
         return list_allSandwiches;
+    }
+
+    public List<Sandwich> getClassifiedSandwiches(String type)
+    {
+        list_allSandwiches = new ArrayList<>();
+        String whereClause = SandwichTable.Cols.EXTRA3 + "=?";;
+        String[] whereArgs = new String[]{type};
+        SandwichCursorWrapper sandCursor = querySandwiches(whereClause, whereArgs);
+
+        try
+        {
+            sandCursor.moveToFirst();
+            while(!sandCursor.isAfterLast())
+            {
+                list_allSandwiches.add(sandCursor.getSandwich());
+                sandCursor.moveToNext();
+            }
+        }finally {
+            sandCursor.close();
+        }
+
+        return list_allSandwiches;
+    }
+
+    public void updateFavourite(int sandwichID, int isFavourite)
+    {
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(SandwichTable.Cols.IS_FAV, isFavourite);
+        String where = SandwichTable.Cols.ID + "=?";
+        String[] whereArgs = new String[]{String.valueOf(sandwichID)};
+        mSandwichDatabase.update(SandwichTable.NAME, contentValues, where, whereArgs);
     }
 }

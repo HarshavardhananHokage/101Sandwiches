@@ -58,9 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/fsl_toolbar_sandwich_list"
-            android:text="Favourite"
             android:layout_centerHorizontal="true"
-            android:textSize="17sp"/>
+            android:textSize="15sp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/fsl_recv_sandwich_list"

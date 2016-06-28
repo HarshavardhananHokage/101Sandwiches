@@ -29,9 +29,11 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import java.util.ArrayList;
 import java.util.Locale;
 
 import eightloop.com.a101sandwiches.constants.AppConstants;
+import eightloop.com.a101sandwiches.database.SandwichManager;
 import eightloop.com.a101sandwiches.models.Sandwich;
 
 /**
@@ -44,6 +46,8 @@ public class IntroFragment extends Fragment {
     View introFragView;
     Toolbar introToolbar;
     ViewStub vs_ingDirStub;
+
+    SandwichManager sandwichManager;
 
     AdView adView_introPage;
     AdRequest adRequest_introPage;
@@ -60,6 +64,8 @@ public class IntroFragment extends Fragment {
     TextView tv_sandwichCookingTime;
     TextView tv_sandwichCalorieCount;
 
+    ImageView iv_sandwichFavourite;
+
     RelativeLayout rl_detailsPane;
     RelativeLayout rl_contentLayout;
     LinearLayout ll_ing_directions_lists;
@@ -69,8 +75,12 @@ public class IntroFragment extends Fragment {
 
     ImageButton ib_closeList;
     boolean isStubInflated = false;
+    boolean isLastViewIngredients = false;
+    boolean isSandwichFav = false;
 
     Sandwich sandwich;
+
+    ArrayList<Integer> selectedCheckBoxes;
 
     @Nullable
     @Override
@@ -93,6 +103,11 @@ public class IntroFragment extends Fragment {
         tv_sandwichCookingTime = (TextView) introFragView.findViewById(R.id.fsi_tv_cooking_time);
         tv_sandwichCalorieCount = (TextView) introFragView.findViewById(R.id.fsi_tv_calories_count);
 
+        iv_sandwichFavourite = (ImageView) introToolbar.findViewById(R.id.fsi_iv_sandwich_favourite);
+
+        selectedCheckBoxes = new ArrayList<>();
+        sandwichManager = new SandwichManager(getActivity());
+
         setBasicDetails();
 
         //rl_detailsPane.setVisibility(View.GONE);
@@ -106,6 +121,21 @@ public class IntroFragment extends Fragment {
         }catch (NullPointerException npe)
         {
             Log.e(TAG, "Toolbar is returned as null");
+        }
+
+        if(getActivity() instanceof SearchActivity)
+        {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(false);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+            ImageView iv_closeActivity = (ImageView) introToolbar.findViewById(R.id.fsi_iv_cancel_searched);
+            iv_closeActivity.setVisibility(View.VISIBLE);
+            iv_closeActivity.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getActivity().onBackPressed();
+                }
+            });
+
         }
 
 
@@ -140,6 +170,24 @@ public class IntroFragment extends Fragment {
             }
         });
 
+        iv_sandwichFavourite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(isSandwichFav)
+                {
+                    isSandwichFav = false;
+                    iv_sandwichFavourite.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_heart));
+                    sandwichManager.updateFavourite(sandwich.getId(), 0);
+                }
+                else
+                {
+                    isSandwichFav = true;
+                    iv_sandwichFavourite.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_hearts_red));
+                    sandwichManager.updateFavourite(sandwich.getId(), 1);
+                }
+            }
+        });
+
         return introFragView;
     }
 
@@ -162,6 +210,12 @@ public class IntroFragment extends Fragment {
 
         tv_sandwichCookingTime.setText(cookingTime);
         tv_sandwichCalorieCount.setText(calorieCount);
+
+        if(sandwich.getIsFavourite() == 1)
+        {
+            isSandwichFav = true;
+            iv_sandwichFavourite.setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.ic_action_hearts_red));
+        }
     }
 
     public void inflateViewStub()
@@ -194,7 +248,20 @@ public class IntroFragment extends Fragment {
         ib_closeList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(isLastViewIngredients)
+                {
+                    selectedCheckBoxes.clear();
+                    for (int i = 0; i <ll_ing_directions_lists.getChildCount(); i++)
+                    {
+                        CheckBox checkBox = (CheckBox) ll_ing_directions_lists.getChildAt(i);
+                        if(checkBox.isChecked())
+                        {
+                            selectedCheckBoxes.add(i);
+                        }
+                    }
+                }
                 startIntroDisplayAnimation();
+
             }
         });
     }
@@ -268,20 +335,40 @@ public class IntroFragment extends Fragment {
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getActivity().getResources().getDisplayMetrics());
         layoutParams.leftMargin = layoutParams.rightMargin = margin;*/
+        int count = 0;
         for(String ingredient: ingredients)
         {
             CheckBox checkBox = new CheckBox(getActivity());
             checkBox.setText(ingredient);
             checkBox.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
             //checkBox.setLayoutParams(layoutParams);
+            if(selectedCheckBoxes.size() > 0 && selectedCheckBoxes.contains(count))
+            {
+                checkBox.setChecked(true);
+            }
             ll_ing_directions_lists.addView(checkBox);
+            count++;
         }
+        isLastViewIngredients = true;
     }
 
     public void fillDirections()
     {
         if(ll_ing_directions_lists.getChildCount() > 0)
         {
+            if(isLastViewIngredients)
+            {
+                selectedCheckBoxes.clear();
+                for (int i = 0; i <ll_ing_directions_lists.getChildCount(); i++)
+                {
+                    CheckBox checkBox = (CheckBox) ll_ing_directions_lists.getChildAt(i);
+                    if(checkBox.isChecked())
+                    {
+                        selectedCheckBoxes.add(i);
+                    }
+                }
+            }
+
             ll_ing_directions_lists.removeAllViews();
         }
 
@@ -295,14 +382,15 @@ public class IntroFragment extends Fragment {
         int count = 1;
         for(String direction: directions)
         {
-            String formatedDirection = String.format(Locale.ENGLISH, "%d.) %s", count, direction);
+            String formattedDirection = String.format(Locale.ENGLISH, "%d.) %s", count, direction);
             count++;
             TextView textView = new TextView(getActivity());
-            textView.setText(formatedDirection);
+            textView.setText(formattedDirection);
             textView.setTypeface(null, Typeface.ITALIC);
             textView.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
             textView.setLayoutParams(layoutParams);
             ll_ing_directions_lists.addView(textView);
         }
+        isLastViewIngredients = false;
     }
 }

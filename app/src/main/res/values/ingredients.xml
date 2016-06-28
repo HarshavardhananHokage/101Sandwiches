@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- CLASSIC -->
     <string-array name="classic_blt_sandwich_ing">
         <item>&#189; lb bacon (approx. 12 slices)</item>
         <item>8 slices white bread</item>
@@ -34,5 +35,33 @@
         <item>3 thin slices of Swiss cheese</item>
         <item>3 or 4 slices dill pickle (sliced lengthwise)</item>
         <item>Yellow mustard</item>
+    </string-array>
+
+
+
+    <!--Luxe-->
+
+    <string name="steak_foie_gras_ing">
+        <item>1 package or 36 oz. of sliced steaks</item>
+        <item>4 oz. foie gras</item>
+        <item>1 cup mayonnaise</item>
+        <item>4 English muffins</item>
+        <item>4 slices of cheddar cheese</item>
+        <item>&#189; cup Cheetos, crumbled (to taste)</item>
+        <item>1-2 tablespoons Pancake syrup(to taste)</item>
+        <item>1-2 tablespoons Aleppo pepper (to taste)</item>
+        <item>Salt and pepper (to taste)</item>
+    </string>
+
+    <!-- GUILTY -->
+    <string-array name="simple_tuna_melt_ing">
+        <item>1 (6 ounce) can tuna, drained and flaked</item>
+        <item>2 tablespoons mayonnaise</item>
+        <item>1 pinch salt</item>
+        <item>1 teaspoon balsamic vinegar</item>
+        <item>1 teaspoon Dijon mustard</item>
+        <item>2 slices whole wheat bread</item>
+        <item>2 teaspoons chopped dill pickle</item>
+        <item>&#188; cup shredded sharp Cheddar cheese</item>
     </string-array>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- CLASSIC -->
     <string-array name="classic_blt_sandwich_dir">
         <item>Cook bacon until crispy, then drain on paper towels.</item>
         <item>Toast the 8 slices of bread.</item>
@@ -59,5 +59,32 @@
         <item>Place a heavy weight on top of the sandwich, like a cast iron skillet, and press the sandwich.</item>
         <item>Cook the sandwich for about 4 minutes, then use a spatula to flip.</item>
         <item>Cook another 3 to 4 minutes, until the cheese is melted and the bread is toasted.</item>
+    </string-array>
+
+    <!--Luxe-->
+    <string-array name="steak_foie_gras_dir">
+        <item>Begin by preparing the foie mayo. Combine foie gras and mayonnaise in a blender until smooth.</item>
+        <item>Adjust ratio to taste, and season with salt and pepper.</item>
+        <item>Place in freezer for 5&#8211;10 minutes to chill.</item>
+        <item>Heat griddle or skillet over medium heat.</item>
+        <item>Cook steaks for about 5 minutes, chopping into smaller pieces, until slightly crispy.</item>
+        <item>Lightly toast English muffins on griddle or in toaster.</item>
+        <item>Add a slice of cheese to one side per sandwich and place under broiler until cheese is melted.</item>
+        <item>To assemble sandwich, spread foie gras mayo on the cheese-less muffin half.</item>
+        <item>Add steak and top with crumbled Cheetos and a dash of Aleppo pepper.</item>
+        <item>Drizzle with pancake syrup.</item>
+        <item>Top with cheesy muffin top and serve hot.</item>
+    </string-array>
+
+    <!-- GUILTY -->
+    <string-array name="simple_tuna_melt_dir">
+        <item>Preheat the oven to 375 degrees F (190 degrees C).</item>
+        <item>Place bread slices in the oven to toast while it preheats, and while you make the tuna salad.</item>
+        <item>In a small bowl, mix together the tuna, mayonnaise, salt, balsamic vinegar, mustard and dill pickle until well blended.</item>
+        <item>Remove bread from the oven, and pile the tuna mixture onto one slice.</item>
+        <item>Sprinkle cheese over the other slice of bread.</item>
+        <item>Bake for 7 minutes in the preheated oven, or until cheese is melted and tuna is heated through.</item>
+        <item>Place the cheese side of the sandwich on top of the tuna side.</item>
+        <item>Cut in half and serve immediately.</item>
     </string-array>
 </resources>

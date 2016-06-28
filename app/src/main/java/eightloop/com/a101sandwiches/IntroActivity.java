@@ -2,7 +2,11 @@ package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.ActivityNotFoundException;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.FragmentManager;
 import android.support.annotation.Nullable;
@@ -13,12 +17,15 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.Random;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.constants.AppConstants;
+import eightloop.com.a101sandwiches.helpers.GeneralHelperMethods;
 import eightloop.com.a101sandwiches.models.Sandwich;
+import eightloop.com.a101sandwiches.sharedprefs.AppPreferenceHandler;
 
 /**
  * Created by Harshavardhan
@@ -119,6 +126,7 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
 
     public void navItemSelected(String item)
     {
+        AppPreferenceHandler appPreferenceHandler = new AppPreferenceHandler(this);
         Fragment currVisibleFrag = fm.findFragmentByTag(SandwichListFragment.TAG);
         if(currVisibleFrag != null && currVisibleFrag.isVisible())
         {
@@ -131,15 +139,98 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                     Log.e(TAG, "Came into moving to home");
                     onBackPressed();
                 }*/
+                    if(appPreferenceHandler.isCurrentListFavourite())
+                    {
+                        Log.e(TAG, "Came into reload full list");
+                        ((SandwichListFragment) currVisibleFrag).getAllSandwiches();
+                    }
                     break;
-                case "Suprise Me":
-                    ((SandwichListFragment) currVisibleFrag).moveToPosition(new Random().nextInt(4));
+                case "Surprise Me":
+                    int count = ((SandwichListFragment) currVisibleFrag).getCount();
+                    ((SandwichListFragment) currVisibleFrag).moveToPosition(new Random().nextInt(count));
+                    Toast.makeText(this, "Surprise!", Toast.LENGTH_SHORT).show();
                     break;
                 case "Favourites":
                     ((SandwichListFragment) currVisibleFrag).getFavSandwiches();
                     break;
+                case "Classic":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Classic");
+                    break;
+                case "Luxe":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Luxe");
+                    break;
+                case "Spice":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Spice");
+                    break;
+                case "Guilty":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Guilty");
+                    break;
+                case "Sweet":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Sweet");
+                    break;
+                case "Rate App":
+                    GeneralHelperMethods.rateAppAtPlayStore(this);
+                    break;
+                case "Remove Ads":
+                    Toast.makeText(this, "Ads Removed", Toast.LENGTH_SHORT).show();
+                    break;
+                case "Other Apps":
+                    GeneralHelperMethods.otherAppsByDeveloper(this);
+                    break;
             }
         }
+        else
+        {
+            boolean shouldLoad = true;
+            SandwichListFragment sandwichListFragmentNew = new SandwichListFragment();
+            Bundle bundle = new Bundle();
+            switch (item)
+            {
+                case "Home":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Home");
+                    break;
+                case "Surprise Me":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Surprise Me");
+                    Toast.makeText(this, "Surprise!", Toast.LENGTH_SHORT).show();
+                    break;
+                case "Favourites":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Favourites");
+                    break;
+                case "Classic":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Classic");
+                    break;
+                case "Luxe":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Luxe");
+                    break;
+                case "Spice":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Spice");
+                    break;
+                case "Guilty":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Guilty");
+                    break;
+                case "Sweet":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Sweet");
+                    break;
+                case "Rate App":
+                    GeneralHelperMethods.rateAppAtPlayStore(this);
+                    shouldLoad = false;
+                    break;
+                case "Remove Ads":
+                    Toast.makeText(this, "Ads Removed", Toast.LENGTH_SHORT).show();
+                    shouldLoad = false;
+                    break;
+                case "Other Apps":
+                    GeneralHelperMethods.otherAppsByDeveloper(this);
+                    shouldLoad = false;
+                    break;
+            }
 
+            if(shouldLoad)
+            {
+                onBackPressed();
+                sandwichListFragmentNew.setArguments(bundle);
+                replaceFragment(sandwichListFragmentNew, SandwichListFragment.TAG);
+            }
+        }
     }
 }

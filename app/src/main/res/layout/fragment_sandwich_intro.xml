@@ -31,6 +31,14 @@
             android:layout_height="wrap_content"
             android:minHeight="?attr/actionBarSize">
 
+            <ImageView
+                android:id="@+id/fsi_iv_cancel_searched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_cancel"
+                android:visibility="gone"
+                android:contentDescription="@string/close_search"/>
+
             <TextView
                 android:id="@+id/fsi_toolbar_text"
                 android:layout_width="wrap_content"
@@ -42,6 +50,7 @@
                 android:textSize="15sp" />
 
             <ImageView
+                android:id="@+id/fsi_iv_sandwich_favourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_action_heart"

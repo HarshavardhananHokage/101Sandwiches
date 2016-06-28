@@ -25,7 +25,7 @@
     </string-array>
 
     <string-array name="roasted_vegetable_sandwich_dir">
-        <item>First - roast your pepper. All can be done at the same time. The red and green peppers.</item>
+        <item>First, roast your pepper. All can be done at the same time. The red and green peppers.</item>
         <item>Heat the broiler.</item>
         <item>With tongs place the bell pepper on the top shelf turning often to get all sides blackened.</item>
         <item>It is a good idea to put a baking sheet on the rack below the peppers because when you go to turn them with your tongs juices can drip out.</item>
@@ -74,6 +74,30 @@
         <item>Add steak and top with crumbled Cheetos and a dash of Aleppo pepper.</item>
         <item>Drizzle with pancake syrup.</item>
         <item>Top with cheesy muffin top and serve hot.</item>
+    </string-array>
+
+    <string-array name="crab_sandwich_dir">
+        <item>Preheat broiler.</item>
+        <item>In a bowl, combine crab meat, green onions, cheese, mayonnaise and cayenne (or hot pepper sauce).</item>
+        <item>Slice tomatoes into eight slices.</item>
+        <item>On a baking sheet or broiler pan place English muffin halves and broil 3&#8211;4 inches from heat until golden (3&#8211;5 minutes).</item>
+        <item>Remove from oven.</item>
+        <item>Place a tomato slice on each muffin half and top with crab mixture (about &#189; cup per muffin half).</item>
+        <item>Sprinkle with extra shredded cheese, if desired.</item>
+        <item>Return to oven and broil until cheese browns. (3&#8211;5 minutes).</item>
+    </string-array>
+
+    <string-array name="caviar_quail_eggs_dir">
+        <item>Place quail eggs in a medium saucepan, and cover with several inches of cold water.</item>
+        <item>Bring to a boil, remove from heat, cover, and let sit for 4 minutes.</item>
+        <item>Drain eggs, rinse with cold water, and allow to cool.</item>
+        <item>Cut each egg in half and very gently remove yolks.</item>
+        <item>Place yolk in a medium bowl with creme fraiche and mustard.</item>
+        <item>Mash together until smooth.</item>
+        <item>Taste and season with salt and pepper.</item>
+        <item>Pipe yolk mixture into egg halves. (You can use a pastry bag or a plastic sandwich bag with the corner snipped off)</item>
+        <item>Garnish top of each egg with caviar and chives.</item>
+        <item>Place each egg on bread and serve them fresh.</item>
     </string-array>
 
     <!-- GUILTY -->

@@ -37,21 +37,40 @@
         <item>Yellow mustard</item>
     </string-array>
 
-
-
     <!--Luxe-->
 
-    <string name="steak_foie_gras_ing">
+    <string-array name="steak_foie_gras_ing">
         <item>1 package or 36 oz. of sliced steaks</item>
         <item>4 oz. foie gras</item>
         <item>1 cup mayonnaise</item>
         <item>4 English muffins</item>
         <item>4 slices of cheddar cheese</item>
         <item>&#189; cup Cheetos, crumbled (to taste)</item>
-        <item>1-2 tablespoons Pancake syrup(to taste)</item>
-        <item>1-2 tablespoons Aleppo pepper (to taste)</item>
+        <item>1&#8211;2 tablespoons Pancake syrup(to taste)</item>
+        <item>1&#8211;2 tablespoons Aleppo pepper (to taste)</item>
         <item>Salt and pepper (to taste)</item>
-    </string>
+    </string-array>
+
+    <string-array name="crab_sandwich_ing">
+        <item>&#189; lb crab meat, flaked</item>
+        <item>3 green onions, chopped</item>
+        <item>4 ounces cheddar cheese, shredded</item>
+        <item>2 ounces cheddar cheese, shredded (for sprinkling on top) (optional)</item>
+        <item>&#8531; cup mayonnaise (reduced calorie is fine)</item>
+        <item>&#188; teaspoon cayenne pepper (to taste) or &#188; teaspoon hot pepper sauce (to taste)</item>
+        <item>2 tomatoes</item>
+        <item>4 sourdough English muffins, split</item>
+    </string-array>
+
+    <string-array name="caviar_quail_eggs_ing">
+        <item>12 slices bread</item>
+        <item>1 dozen quail eggs</item>
+        <item>3 tablespoons of creme fraiche</item>
+        <item>1 teaspoon Dijon mustard</item>
+        <item>salt and pepper to taste</item>
+        <item>Caviar</item>
+        <item>Chives</item>
+    </string-array>
 
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">

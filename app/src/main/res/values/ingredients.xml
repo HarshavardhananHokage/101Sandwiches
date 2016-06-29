@@ -137,6 +137,148 @@
         <item>2 teaspoons chopped fresh chives</item>
     </string-array>
 
+    <string-array name="croque_madame_ing">
+        <item>2 slices of crusty bread</item>
+        <item>2 slices of higher-welfare ham</item>
+        <item>2 slices og cheese , such as Gruyère</item>
+        <item>1 large free-range egg</item>
+        <item>25 g butter</item>
+        <item>1 tablespoon plain flour</item>
+        <item>125 ml milk</item>
+        <item>1 teaspoon Dijon mustard</item>
+        <item>1 pinch of ground nutmeg</item>
+    </string-array>
+
+    <string-array name="club_sandwich_ing">
+        <item>4 rashers streaky bacon</item>
+        <item>3 slices white bread</item>
+        <item>1 tbsp mayonnaise</item>
+        <item>1 hard-boiled egg, sliced</item>
+        <item>1 tomato, sliced</item>
+        <item>few thick slices chicken or turkey breast</item>
+        <item>small handful salad leaves</item>
+        <item>handful crisps, to serve, if you like</item>
+    </string-array>
+
+    <string-array name="pastrami_on_rye_ing">
+        <item>2 lbs cooked and thinly sliced beef pastrami</item>
+        <item>4 -8 slices havarti cheese</item>
+        <item>Coarse grind mustard (optional)</item>
+        <item>Dill pickle slices (optional)</item>
+        <item>Thinly sliced onion (optional)</item>
+        <item>8 -16 slices artisan rye bread or 4 -8 sandwich buns</item>
+        <item>1 cup beef broth</item>
+    </string-array>
+
+    <string-array name="veal_schnitzel_ing">
+        <item>&#188; cup Alfa One rice bran oil</item>
+        <item>1 large brown onion, thinly sliced</item>
+        <item>4 (150g each) crumbed veal schnitzels</item>
+        <item>430g loaf Turkish bread</item>
+        <item>&#8531; cup tomato relish</item>
+        <item>&#188; cup whole-egg mayonnaise</item>
+        <item>8 butter lettuce leaves</item>
+        <item>2 small tomatoes, thinly sliced</item>
+        <item>4 slices vintage cheddar cheese</item>
+    </string-array>
+
+    <string-array name="muffaletta_ing">
+        <item>5 ounces pimento-stuffed olives (1 cup), sliced, plus 2 tablespoons of liquid from the jar</item>
+        <item>6 ounces chopped giardiniera (pickled Italian vegetables) (1 cup), plus 1 tablespoon of liquid from the jar</item>
+        <item>2 tablespoons drained capers, plus 2 teaspoons of liquid from the jar</item>
+        <item>3 ounces pitted Calamata olives (&#189; cup), sliced</item>
+        <item>2 &#189; teaspoons minced garlic</item>
+        <item>1 tablespoon minced shallot</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>1 teaspoon dried parsley</item>
+        <item>Pinch of dried thyme</item>
+        <item>Pinch of crushed red pepper</item>
+        <item>&#189; cup extra-virgin olive oil</item>
+        <item>1 large loaf seeded Italian bread (about 1 &#188; pounds), split</item>
+        <item>&#188; pound sliced fresh mozzarella</item>
+        <item>6 ounces sliced capocollo or prosciutto</item>
+        <item>&#188; pound sliced Genoa salami</item>
+        <item>&#188; pound sliced mortadella</item>
+        <item>&#188; pound sliced mild provolone cheese</item>
+        <item>Peperocini, for serving</item>
+    </string-array>
+
+    <string-array name="smoked_eel_ing">
+        <item>1 pinch of sugar</item>
+        <item>&#188; small red onion, peeled and thinly sliced</item>
+        <item>2 tbsp of white wine vinegar</item>
+        <item>1 slice of sourdough bread</item>
+        <item>40g of smoked eel fillet, ideally intact</item>
+        <item>Butter</item>
+        <item>1 tsp Dijon mustard</item>
+        <item>1 tsp horseradish cream, preferably fresh and fiery</item>
+    </string-array>
+
+    <string-array name="reuben_sandwich_ing">
+        <item>2 tablespoons butter</item>
+        <item>8 slices rye bread</item>
+        <item>8 slices deli sliced corned beef</item>
+        <item>8 slices Swiss cheese</item>
+        <item>1 cup sauerkraut, drained</item>
+        <item>&#189; cup Thousand Island dressing</item>
+    </string-array>
+
+    <string-array name="clam_roll_ing">
+        <item>8 ounces bleached white flour</item>
+        <item>8 ounces corn flour</item>
+        <item>1 teaspoon white pepper</item>
+        <item>6 ounces soft shell clams</item>
+        <item>1 cup evaporated milk</item>
+        <item>Vegetable oil, to fry</item>
+        <item>Butter</item>
+        <item>1 cup mayonnaise</item>
+        <item>1 tsp minced onion</item>
+        <item>1 tsp dill pickle relish</item>
+        <item>1 tsp minced fresh parsley</item>
+        <item>&#189; tsp dried tarragon</item>
+        <item>Kosher salt</item>
+        <item>Freshly ground black pepper</item>
+        <item>4 soft hoagie buns</item>
+    </string-array>
+
+    <string-array name="hoisin_glazed_salmon_ing">
+        <item>&#8531; cup water</item>
+        <item>&#188; cup cider vinegar</item>
+        <item>1 teaspoon sugar</item>
+        <item>&#189; teaspoon minced garlic</item>
+        <item>&#189; teaspoon minced peeled fresh ginger</item>
+        <item>&#188; teaspoon crushed red pepper</item>
+        <item>24 thin English cucumber slices</item>
+        <item>&#189; cup panko (Japanese breadcrumbs)</item>
+        <item>&#8531; cup thinly sliced green onions</item>
+        <item>2 tablespoons chopped fresh cilantro</item>
+        <item>1 tablespoon lower-sodium soy sauce</item>
+        <item>1 &#189; teaspoons grated peeled fresh ginger</item>
+        <item>1 teaspoon grated lime rind</item>
+        <item>1 (1-pound) skinless wild fresh or frozen Alaskan salmon fillet, finely chopped</item>
+        <item>1 large egg white</item>
+        <item>1 &#189; teaspoons dark sesame oil</item>
+        <item>1 tablespoon hoisin sauce</item>
+        <item>4 (1 &#189; ounce) hamburger buns with sesame seeds, toasted</item>
+    </string-array>
+
+    <string-array name="pan_bagnat_ing">
+        <item>2 anchovy fillets, minced (optional)</item>
+        <item>1 very small garlic clove, minced</item>
+        <item>1 teaspoon red wine vinegar</item>
+        <item>&#189; teaspoon Dijon mustard</item>
+        <item>Pinch of salt and freshly ground pepper</item>
+        <item>2 tablespoons extra virgin olive oil</item>
+        <item>1 8-inch round crusty country loaf or small ciabatta, halved</item>
+        <item>1 Kirby cucumber or &#189; regular cucumber</item>
+        <item>1 medium-size, ripe tomato, sliced</item>
+        <item>&#189; small red onion, sliced</item>
+        <item>1 jar (5 to 6 ounces) tuna packed in olive oil, drained</item>
+        <item>8 large basil leaves</item>
+        <item>2 tablespoons sliced pitted olives, preferably a mix of black and green</item>
+        <item>1 hard-cooked egg, peeled and thinly sliced</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">
         <item>1 (6 ounce) can tuna, drained and flaked</item>

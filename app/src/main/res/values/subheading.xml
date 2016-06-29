@@ -15,7 +15,17 @@
     <string name="porteno_lomito_sub">The unofficial national dish of Chile</string>
     <string name="bacon_nan_roll_sub">When Indian Naan meets the British Bacon</string>
     <string name="open_sausage_sub">Hungry after a long drive?</string>
-    <string name="croque_monsieur_sub">Originated in French cafes as a quick snack.</string>
+    <string name="croque_monsieur_sub">Originated in French cafes as a quick snack</string>
+    <string name="croque_madame_sub">The better half of Croque Monsieur</string>
+    <string name="club_sandwich_sub">Originated in Union Club of New York City</string>
+    <string name="pastrami_on_rye_sub">Pastrami means pressed meat in Turkish</string>
+    <string name="veal_schnitzel_sub">Originating in Austria, it is popular in many countries</string>
+    <string name="muffaletta_sub">Packed with briny olives and pickled vegetables</string>
+    <string name="smoked_eel_sub">A rich delicacy shared by Jeremy Lee</string>
+    <string name="reuben_sandwich_sub">Invented by Reuben Kulakofsky, a Jewish Lithuanian grocer</string>
+    <string name="clam_roll_sub">Taste depends entirely on the clam quality</string>
+    <string name="hoisin_glazed_salmon_sub">Goodness of Salmon. Flavor of hoisin</string>
+    <string name="pan_bagnat_sub">A specialty of the Provence region of France</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>

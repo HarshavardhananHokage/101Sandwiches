@@ -15,6 +15,16 @@
     <string name="bacon_nan_roll_desc">Invented by Dishoom in England with a perfect anglo-indian style and a proper addition of spicy chutney, cream cheese and coriander</string>
     <string name="open_sausage_desc">A trimmed down version of a Italian sandwich classic. It is as healthy as it is tasty</string>
     <string name="croque_monsieur_desc">The name is based on the verb croquer ("to bite") and the word monsieur ("mister"). It first made appearance in 1910, Paris</string>
+    <string name="croque_madame_desc">A croque monsieur served with a poached or lightly fried egg on top is known as a croque madame</string>
+    <string name="club_sandwich_desc">Dated as far back as 1899 it's a sandwich of occasionally toasted bread, sliced cooked poultry, fried bacon, lettuce, tomato and mayonnaise</string>
+    <string name="pastrami_on_rye_desc">Pastrami a meat product usually made from beef, and sometimes from pork, mutton or turkey</string>
+    <string name="veal_schnitzel_desc">A schnitzel is meat, thinned by pounding with a meat tenderizer, coated with flour, beaten eggs and bread crumbs, and then fried.</string>
+    <string name="muffaletta_desc">The muffuletta is the quintessential New Orleans sandwich of cured meats, cheese and tangy olive salad piled onto a sturdy Italian loaf</string>
+    <string name="smoked_eel_desc">With a hunk of crisp, golden sourdough holding everything together, the oily sweetness of smoked eel with fiery horseradish cream and Dijon mustard.</string>
+    <string name="reuben_sandwich_desc">The Reuben sandwich is an hot sandwich composed of corned beef, Swiss cheese, sauerkraut and Thousand Island dressing, grilled between slices of rye bread</string>
+    <string name="clam_roll_desc">A properly fried clam is beautifully bronzed with a light, crisp coating, and it bursts with briny, oceanic flavor when you bite in</string>
+    <string name="hoisin_glazed_salmon_desc">Quick-pickled cukes give these burgers tart crunch. Panko and egg white hold the patties together. Use cilantro leaves on the burgers as you would lettuce for herby freshness.</string>
+    <string name="pan_bagnat_desc">The name of the sandwich comes from the local Provençal language, Nissart, in which pan banhat and the alternative spelling pan bagnat mean "bathed bread"</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>

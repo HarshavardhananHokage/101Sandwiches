@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- CLASSIC -->
-    <string name="classic_blt_sandwich_desc">A near-perfect balance of sweet, smoky, crusty, and salty, the BLT is what food dreams are made of. If only it were healthy to eat bacon and mayo on a daily basis.</string>
-    <string name="best_grilled_cheese_sandwich_desc">It\'s the first meal that most of us learn how to cook at home by ourselves. It\'s salty, gooey, crisp, buttery, and comforting in all the right ways.</string>
+    <string name="classic_blt_sandwich_desc">A near-perfect balance of sweet, smoky, crusty, and salty, the BLT is what food dreams are made of. If only it were healthy to eat bacon and mayo on a daily basis</string>
+    <string name="best_grilled_cheese_sandwich_desc">It\'s the first meal that most of us learn how to cook at home by ourselves. It\'s salty, gooey, crisp, buttery, and comforting in all the right ways</string>
     <string name="roasted_vegetable_sandwich_desc">This wonderful Italian style sandwich is finished off with a drizzling of vinaigrette. Pile it high!</string>
     <string name="cuban_sandwich_desc">Despite being so simple, the Cuban sandwich is packed full of flavour and all of the flavours work so well together!</string>
 
     <!--Luxe-->
-    <string name="steak_foie_gras_desc">Creamy, controversial foie gras comes together with freezer-aisle steak in this cheesy sandwich.</string>
-    <string name="crab_sandwich_desc">This delicious crab sandwich recipe is great for any outdoor party, day or night.</string>
+    <string name="steak_foie_gras_desc">Creamy, controversial foie gras comes together with freezer-aisle steak in this cheesy sandwich</string>
+    <string name="crab_sandwich_desc">This delicious crab sandwich recipe is great for any outdoor party, day or night</string>
     <string name="caviar_quail_eggs_desc">When adding rich ingredients like creme fraiche and caviar, the smaller size also feels less over-indulgent</string>
+    <string name="lobster_roll_desc">Innovators prefer a crunchy, tangy and slightly spicy version of the lobster salad that includes celery, lettuce, lemon juice and a pinch of cayenne. Purists don't</string>
+    <string name="porteno_lomito_desc">Each of these mighty sandwiches can be 10 cm tall, filled with about 250gms of hand-shaved pork loin, avocado, celery and plenty of mayonnaise</string>
+    <string name="bacon_nan_roll_desc">Invented by Dishoom in England with a perfect anglo-indian style and a proper addition of spicy chutney, cream cheese and coriander</string>
+    <string name="open_sausage_desc">A trimmed down version of a Italian sandwich classic. It is as healthy as it is tasty</string>
+    <string name="croque_monsieur_desc">The name is based on the verb croquer ("to bite") and the word monsieur ("mister"). It first made appearance in 1910, Paris</string>
 
     <!-- GUILTY -->
-    <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself.</string>
+    <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>
 </resources>

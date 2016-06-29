@@ -100,6 +100,76 @@
         <item>Place each egg on bread and serve them fresh.</item>
     </string-array>
 
+    <string-array name="lobster_roll_dir">
+        <item>Prepare a large ice-water bath.</item>
+        <item>In a very large pot of boiling salted water, cook the lobsters until they turn bright red, about 10 minutes.</item>
+        <item>Using tongs, plunge the lobsters into the ice-water bath for 2 minutes, then drain.</item>
+        <item>Twist off the lobster tails and claws and remove the meat.</item>
+        <item>Remove and discard the intestinal vein that runs the length of each lobster tail.</item>
+        <item>Cut the lobster meat into &#189; inch pieces and pat dry, then transfer to a strainer set over a bowl and refrigerate until very cold, at least 1 hour.</item>
+        <item>In a large bowl, mix the lobster meat with the mayonnaise and season with salt and pepper.</item>
+        <item>Fold in the diced celery, lemon juice and cayenne pepper until well blended.</item>
+        <item>Heat a large skillet.</item>
+        <item>Brush the sides of the hot dog buns with the melted butter and toast over moderate heat until golden brown on both sides.</item>
+        <item>Transfer the hot dog buns to plates, fill them with the shredded lettuce and the lobster salad and serve immediately.</item>
+    </string-array>
+
+    <string-array name="porteno_lomito_dir">
+        <item>Bring pork roast to room temperature.</item>
+        <item>Trim roast of excess fat.</item>
+        <item>Season outside of roast with salt, pepper and oregano.</item>
+        <item>In a large dutch oven brown roast all over.</item>
+        <item>Place roast in a large roasting pan, along with the carrots, onion, garlic and celery.</item>
+        <item>Add the chicken stock.</item>
+        <item>Place in a preheated 400 degree oven and braise the roast for 2 hours or until the internal temperature is 160 degrees.</item>
+        <item>Add water to braising liquid if  necessary. The braising liquid should be half way up the side of the roasting pan at all times.</item>
+        <item>When pork is done Remove from braising liquid, and set aside.</item>
+        <item>Using a wire mesh strainer, strain the braising liquid into a large stock pot.</item>
+        <item>Over medium heat reduce strained liquid slightly. You should have about 4 cups.</item>
+        <item>After pork roast has rested slice it very thinly.</item>
+        <item>Add about &#189; lb of the sliced pork to each of 6 rolls.</item>
+        <item>Smash the avocado and  spread onto pork.</item>
+        <item>Add tomatoes and dress with a liberal amount of mayonnaise.</item>
+    </string-array>
+
+    <string-array name="bacon_nan_roll_dir">
+        <item>Cook the bacon in a frying pan over a high heat until crisp, then drain on kitchen paper.</item>
+        <item>Warm the naans a little in the oven.</item>
+        <item>Spread one half of each naan with 1 tbsp each of cream cheese and chutney.</item>
+        <item>Place the bacon on top.</item>
+        <item>Sprinkle each with coriander and grind a little black pepper on top.</item>
+        <item>Fold the other half of the naan over to create a semi-circle, and cut each naan in half.</item>
+        <item>Makes two.</item>
+    </string-array>
+
+    <string-array name="open_sausage_dir">
+        <item>Heat 1 Tbsp. oil in a large skillet over medium-high heat.</item>
+        <item>Add sausages and cook, turning occasionally, until browned all over and cooked through, 8–10 minutes.</item>
+        <item>Transfer to a cutting board and slice into &#189; inch pieces.</item>
+        <item>Return sausage to skillet and add roasted peppers, vinegar, honey, cayenne, and remaining 1 Tbsp. oil.</item>
+        <item>Cook, stirring occasionally, until peppers are warmed through and sauce is thickened, about 4 minutes.</item>
+        <item>Stir in basil and season with salt and pepper.</item>
+        <item>Divide sausage mixture evenly over toasted side of rolls.</item>
+    </string-array>
+
+    <string-array name="croque_monsieur_dir">
+        <item>Melt 2 tablespoons butter in small saucepan over medium heat.</item>
+        <item>Add flour and stir 1 minute. Gradually whisk in milk.</item>
+        <item>Add nutmeg and bay leaf.</item>
+        <item>Increase heat to medium-high and boil until sauce thickens, whisking constantly, about 2 minutes.</item>
+        <item>Season with salt and pepper.</item>
+        <item>Preheat broiler.</item>
+        <item>Place 2 bread slices on work surface.</item>
+        <item>Top each with half of ham and sliced Gruyère.</item>
+        <item>Top with remaining bread.</item>
+        <item>Heat heavy large skillet over low heat.</item>
+        <item>Brush sandwiches with 1 tablespoon melted butter.</item>
+        <item>Add to skillet and cook until deep golden brown, about 2 minutes per side.</item>
+        <item>Transfer to small baking sheet.</item>
+        <item>Spoon sauce, then grated cheese over sandwiches.</item>
+        <item>Broil until cheese begins to brown, about 2 minutes.</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_dir">
         <item>Preheat the oven to 375 degrees F (190 degrees C).</item>

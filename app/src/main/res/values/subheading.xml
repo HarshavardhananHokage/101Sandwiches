@@ -11,6 +11,11 @@
     <string name="steak_foie_gras_sub">Steak, Foie Gras and Mayo</string>
     <string name="crab_sandwich_sub">Generous and Fresh. You will love it</string>
     <string name="caviar_quail_eggs_sub">Everything about the tiny quail eggs is better</string>
+    <string name="lobster_roll_sub">Sweet tender summer lobster and mayonnaise</string>
+    <string name="porteno_lomito_sub">The unofficial national dish of Chile</string>
+    <string name="bacon_nan_roll_sub">When Indian Naan meets the British Bacon</string>
+    <string name="open_sausage_sub">Hungry after a long drive?</string>
+    <string name="croque_monsieur_sub">Originated in French cafes as a quick snack.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>

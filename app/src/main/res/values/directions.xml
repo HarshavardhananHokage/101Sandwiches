@@ -303,6 +303,155 @@
         <item>Unwrap, slice and serve immediately, or keep it wrapped for up to 8 hours before serving.</item>
     </string-array>
 
+    <!-- SPICE -->
+    <string-array name="vietnamese_dir">
+        <item>With chef's knife, mash garlic and salt into a paste.</item>
+        <item>Transfer to a mixing bowl and add vinegar and sugar, stirring to dissolve.</item>
+        <item>Add carrots, onions and chilies.</item>
+        <item>Toss to coat, set aside.</item>
+        <item>Slice baguette into 4 equal lengths.</item>
+        <item>Split each piece horizontally.</item>
+        <item>Spread cut sides with mayonnaise.</item>
+        <item>Arrange the meat on the 4 bottom halves.</item>
+        <item>Sprinkle with lime juice and 5-spice powder.</item>
+        <item>Top with the carrot salad and a shower of cilantro leaves.</item>
+        <item>Cover with bread tops.</item>
+    </string-array>
+
+    <string-array name="spicy_chic_fillet_dir">
+        <item>Preheat 6 to 8 cups of oil in a deep fryer to 350 degrees.</item>
+        <item>Combine the pepper sauce and water in a small bowl.</item>
+        <item>Combine the flour, salt, cayenne pepper, black pepper, onion powder, paprika and garlic powder in another shallow bowl.</item>
+        <item>Pound each of the chicken pieces with a mallet until about 3/8-inch thick.</item>
+        <item>Trim each breast fillet if necessary to help it fit on the bun.</item>
+        <item>Working with one fillet at a time, coat each piece with the flour, then dredge it in the diluted pepper sauce.</item>
+        <item>Coat the chicken once again in the flour mixture and set it aside until the rest of the chicken is coated.</item>
+        <item>Fry the chicken fillets for 8 to 12 minutes or until they are light brown and crispy.</item>
+        <item>Remove the chicken to a rack or to paper towels to drain.</item>
+        <item>As chicken is frying, prepare each sandwich by grilling the face of the hamburger buns on a hot skillet over medium heat.</item>
+        <item>Spread about 2 teaspoons of mayonnaise on the face of each of the inverted top buns.</item>
+        <item>Place a tomato slice onto the mayonnaise, then stack a leaf of lettuce on top of the tomato.</item>
+        <item>On each of the bottom buns, stack one piece of chicken.</item>
+        <item>Flip the top half of each sandwich onto the bottom half and serve hot.</item>
+    </string-array>
+
+    <string-array name="spicy_egg_salad_dir">
+        <item>Combine chiles, eggs, mayonnaise dressing, green onion and hot pepper sauce in medium bowl.</item>
+        <item>Season with salt and ground black pepper.</item>
+        <item>Spread egg salad on toasted bagels or English muffins or bread.</item>
+        <item>Simple right.</item>
+        <item>Have Fun.</item>
+    </string-array>
+
+    <string-array name="roast_beef_avocado_dir">
+        <item>Combine mayo, Tabasco, and cilantro in a small bowl.</item>
+        <item>Spread mayo mixture on both sides of bread.</item>
+        <item>Layer roast beef, cheese, lettuce, and avocado, sprinkle lightly with salt.</item>
+        <item>Lightly press on top layer of bread.</item>
+        <item>If using large loaf, cut into portions, and serve.</item>
+    </string-array>
+
+    <string-array name="mint_chutney_dir">
+        <item>Finely chop the mint and coriander leaves.</item>
+        <item>Transfer to a mixer along with green chillies, garlic, ginger, sugar, lemon juice and some salt.</item>
+        <item>Blend well until smooth.</item>
+        <item>Add salt if needed and transfer to a bowl.</item>
+        <item>Place the bread slices on a flat surface.</item>
+        <item>Spread 1 slice with butter and other slice with the chutney.</item>
+        <item>Top up with cucumber and tomato slices and cover.</item>
+        <item>Cut into squares or triangles or halves.</item>
+        <item>Serve at once.</item>
+    </string-array>
+
+    <string-array name="torta_ahogada_dir">
+        <item>Combine chiles, vinegar, pumpkin and sesame seeds, oregano, salt, cumin, allspice, cloves, and garlic in a blender.</item>
+        <item>Puree until very smooth.</item>
+        <item>Pour through a medium strainer into a bowl, discard solids, and stir in 3⁄4 cup water.</item>
+        <item>Heat oven to 350°.</item>
+        <item>Split roll and fill bottom half with pork.</item>
+        <item>Place on baking sheet and bake until warmed through and bread is toasted, about 6 minutes.</item>
+        <item>Add onion, radish, and top bun.</item>
+        <item>Pour chile de arbol sauce over sandwich, and let sit, so that the sauce soaks in.</item>
+        <item>Serve</item>
+    </string-array>
+
+    <string-array name="austrian_bosna_dir">
+        <item>Grill sausages (a George Foreman Grill works great for this).</item>
+        <item>Meanwhile, prepare the buns by cutting them open and spreading one side with curry ketchup and the other with Dijon mustard.</item>
+        <item>When the sausage is cooked through, put two in each bun and grill on a panini grill, Foreman grill, or in a skillet with heavy cans placed on top of the buns.</item>
+        <item>When bread is nicely toasted and flattened, remove from grill and generously sprinkle the sausages with curry powder and onion.</item>
+    </string-array>
+
+    <string-array name="deviled_ham_dir">
+        <item>Place ham and onion into a food processor and process until very finely chopped.</item>
+        <item>Transfer ham mixture to a bowl.</item>
+        <item>Thoroughly mix in salad dressing, honey, prepared mustard, Worcestershire sauce, dry mustard powder, hot pepper sauce, paprika, salt, and white pepper.</item>
+        <item>Refrigerate ham spread covered until ready to use.</item>
+    </string-array>
+
+    <string-array name="pulled_pork_dir">
+        <item>Preheat oven to 250 degrees F (120 degrees C).</item>
+        <item>Mix brown sugar, paprika, garlic powder, black pepper, and salt in a bowl.</item>
+        <item>Spread mustard over pork roast and sprinkle with brown sugar mixture, using the entire amount.</item>
+        <item>Line a shallow baking dish with aluminum foil.</item>
+        <item>Place a rack in the prepared baking dish and arrange pork roast on rack.</item>
+        <item>Bake in the preheated oven until very tender, 9 to 11 hours.</item>
+        <item>Let pork cool, then shred into bite-size pieces.</item>
+        <item>Stir barbecue sauce into pork to moisten.</item>
+        <item>Serve with hamburger buns.</item>
+    </string-array>
+
+    <string-array name="banh_mi_dir">
+        <item>Place rice vinegar, water, and sugar into a saucepan over medium heat, bring to a boil, and stir until the sugar has dissolved, about 1 minute.</item>
+        <item>Allow the mixture to cool.</item>
+        <item>Pour the cooled vinegar mixture over the carrot, radish, and onion in a bowl, and allow to stand for at least 30 minutes.</item>
+        <item>Drain off the excess vinegar mixture after the vegetables have marinated.</item>
+        <item>While the vegetables are marinating, preheat the oven's broiler, and set the oven rack about 6 inches from the heat source.</item>
+        <item>Lightly oil a slotted broiler pan.</item>
+        <item>Sprinkle the chicken breast with garlic salt and pepper, and broil on slotted broiler pan, turning once, until the center of the chicken breast is no longer pink and the surface has browned, about 6 minutes per side.</item>
+        <item>Remove the broiled chicken, and slice into bite-size pieces.</item>
+        <item>Slice the baguette in half the long way, and pull the center of the bread out of the baguette halves, leaving a cavity for the filling.</item>
+        <item>Place the baguette halves under the broiler to lightly toast, 2 to 3 minutes.</item>
+        <item>To assemble the bahn mi sandwich, spread each half of the toasted baguette with mayonnaise.</item>
+        <item>Fill the cavity of the bottom half of the bread with broiled chicken, cucumber slices, pickled carrot, onion, and radish, cilantro leaves, and jalapeno pepper.</item>
+        <item>Squeeze a wedge of lime over the filling, and top with the other half of the baguette.</item>
+    </string-array>
+
+    <string-array name="the_dagwood_dir">
+        <item>Layout the 3 bread slices.</item>
+        <item>On first slice spread mayonnaise, layer cucumber slices, cheddar cheese, &#189; of the lettuce, 1 tomato slice, ham and top with mustard spread.</item>
+        <item>Add second piece of bread on top.</item>
+        <item>Spread horseradish and relish.</item>
+        <item>Layer onion, second tomato slice, swiss cheese, second half of the lettuce and turkey.</item>
+        <item>Add third piece of bread (spread bottom with mayonnaise if desired).</item>
+    </string-array>
+
+    <string-array name="katsu_sando_dir">
+        <item>Lightly season both sides of the pork chops with salt and pepper and sprinkle with flour.</item>
+        <item>Dip the chops into the lightly beaten egg and then into the panko, making sure that all sides are coated.</item>
+        <item>Heat up half an inch of oil in a large frying pan over medium high heat.</item>
+        <item>Fry the chops until golden brown and cooked through, flipping once, about 2 minutes per side.</item>
+        <item>Drain on paper towels.</item>
+        <item>Toast the bread and spread Kewpie mayo on one slice and Japanese mustard on the other.</item>
+        <item>Drizzle the bread or chops with the tonkatsu sauce, place on a slice of bread and top with the other slice.</item>
+        <item>Slice off the crusts, if desired and enjoy immediately.</item>
+    </string-array>
+
+    <string-array name="chicken_shawarma_dir">
+        <item>Preheat grill to medium-high heat.</item>
+        <item>To prepare chicken, combine first 6 ingredients in a medium bowl.</item>
+        <item>Add chicken to bowl; toss well to coat.</item>
+        <item>Let stand at room temperature 20 minutes.</item>
+        <item>To prepare sauce, combine yogurt and next 4 ingredients (through 1 garlic clove), stirring with a whisk.</item>
+        <item>Thread 2 chicken strips onto each of 8 (12-inch) skewers.</item>
+        <item>Place kebabs on a grill rack coated with cooking spray; grill 4 minutes on each side or until done.</item>
+        <item>Place pitas on grill rack; grill 1 minute on each side or until lightly toasted.</item>
+        <item>Place 1 pita on each of 4 plates; top each serving with &#188; cup lettuce and 2 tomato slices.</item>
+        <item>Top each serving with 4 chicken pieces; drizzle each serving with 2 tablespoons sauce.</item>
+    </string-array>
+
+    <string-array name="roti_john_dir"></string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_dir">
         <item>Preheat the oven to 375 degrees F (190 degrees C).</item>

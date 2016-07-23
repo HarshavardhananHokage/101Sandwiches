@@ -27,6 +27,22 @@
     <string name="hoisin_glazed_salmon_sub">Goodness of Salmon. Flavor of hoisin</string>
     <string name="pan_bagnat_sub">A specialty of the Provence region of France</string>
 
+    <!-- SPICE -->
+    <string name="vietnamese_sub">Your friendly vietnamese to spice things up</string>
+    <string name="spicy_chic_fillet_sub">A copy of the popular sandwich from Wendy's</string>
+    <string name="spicy_egg_salad_sub">Goodness of egg with the kick of spices</string>
+    <string name="roast_beef_avocado_sub">Holy trinity of Beef, Avocado and Mayo</string>
+    <string name="mint_chutney_sub">Healthy and Tasty from India.</string>
+    <string name="torta_ahogada_sub">Also known as Mexican "Drowned" Sandwich</string>
+    <string name="austrian_bosna_sub">A Salzburg, Austria street snack</string>
+    <string name="deviled_ham_sub">Don't let the name fool you</string>
+    <string name="pulled_pork_sub">Super Easy Super Pork</string>
+    <string name="banh_mi_sub">It means all kind of sandwich</string>
+    <string name="the_dagwood_sub">A tall, multi-layered sandwich</string>
+    <string name="katsu_sando_sub">Exotic Japanese breaded meat sandwich</string>
+    <string name="chicken_shawarma_sub">Strips of marinated meat, Arab Style</string>
+    <string name="roti_john_sub">Popular snack item in Singapore, Malaysia and Brunei.</string>
+
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>
 </resources>

@@ -279,6 +279,198 @@
         <item>1 hard-cooked egg, peeled and thinly sliced</item>
     </string-array>
 
+    <!-- SPICE -->
+    <string-array name="vietnamese_ing">
+        <item>1 clove garlic, crushed</item>
+        <item>&#189; teaspoon salt</item>
+        <item>&#188; cup rice wine vinegar</item>
+        <item>1 teaspoon sugar</item>
+        <item>&#189; cup carrot, peeled and grated</item>
+        <item>&#8531; cup thinly sliced white onion</item>
+        <item>2 tablespoons jalapeno chile, finely chopped</item>
+        <item>1 (16 inch) baguette</item>
+        <item>4 teaspoons low-fat mayonnaise</item>
+        <item>3⁄4 lb boneless skinless chicken breasts, cooked or 3⁄4 lb pork tenderloin</item>
+        <item>1 tablespoon fresh lime juice</item>
+        <item>&#189; teaspoon five-spice powder</item>
+        <item>&#189; cup fresh cilantro</item>
+    </string-array>
+
+    <string-array name="spicy_chic_fillet_ing">
+        <item>6 &#8211; 8 cups vegetable oil</item>
+        <item>&#8531; cup frank's original red hot pepper sauce</item>
+        <item>2⁄3 cup water</item>
+        <item>1 cup all-purpose flour</item>
+        <item>2 &#189; teaspoons salt</item>
+        <item>4 teaspoons cayenne pepper</item>
+        <item>1 teaspoon fresh coarse ground black pepper</item>
+        <item>1 teaspoon onion powder</item>
+        <item>&#189; teaspoon paprika</item>
+        <item>1⁄8 teaspoon garlic powder</item>
+        <item>4 chicken breast fillets</item>
+        <item>4 plain hamburger buns</item>
+        <item>8 teaspoons mayonnaise</item>
+        <item>4 lettuce leaves</item>
+        <item>4 slices tomatoes</item>
+    </string-array>
+
+    <string-array name="spicy_egg_salad_ing">
+        <item>1 (4 ounce) can diced green chilies</item>
+        <item>4 hard-cooked eggs, peeled and chopped</item>
+        <item>3 tablespoons light mayonnaise or 3 tablespoons fat-free mayonnaise</item>
+        <item>2 tablespoons green onions, sliced</item>
+        <item>&#188; teaspoon hot pepper sauce</item>
+        <item>4 bagels or 4 English muffins, split and toasted</item>
+    </string-array>
+
+    <string-array name="roast_beef_avocado_ing">
+        <item>3⁄4 cup mayonnaise</item>
+        <item>1 -1 &#189; tablespoon Tabasco sauce (more or less to taste)</item>
+        <item>&#188; cup chopped cilantro</item>
+        <item>good crusty rolls or 1 long French bread, cut horizontally and hollowed out somewhat</item>
+        <item>1 lb good quality deli roast beef</item>
+        <item>salt</item>
+        <item>&#189; lb monterey jack cheese or &#189; lb swiss cheese or &#189; lb provolone cheese</item>
+        <item>1 large avocado, peeled,pitted,and thinly sliced,dipped in lemon juice to prevent browning</item>
+        <item>crispy romaine lettuce</item>
+    </string-array>
+
+    <string-array name="mint_chutney_ing">
+        <item>Bread Slices - 4, crusts removed</item>
+        <item>Butter as required</item>
+        <item>Cucumber - few slices (optional)</item>
+        <item>Tomato - 1, sliced (optional)</item>
+        <item>Mint Leaves - 1 bunch, chopped</item>
+        <item>Coriander Leaves - big handful, chopped</item>
+        <item>Green Chillies - 2, medium</item>
+        <item>Garlic - 1 clove, peeled, chopped</item>
+        <item>Ginger - &#189; inch piece, peeled, chopped</item>
+        <item>Sugar - &#189; tsp</item>
+        <item>Juice of &#188; Lemon</item>
+        <item>Salt as per taste</item>
+    </string-array>
+
+    <string-array name="torta_ahogada_ing">
+        <item>3⁄4 oz. dried chiles de arbol (about 30), stemmed and seeded</item>
+        <item>3⁄4 cup cider vinegar</item>
+        <item>2 tbsp. pumpkin seeds, toasted</item>
+        <item>1 &#189; tbsp. sesame seeds, toasted</item>
+        <item>1 tsp. dried oregano</item>
+        <item>1 tsp. kosher salt</item>
+        <item>&#188; tsp. ground cumin</item>
+        <item>1⁄8 tsp. ground allspice</item>
+        <item>1⁄8 tsp. ground cloves</item>
+        <item>2 cloves garlic</item>
+        <item>1 crusty bolillo or Italian roll</item>
+        <item>1 &#189; cups leftover roasted pork shoulder, shredded</item>
+        <item>&#188; small yellow onion, thinly sliced</item>
+        <item>1 radish, thinly sliced</item>
+    </string-array>
+
+    <string-array name="austrian_bosna_ing">
+        <item>8 long, thin pork sausages (with herbs if you can find them)</item>
+        <item>1 cup diced yellow onion</item>
+        <item>Curry ketchup (available at international markets or mix curry powder with ketchup)</item>
+        <item>Dijon mustard</item>
+        <item>Curry powder</item>
+        <item>4 wide sausage buns (large enough to contain 2 of the sausages)</item>
+    </string-array>
+
+    <string-array name="deviled_ham_ing">
+        <item>&#189; pound cooked ham, cut into chunks</item>
+        <item>&#188; onion, sliced</item>
+        <item>3 tablespoons low-fat creamy salad dressing (such as Miracle Whip Light®)</item>
+        <item>2 teaspoons honey</item>
+        <item>1 teaspoon prepared mustard</item>
+        <item>1 teaspoon Worcestershire sauce</item>
+        <item>1 teaspoon dry mustard powder</item>
+        <item>1 dash hot pepper sauce (such as Tabasco), or to taste</item>
+        <item>&#189; teaspoon paprika</item>
+        <item>1/8 teaspoon salt</item>
+        <item>1/8 teaspoon ground white pepper</item>
+    </string-array>
+
+    <string-array name="pulled_pork_ing">
+        <item>3 tablespoons brown sugar</item>
+        <item>3 tablespoons paprika</item>
+        <item>1 &#189; tablespoons garlic powder</item>
+        <item>1 &#189; tablespoons ground black pepper</item>
+        <item>1 &#189; teaspoons salt</item>
+        <item>&#189; cup Dijon mustard</item>
+        <item>8 pounds pork shoulder roast (butt roast), rind removed</item>
+        <item>&#189; cup barbeque sauce, or to taste</item>
+        <item>18 large hamburger buns, split</item>
+    </string-array>
+
+    <string-array name="banh_mi_ing">
+        <item>&#189; cup rice vinegar</item>
+        <item>&#188; cup water</item>
+        <item>&#188; cup white sugar</item>
+        <item>&#188; cup carrot, cut into 1/16-inch-thick matchsticks</item>
+        <item>&#188; cup white (daikon) radish, cut into 1/16-inch-thick matchsticks</item>
+        <item>&#188; cup thinly sliced white onion</item>
+        <item>1 skinless, boneless chicken breast half</item>
+        <item>garlic salt to taste</item>
+        <item>ground black pepper to taste</item>
+        <item>1 (12 inch) French baguette</item>
+        <item>4 tablespoons mayonnaise</item>
+        <item>&#188; cup thinly sliced cucumber</item>
+        <item>1 tablespoon fresh cilantro leaves</item>
+        <item>1 small jalapeno pepper - seeded and cut into 1/16-inch-thick matchsticks</item>
+        <item>1 wedge lime</item>
+    </string-array>
+
+    <string-array name="the_dagwood_ing">
+        <item>3 slices bread</item>
+        <item>2 slices cheddar cheese</item>
+        <item>2 slices swiss cheese</item>
+        <item>4 -6 leaves of crisp green lettuce</item>
+        <item>2 slices of large tomatoes</item>
+        <item>8 slices ham, thin slices</item>
+        <item>8 slices cooked turkey, thin slices</item>
+        <item>1 slice of a medium onion</item>
+        <item>4 -6 slices cucumbers, thin slices</item>
+        <item>mustard</item>
+        <item>horseradish</item>
+        <item>relish</item>
+        <item>mayonnaise</item>
+    </string-array>
+
+    <string-array name="katsu_sando_ing">
+        <item>salt and pepper</item>
+        <item>2 boneless pork chops, on the thin side</item>
+        <item>2 tablespoons flour</item>
+        <item>1 large egg, lightly beaten, in a shallow bowl</item>
+        <item>1 cup panko</item>
+        <item>oil, for frying</item>
+        <item>4 slices bread</item>
+        <item>Kewpie mayonnaise, to taste</item>
+        <item>Japanese mustard, to taste</item>
+        <item>tonkatsu sauce, to taste</item>
+    </string-array>
+
+    <string-array name="chicken_shawarma_ing">
+        <item>2 tablespoons fresh lemon juice</item>
+        <item>1 teaspoon curry powder</item>
+        <item>2 teaspoons extravirgin olive oil</item>
+        <item>&#190; teaspoon salt</item>
+        <item>&#189; teaspoon ground cumin</item>
+        <item>3 garlic cloves, minced</item>
+        <item>1 pound skinless, boneless chicken breast, cut into 16 (3-inch) strips</item>
+        <item>&#189; cup plain 2% reduced-fat Greek yogurt (such as Fage)</item>
+        <item>2 tablespoons tahini</item>
+        <item>2 teaspoons fresh lemon juice</item>
+        <item>&#188; teaspoon salt</item>
+        <item>1 garlic clove, minced</item>
+        <item>Remaining ingredients:</item>
+        <item>Cooking spray</item>
+        <item>4 (6-inch) pitas</item>
+        <item>1 cup chopped romaine lettuce</item>
+        <item>8 (&#188;-inch-thick) tomato slices</item>
+    </string-array>
+
+    <string-array name="roti_john_ing"></string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">
         <item>1 (6 ounce) can tuna, drained and flaked</item>

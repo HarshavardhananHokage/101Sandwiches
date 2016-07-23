@@ -469,7 +469,42 @@
         <item>8 (&#188;-inch-thick) tomato slices</item>
     </string-array>
 
-    <string-array name="roti_john_ing"></string-array>
+    <string-array name="roti_john_ing">
+        <item>1 loaf French bread</item>
+        <item>2 eggs</item>
+        <item>1 small yellow onion, chopped</item>
+        <item>100g corned beef</item>
+        <item>salt and pepper</item>
+        <item>vegetable oil for frying</item>
+    </string-array>
+
+    <string-array name="ham_cheese_ing">
+        <item>1 cup butter, softened</item>
+        <item>3 tablespoons poppy seeds</item>
+        <item>1 onion, grated</item>
+        <item>1 tablespoon Worcestershire sauce</item>
+        <item>2 tablespoons prepared Dijon-style mustard</item>
+        <item>2 (12 ounce) packages white party rolls</item>
+        <item>&#189; pound chopped cooked ham</item>
+        <item>5 ounces shredded Swiss cheese</item>
+    </string-array>
+
+    <string-array name="oyster_roll_ing">
+        <item>&#189; cup mayonnaise</item>
+        <item>1 &#188; teaspoons minced canned chipotle chiles in adobo</item>
+        <item>&#189; teaspoon fresh lemon juice</item>
+        <item>6 cups vegetable oil</item>
+        <item>1 large egg</item>
+        <item>&#188; cup whole milk</item>
+        <item>2 &#189; teaspoons salt</item>
+        <item>1 &#189; cups cornmeal</item>
+        <item>&#188; teaspoon black pepper</item>
+        <item>2 cups shucked oysters, drained (about 36)</item>
+        <item>1 (12- to 14-inch-long) loaf soft-crusted bread</item>
+        <item>3 cups shredded iceberg lettuce</item>
+        <item>lemon wedges</item>
+        <item>a deep-fat thermometer</item>
+    </string-array>
 
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">

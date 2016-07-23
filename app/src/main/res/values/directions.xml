@@ -450,7 +450,43 @@
         <item>Top each serving with 4 chicken pieces; drizzle each serving with 2 tablespoons sauce.</item>
     </string-array>
 
-    <string-array name="roti_john_dir"></string-array>
+    <string-array name="roti_john_dir">
+        <item>Cut the bread into thick slices.</item>
+        <item>In a wide shallow bowl, mix the eggs, onion and corned beef.</item>
+        <item>Season with salt and pepper to taste.</item>
+        <item>Heat about 2 tablespoons oil in a frying pan.</item>
+        <item>Dip one side of each slice of bread into the egg mixture and gently place egg-side down into the pan.</item>
+        <item>Repeat with as many slices as will fit.</item>
+        <item>Press down with a spatula.</item>
+        <item>When browned, flip to brown the other side.</item>
+        <item>Remove and drain on paper towels.</item>
+        <item>Repeat until all the bread or egg mixture is finished.</item>
+        <item>Serve hot.</item>
+    </string-array>
+
+    <string-array name="ham_cheese_dir">
+        <item>Preheat oven to 350 degrees F (175 degrees C).</item>
+        <item>In a medium bowl, mix together butter, poppy seeds, onion, Worcestershire sauce and prepared Dijon-style mustard.</item>
+        <item>Slice rolls in half horizontally and set aside tops.</item>
+        <item>Spread bottoms with the butter mixture.</item>
+        <item>Top with ham and Swiss cheese.</item>
+        <item>Replace tops.</item>
+        <item>Arrange rolls in a single layer in a medium baking dish.</item>
+        <item>Bake in the preheated oven 10 to 12 minutes, until rolls are lightly browned and cheese is melted.</item>
+    </string-array>
+
+    <string-array name="oyster_roll_dir">
+        <item>Whisk together mayonnaise, chipotle, and lemon juice and chill mixture, its surface covered with plastic wrap.</item>
+        <item>Heat oil in a deep heavy pot over high heat until it registers 375°F on deep-fat thermometer, about 12 minutes.</item>
+        <item>While oil is heating, whisk together egg, milk, and 1 teaspoon salt in a bowl.</item>
+        <item>Shake cornmeal, remaining 1 &#189; teaspoons salt, and pepper in a plastic or paper bag until combined well.</item>
+        <item>Working in batches, add oysters to egg mixture, then lift out, letting excess drip off, and transfer to cornmeal in bag, shaking to coat well.</item>
+        <item>Carefully transfer to oil, knocking off excess coating, and fry, turning occasionally, until golden and just cooked through, 1 to 2 minutes.</item>
+        <item>Transfer with a slotted spoon to paper towels to drain.</item>
+        <item>Coat and fry remaining oysters in same manner, returning oil to 375°F for each batch.</item>
+        <item>Halve loaf crosswise and horizontally, cutting all the way through, and spread one cut side of each piece with mayonnaise.</item>
+        <item>Sandwich oysters and lettuce between bread, pressing gently.</item>
+    </string-array>
 
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_dir">

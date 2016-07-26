@@ -45,6 +45,14 @@
     <string name="ham_cheese_sub">No introductions needed for this classic</string>
     <string name="oyster_roll_sub">This sandwich can be summed up in one word: Crunch.</string>
 
+    <!-- SWEET -->
+
+    <string name="cara_choco_ban_sub">The kid in me</string>
+    <string name="choco_oat_moon_sub">Marshmallow, chocolate and Oats</string>
+    <string name="blue_choco_panini_sub">White Chocolate. What else lures?</string>
+    <string name="french_macroons_sub">Macaroons! Those gorgeous, little French cookies</string>
+    <string name="brownie_ice_cream_sub">Brownie and Ice Cream. Impeccable</string>
+
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>
 </resources>

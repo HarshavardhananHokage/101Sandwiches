@@ -506,6 +506,67 @@
         <item>a deep-fat thermometer</item>
     </string-array>
 
+    <!-- SWEET -->
+
+    <string-array name="cara_choco_ban_ing">
+        <item>2 tablespoons unsalted butter, room temperature</item>
+        <item>2 tablespoons dark brown sugar (packed)</item>
+        <item>4 slices buttermilk bread</item>
+        <item>8 large marshmallows</item>
+        <item>2 tablespoons semi-sweet chocolate chips</item>
+        <item>1 banana (sliced into 12 slices)</item>
+    </string-array>
+
+    <string-array name="choco_oat_moon_ing">
+        <item>1 &#188; cups unbleached all-purpose flour</item>
+        <item>&#190; teaspoon baking powder</item>
+        <item>&#189; teaspoon baking soda</item>
+        <item>&#189; teaspoon kosher salt</item>
+        <item>2 &#188; cups old-fashioned oats</item>
+        <item>1 cup dried tart cherries, chopped</item>
+        <item>1 cup pecans, chopped</item>
+        <item>&#190; cup semisweet or bittersweet chocolate (4 ounces), chopped into chocolate chip-size chunks</item>
+        <item>&#190; cup (1 &#189; sticks) unsalted butter, room temperature</item>
+        <item>1 &#189; cups (packed) dark brown sugar</item>
+        <item>1 large egg</item>
+        <item>1 teaspoon vanilla extract</item>
+        <item>2 7-ounce jars marshmallow creme</item>
+        <item>1 tablespoon honey</item>
+        <item>&#189; cup heavy cream</item>
+    </string-array>
+
+    <string-array name="blue_choco_panini_ing">
+        <item>4 slices whole wheat or multi-grain sandwich bread</item>
+        <item>salted butter, softened at room temperature</item>
+        <item>6 "jumbo size" marshmallows</item>
+        <item>&#189; cup white chocolate chips or 1 white chocolate bar, broken into pieces</item>
+        <item>&#189; cup fresh blueberries</item>
+        <item>Sea salt or kosher salt</item>
+    </string-array>
+
+    <string-array name="french_macroons_ing">
+        <item>2 cups powdered sugar</item>
+        <item>1 cup (lightly packed) sifted almond flour, or &#190; cup sifted almond flour and &#188; cup sifted hazelnut flour</item>
+        <item>&#189; cup (scant) egg whites (from about 3 large eggs)</item>
+        <item>2 tablespoons plus &#189; teaspoon sugar</item>
+        <item>1 cup sugar</item>
+        <item>2 teaspoons honey</item>
+        <item>1 cup heavy whipping cream</item>
+        <item>&#189; tablespoon butter</item>
+    </string-array>
+
+    <string-array name="brownie_ice_cream_ing">
+        <item>1 (8-ounce) package semisweet baking chocolate</item>
+        <item>1 stick butter</item>
+        <item>1 cup sugar</item>
+        <item>4 large eggs</item>
+        <item>2 teaspoons vanilla extract</item>
+        <item>&#190; cup all-purpose flour</item>
+        <item>&#189; teaspoon salt</item>
+        <item>1 quart vanilla ice cream</item>
+        <item>&#188; cup white and semisweet chocolate chips (optional)</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">
         <item>1 (6 ounce) can tuna, drained and flaked</item>

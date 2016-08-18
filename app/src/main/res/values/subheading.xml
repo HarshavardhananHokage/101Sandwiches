@@ -29,13 +29,13 @@
 
     <!-- SPICE -->
     <string name="vietnamese_sub">Your friendly vietnamese to spice things up</string>
-    <string name="spicy_chic_fillet_sub">A copy of the popular sandwich from Wendy's</string>
+    <string name="spicy_chic_fillet_sub">A copy of the popular sandwich from Wendy\'s</string>
     <string name="spicy_egg_salad_sub">Goodness of egg with the kick of spices</string>
     <string name="roast_beef_avocado_sub">Holy trinity of Beef, Avocado and Mayo</string>
     <string name="mint_chutney_sub">Healthy and Tasty from India.</string>
     <string name="torta_ahogada_sub">Also known as Mexican "Drowned" Sandwich</string>
     <string name="austrian_bosna_sub">A Salzburg, Austria street snack</string>
-    <string name="deviled_ham_sub">Don't let the name fool you</string>
+    <string name="deviled_ham_sub">Don\'t let the name fool you</string>
     <string name="pulled_pork_sub">Super Easy Super Pork</string>
     <string name="banh_mi_sub">It means all kind of sandwich</string>
     <string name="the_dagwood_sub">A tall, multi-layered sandwich</string>
@@ -52,7 +52,10 @@
     <string name="blue_choco_panini_sub">White Chocolate. What else lures?</string>
     <string name="french_macroons_sub">Macaroons! Those gorgeous, little French cookies</string>
     <string name="brownie_ice_cream_sub">Brownie and Ice Cream. Impeccable</string>
-
+    <string name="frozen_yogurt_sub">Tasty and healthy</string>
+    <string name="ice_cream_sub">Homemade Ice Cream Sandwiches? Yes, please!</string>
+    <string name="banana_nutella_sub">Pan-fried banana and Nutella</string>
+    <string name="japanese_fruit_sub">Also known as Furūtsu Sando</string>
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>
 </resources>

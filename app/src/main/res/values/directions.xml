@@ -288,7 +288,7 @@
         <item>In a small bowl, whisk together the optional anchovies, the garlic, vinegar, mustard, salt and pepper.</item>
         <item>Slowly drizzle in oil, whisking constantly.</item>
         <item>If using a country loaf, pull out some soft interior crumb to form a cavity.</item>
-        <item>If using a ciabatta, you won't need to eliminate anything.</item>
+        <item>If using a ciabatta, you won\'t need to eliminate anything.</item>
         <item>If using a Kirby cucumber, slice thinly.</item>
         <item>If using a regular cucumber, peel, halve lengthwise, and scoop out seeds from one half.</item>
         <item>Thinly slice seedless half.</item>
@@ -305,7 +305,7 @@
 
     <!-- SPICE -->
     <string-array name="vietnamese_dir">
-        <item>With chef's knife, mash garlic and salt into a paste.</item>
+        <item>With chef\'s knife, mash garlic and salt into a paste.</item>
         <item>Transfer to a mixing bowl and add vinegar and sugar, stirring to dissolve.</item>
         <item>Add carrots, onions and chilies.</item>
         <item>Toss to coat, set aside.</item>
@@ -406,7 +406,7 @@
         <item>Allow the mixture to cool.</item>
         <item>Pour the cooled vinegar mixture over the carrot, radish, and onion in a bowl, and allow to stand for at least 30 minutes.</item>
         <item>Drain off the excess vinegar mixture after the vegetables have marinated.</item>
-        <item>While the vegetables are marinating, preheat the oven's broiler, and set the oven rack about 6 inches from the heat source.</item>
+        <item>While the vegetables are marinating, preheat the oven\'s broiler, and set the oven rack about 6 inches from the heat source.</item>
         <item>Lightly oil a slotted broiler pan.</item>
         <item>Sprinkle the chicken breast with garlic salt and pepper, and broil on slotted broiler pan, turning once, until the center of the chicken breast is no longer pink and the surface has browned, about 6 minutes per side.</item>
         <item>Remove the broiled chicken, and slice into bite-size pieces.</item>
@@ -538,7 +538,7 @@
         <item>Cut each marshmallow into three pieces and arrange three each on two of the slices of buttered bread (sticky-side down makes this easiest!).</item>
         <item>Top with white chocolate and blueberries, then cover with remaining two slices of bread to make two sandwiches.</item>
         <item>Gently place each sandwich on the preheated grill and either close the panini maker, or top with a heavy object such as another heavy pan, a heavy heat-proof plate, or a tea kettle filled with water.</item>
-        <item>Press down and let grill about 1 &#189; to 2 minutes, then flip and cook on other side (if you're using a panini press, there is no need to flip.)</item>
+        <item>Press down and let grill about 1 &#189; to 2 minutes, then flip and cook on other side (if you\'re using a panini press, there is no need to flip.)</item>
         <item>Cut each sandwich in half and sprinkle with a bit of sea salt.</item>
         <item>Serve immediately.</item>
     </string-array>
@@ -596,6 +596,60 @@
         <item>Serve immediately.</item>
     </string-array>
 
+    <string-array name="frozen_yogurt_dir">
+        <item>To make cookies: Preheat oven to 300 °F.</item>
+        <item>Coat 2 baking sheets with cooking spray.</item>
+        <item>Whisk together sugar, oil, milk, egg white and vanilla in a mixing bowl until no lumps of brown sugar remain.</item>
+        <item>Add oats, flour, baking soda and cinnamon to the bowl and stir until no traces of dry ingredients remain.</item>
+        <item>Divide the dough into 16 equal pieces and form each piece into a ball.</item>
+        <item>Place 8 balls on each prepared baking sheet.</item>
+        <item>Cover each baking sheet with a piece of plastic wrap or wax paper.</item>
+        <item>Firmly press each of the balls into a thin 3-inch circle, using a flat-bottomed cup or bowl.</item>
+        <item>Bake the cookies, one sheet at a time, until well-browned, 8 to 10 minutes.</item>
+        <item>Transfer to a wire rack to cool completely.</item>
+        <item>To make sandwiches: If the pieces of fruit are large, coarsely chop them.</item>
+        <item>Soften frozen yogurt in the microwave at medium-low power for 30 to 60 seconds or at room temperature for 10 to 20 minutes; place in a mixing bowl.</item>
+        <item>Swirl the fruit into the softened frozen yogurt.</item>
+        <item>If the yogurt has become too soft, return it to the freezer to firm up slightly.</item>
+        <item>Scoop about &#8531; cup of frozen yogurt onto a cookie and gently press a second cookie on top.</item>
+        <item>Repeat with the remaining cookies and frozen yogurt.</item>
+        <item>Return the sandwiches to the freezer to firm up.</item>
+    </string-array>
+
+    <string-array name="ice_cream_dir">
+        <item>Preheat oven to 350 degrees F (175 degrees C). Lightly grease baking sheets.</item>
+        <item>In a large bowl, mix together the cake mix, butter, vanilla extract, eggs, chocolate chips, and butterscotch chips.</item>
+        <item>Roll dough into 2-inch balls and place them onto the prepared baking sheets.</item>
+        <item>Bake for 10 minutes in the preheated oven.</item>
+        <item>Do not over-bake; the cookies should be set, but still soft.</item>
+        <item>Let cool on the baking sheet for a few minutes before removing to finish cooling on wire racks.</item>
+        <item>Using an ice cream scoop, mold the softened ice cream into a ball about the size of the cookies.</item>
+        <item>Place scoop of ice cream between two cookies and gently press together.</item>
+        <item>If you like a smooth edge, run the back of a spoon around the edge of the ice cream sandwich.</item>
+        <item>Working quickly, fill all of the cookies, lay out on a baking sheet, and place in the freezer to harden.</item>
+        <item>Serve when the ice cream has frozen solid.</item>
+        <item>Sandwich cookies can be stored in a freezer bag for up to two weeks.</item>
+    </string-array>
+
+    <string-array name="banana_nutella_dir">
+        <item>Spread one tablespoon of Nutella on the face of each slice of bread.</item>
+        <item>Top one with banana slices and place second slice on top.</item>
+        <item>Heat the frying pan and melt &#189; of the butter.</item>
+        <item>Place the sandwich into the pan and fry until golden.</item>
+        <item>Add the remaining butter to the pan and flip the sandwich, cooking until the other side is golden.</item>
+    </string-array>
+
+    <string-array name="japanese_fruit_dir">
+        <item>Whip the cream, gradually adding the sugar.</item>
+        <item>When you have a soft peak, add the vanilla and continue to whip until you get a stiff peak.</item>
+        <item>Spread a few Tbsp of whipped cream on one side of each slice of bread.</item>
+        <item>Place a mix of fruit pieces in a single layer, evenly on 4 of the 8 pieces.</item>
+        <item>Top the fruit with another slice of bread, cream side down.</item>
+        <item>Carefully use the serrated knife to cut the crusts off.</item>
+        <item>It is easiest to cut in one direction to minimize the cream from oozing out.</item>
+        <item>Cut each sandwich in half (for a personal size) or in quarters (for tea sandwiches).</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_dir">
         <item>Preheat the oven to 375 degrees F (190 degrees C).</item>
@@ -606,7 +660,6 @@
         <item>Bake for 7 minutes in the preheated oven, or until cheese is melted and tuna is heated through.</item>
         <item>Place the cheese side of the sandwich on top of the tuna side.</item>
         <item>Cut in half and serve immediately.</item>
-
     </string-array>
 
 </resources>

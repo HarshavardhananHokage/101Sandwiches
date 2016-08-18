@@ -10,13 +10,13 @@
     <string name="steak_foie_gras_desc">Creamy, controversial foie gras comes together with freezer-aisle steak in this cheesy sandwich</string>
     <string name="crab_sandwich_desc">This delicious crab sandwich recipe is great for any outdoor party, day or night</string>
     <string name="caviar_quail_eggs_desc">When adding rich ingredients like creme fraiche and caviar, the smaller size also feels less over-indulgent</string>
-    <string name="lobster_roll_desc">Innovators prefer a crunchy, tangy and slightly spicy version of the lobster salad that includes celery, lettuce, lemon juice and a pinch of cayenne. Purists don't</string>
+    <string name="lobster_roll_desc">Innovators prefer a crunchy, tangy and slightly spicy version of the lobster salad that includes celery, lettuce, lemon juice and a pinch of cayenne. Purists don\'t</string>
     <string name="porteno_lomito_desc">Each of these mighty sandwiches can be 10 cm tall, filled with about 250gms of hand-shaved pork loin, avocado, celery and plenty of mayonnaise</string>
     <string name="bacon_nan_roll_desc">Invented by Dishoom in England with a perfect anglo-indian style and a proper addition of spicy chutney, cream cheese and coriander</string>
     <string name="open_sausage_desc">A trimmed down version of a Italian sandwich classic. It is as healthy as it is tasty</string>
     <string name="croque_monsieur_desc">The name is based on the verb croquer ("to bite") and the word monsieur ("mister"). It first made appearance in 1910, Paris</string>
     <string name="croque_madame_desc">A croque monsieur served with a poached or lightly fried egg on top is known as a croque madame</string>
-    <string name="club_sandwich_desc">Dated as far back as 1899 it's a sandwich of occasionally toasted bread, sliced cooked poultry, fried bacon, lettuce, tomato and mayonnaise</string>
+    <string name="club_sandwich_desc">Dated as far back as 1899 it\'s a sandwich of occasionally toasted bread, sliced cooked poultry, fried bacon, lettuce, tomato and mayonnaise</string>
     <string name="pastrami_on_rye_desc">Pastrami a meat product usually made from beef, and sometimes from pork, mutton or turkey</string>
     <string name="veal_schnitzel_desc">A schnitzel is meat, thinned by pounding with a meat tenderizer, coated with flour, beaten eggs and bread crumbs, and then fried.</string>
     <string name="muffaletta_desc">The muffuletta is the quintessential New Orleans sandwich of cured meats, cheese and tangy olive salad piled onto a sturdy Italian loaf</string>
@@ -30,7 +30,7 @@
     <string name="vietnamese_desc">This sandwich is the best for those who would like to add some spice to their life with some jalapeno, garlic and spice powder</string>
     <string name="spicy_chic_fillet_desc">Created by Todd Wilbur in his book "Even More Top Secret Recipes". To make this a little healthier, just broil the sandwiches in the oven</string>
     <string name="spicy_egg_salad_desc">For anyone who loves egg mayo and love spices, this is really a win - win recipe. Tastes better when prepared with toasted wholegrain English muffins</string>
-    <string name="roast_beef_avocado_desc">This sandwich is to die for! If you like the ingredients, you'll love them together in this sandwich!. Don't believe? Try it out now</string>
+    <string name="roast_beef_avocado_desc">This sandwich is to die for! If you like the ingredients, you\'ll love them together in this sandwich!. Don\'t believe? Try it out now</string>
     <string name="mint_chutney_desc">This veg sandwich is from bombay aka Mumbai. Found anywhere in Mumbai, it is ideal for picnics, school lunch, evening snacks or short eats</string>
     <string name="torta_ahogada_desc">The torta ahogada was created accidentally when a torta was dropped into the salsa container. A delicious accident indeed</string>
     <string name="austrian_bosna_desc">Bosna is both the name for the sandwich and the sausage in the sandwich. The sausage was originally called Nadanitza</string>
@@ -42,15 +42,19 @@
     <string name="chicken_shawarma_desc">Shawarma is a Middle Eastern dish of garlicky meat or poultry served on pitas. This chicken version is flavored with a savory yogurt sauce</string>
     <string name="roti_john_desc">Roti is a Hindi, Urdu and Malay for bread, more generally for any bread-based food I have no idea who John is but this is a delicious breakfast or snack</string>
     <string name="ham_cheese_desc">Sliced bread, cheese and cooked ham are very readily available in Western supermarkets and as a result ham and cheese sandwiches are quick and easy to prepare</string>
-    <string name="oyster_roll_desc">Hot pepper sauce is the traditional condiment, but we've improvised a little, using chipotle mayonnaise to add a layer of smokiness instead of pure heat</string>
+    <string name="oyster_roll_desc">Hot pepper sauce is the traditional condiment, but we\'ve improvised a little, using chipotle mayonnaise to add a layer of smokiness instead of pure heat</string>
 
     <!-- SWEET -->
 
     <string name="cara_choco_ban_desc">This fun, gooey treat makes a great after-school snack. The marshmallows are slightly charred and the bread is cleverly caramelized for double the toasty flavor</string>
     <string name="choco_oat_moon_desc">The cookies are oatmeal cookies with chunks of dried cherries, dark chocolate, and pecans. As you can see, this dessert is quite a mouthful</string>
-    <string name="blue_choco_panini_desc">These are best served immediately, so if you're planning for dessert, just assemble them in advance and wait until you're ready for the sweets to begin pressing</string>
+    <string name="blue_choco_panini_desc">These are best served immediately, so if you\'re planning for dessert, just assemble them in advance and wait until you\'re ready for the sweets to begin pressing</string>
     <string name="french_macroons_desc">Though there is a common thought that making macrons will make you collapse on your kitchen floor, if you overcome that, you have a new world of taste before you.</string>
-    <string name="brownie_ice_cream_desc">For an even faster version of this decadent ice-cream sandwich dessert, substitute your favorite brownie mix.</string>
+    <string name="brownie_ice_cream_desc">For an even faster version of this decadent ice-cream sandwich dessert, substitute your favorite brownie mix</string>
+    <string name="frozen_yogurt_desc">Great for the kids—or the kids at heart—frozen fruit swirled into frozen yogurt and sandwiched between two crisp oatmeal cookies</string>
+    <string name="ice_cream_desc">An ice cream sandwich is a frozen dessert consisting of ice cream between two wafers, cakes, cookies, or other similar biscuit.</string>
+    <string name="banana_nutella_desc">Yes, it\'s a Nutella and banana sandwich fried in butter. It\'s naughty, but we are allowed an occasional treat sometimes. Just make sure you go for a jog afterwards.</string>
+    <string name="japanese_fruit_desc">Fruit sandwich are a very popular snack in Japan. These sandwiches are had during tea time in Japan. Mostly loved by women.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>

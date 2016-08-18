@@ -298,7 +298,7 @@
 
     <string-array name="spicy_chic_fillet_ing">
         <item>6 &#8211; 8 cups vegetable oil</item>
-        <item>&#8531; cup frank's original red hot pepper sauce</item>
+        <item>&#8531; cup frank\'s original red hot pepper sauce</item>
         <item>2⁄3 cup water</item>
         <item>1 cup all-purpose flour</item>
         <item>2 &#189; teaspoons salt</item>
@@ -565,6 +565,47 @@
         <item>&#189; teaspoon salt</item>
         <item>1 quart vanilla ice cream</item>
         <item>&#188; cup white and semisweet chocolate chips (optional)</item>
+    </string-array>
+    
+    <string-array name="frozen_yogurt_ing">
+        <item>&#189; cup packed light brown sugar</item>
+        <item>2 tablespoons canola oil</item>
+        <item>1 tablespoon low-fat milk</item>
+        <item>1 large egg white</item>
+        <item>1 teaspoon vanilla extract</item>
+        <item>1 cup quick rolled oats</item>
+        <item>&#189; cup whole-wheat flour</item>
+        <item>1 teaspoon baking soda</item>
+        <item>&#189; teaspoon ground cinnamon</item>
+        <item>2 cups frozen unsweetened fruit, such as cherries, blueberries, strawberries, peaches, slightly thawed</item>
+        <item>3 cups nonfat vanilla frozen yogurt</item>
+    </string-array>
+
+    <string-array name="ice_cream_ing">
+        <item>1 (18.25 ounce) package chocolate cake mix</item>
+        <item>&#189; cup butter, softened</item>
+        <item>1 teaspoon vanilla extract</item>
+        <item>2 eggs</item>
+        <item>&#189; cup semisweet chocolate chips</item>
+        <item>&#189; cup butterscotch chips</item>
+        <item>&#189; gallon vanilla ice cream, softened</item>
+    </string-array>
+
+    <string-array name="banana_nutella_ing">
+        <item>2 slices of bread</item>
+        <item>2 tbsp Nutella</item>
+        <item>1 banana, peeled and sliced</item>
+        <item>2 tbsp butter</item>
+    </string-array>
+
+    <string-array name="japanese_fruit_ing">
+        <item>8 slices of soft white bread</item>
+        <item>1 cup heavy whipping cream</item>
+        <item>2 Tbsp sugar</item>
+        <item>&#189; tsp vanilla extract</item>
+        <item>4 large strawberries, sliced and pat dry</item>
+        <item>2 kiwis, peeled, sliced, and pat dry</item>
+        <item>&#189; can of sliced peaches, drained, pat dry, and sliced once lengthwise</item>
     </string-array>
 
     <!-- GUILTY -->

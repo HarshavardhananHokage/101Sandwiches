@@ -56,6 +56,11 @@
     <string name="ice_cream_sub">Homemade Ice Cream Sandwiches? Yes, please!</string>
     <string name="banana_nutella_sub">Pan-fried banana and Nutella</string>
     <string name="japanese_fruit_sub">Also known as Furūtsu Sando</string>
+    <string name="fluffer_nutter_sub">Peanut butter and Marshmallow</string>
+    <string name="peanut_jelly_sub">Also known as PB&#38;j</string>
+    <string name="prosciutto_fig_sub">Prosciutto is an Italian dry-cured ham</string>
+    <string name="cinnamon_tost_sub">Quick, easy and tasty.</string>
+
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>
 </resources>

@@ -52,9 +52,13 @@
     <string name="french_macroons_desc">Though there is a common thought that making macrons will make you collapse on your kitchen floor, if you overcome that, you have a new world of taste before you.</string>
     <string name="brownie_ice_cream_desc">For an even faster version of this decadent ice-cream sandwich dessert, substitute your favorite brownie mix</string>
     <string name="frozen_yogurt_desc">Great for the kids—or the kids at heart—frozen fruit swirled into frozen yogurt and sandwiched between two crisp oatmeal cookies</string>
-    <string name="ice_cream_desc">An ice cream sandwich is a frozen dessert consisting of ice cream between two wafers, cakes, cookies, or other similar biscuit.</string>
+    <string name="ice_cream_desc">An ice cream sandwich is a frozen dessert consisting of ice cream between two wafers, cakes, cookies, or other similar biscuit</string>
     <string name="banana_nutella_desc">Yes, it\'s a Nutella and banana sandwich fried in butter. It\'s naughty, but we are allowed an occasional treat sometimes. Just make sure you go for a jog afterwards.</string>
-    <string name="japanese_fruit_desc">Fruit sandwich are a very popular snack in Japan. These sandwiches are had during tea time in Japan. Mostly loved by women.</string>
+    <string name="japanese_fruit_desc">Fruit sandwich are a very popular snack in Japan. These sandwiches are had during tea time in Japan. Mostly loved by women</string>
+    <string name="fluffer_nutter_desc">The term “fluffernutter” was created by an advertising agency in 1960 as a more effective way to market the sandwich</string>
+    <string name="peanut_jelly_desc">A 2002 survey showed the average American will have eaten 1,500 of these sandwiches before high school graduation</string>
+    <string name="prosciutto_fig_desc">Prosciutto and fresh figs are a classic Italian combination. Along with the cheese and jam, they create a sweet-savory sandwich that's simple yet memorable.</string>
+    <string name="cinnamon_tost_desc">Cinnamon Toast’s golden brown color, crispiness and ability to melt butter gets me every time. Warm and cozy.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>

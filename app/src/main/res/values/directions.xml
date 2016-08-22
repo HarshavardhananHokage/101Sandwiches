@@ -650,6 +650,37 @@
         <item>Cut each sandwich in half (for a personal size) or in quarters (for tea sandwiches).</item>
     </string-array>
 
+    <string-array name="fluffer_nutter_dir">
+        <item>Butter 1 side of each slice of bread.</item>
+        <item>Coat 1 side of 1 slice of bread with peanut butter.</item>
+        <item>Coat 1 side of other slice of bread with Nutella.</item>
+        <item>Spread marshmallow fluff between two slices of bread.</item>
+        <item>Grill in oiled skillet until toasted and inside of sandwich is gooey and delicious.</item>
+    </string-array>
+
+    <string-array name="peanut_jelly_dir">
+        <item>Heat griddle or skillet to 350 degrees F (175 degrees C).</item>
+        <item>Spread butter on one side of each slice of bread.</item>
+        <item>Spread peanut butter on unbuttered side of one slice of bread, and jelly on the other.</item>
+        <item>Place one slice, buttered side down on the griddle.</item>
+        <item>Top with other slice, so that peanut butter and jelly are in the middle.</item>
+        <item>Cook for 4 minutes on each side, or until golden brown, and heated through.</item>
+    </string-array>
+
+    <string-array name="prosciutto_fig_dir">
+        <item>Spread 1 teaspoon mustard over 4 bread slices.</item>
+        <item>Arrange &#188; cup arugula over each bread slice.</item>
+        <item>Divide prosciutto evenly over bread slices; top evenly with cheese and fig slices.</item>
+        <item>Spread 1 &#189; teaspoons jam over remaining 4 bread slices.</item>
+        <item>Top each serving with 1 bread slice, jam side down.</item>
+    </string-array>
+    
+    <string-array name="cinnamon_tost_dir">
+        <item>In a small bowl, combine butter, sugar and cinnamon and set aside.</item>
+        <item>Toast both slices of bread, then remove from toaster.</item>
+        <item>While still hot, spread butter mixture over both slices, sprinkle with a little extra sugar and eat immediately.</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_dir">
         <item>Preheat the oven to 375 degrees F (190 degrees C).</item>

@@ -608,6 +608,38 @@
         <item>&#189; can of sliced peaches, drained, pat dry, and sliced once lengthwise</item>
     </string-array>
 
+    <string-array name="fluffer_nutter_ing">
+        <item>2 slices white bread</item>
+        <item>1 tablespoon butter</item>
+        <item>1 &#189; tablespoons peanut butter</item>
+        <item>1 &#189; tablespoons nutella</item>
+        <item>1 &#189; tablespoons marshmallow cream</item>
+    </string-array>
+
+    <string-array name="peanut_jelly_ing">
+        <item>2 teaspoons butter</item>
+        <item>2 slices white bread</item>
+        <item>1 teaspoon peanut butter</item>
+        <item>2 teaspoons any flavor fruit jelly</item>
+    </string-array>
+
+    <string-array name="prosciutto_fig_ing">
+        <item>4 teaspoons Dijon mustard</item>
+        <item>8 (&#190;-ounce) slices Italian bread, toasted</item>
+        <item>1 cup baby arugula</item>
+        <item>2 ounces very thin slices prosciutto</item>
+        <item>2 ounces Manchego cheese, shaved</item>
+        <item>8 fresh figs, cut into thin slices</item>
+        <item>2 tablespoons fig jam</item>
+    </string-array>
+
+    <string-array name="cinnamon_tost_ing">
+        <item>2 slices cinnamon raisin bread (or regular sandwich bread)</item>
+        <item>2 tbsps unsalted butter (softened but not melted)</item>
+        <item>1 tbsp sugar (plus more for sprinkling)</item>
+        <item>&#189; tsp ground cinnamon</item>
+    </string-array>
+
     <!-- GUILTY -->
     <string-array name="simple_tuna_melt_ing">
         <item>1 (6 ounce) can tuna, drained and flaked</item>

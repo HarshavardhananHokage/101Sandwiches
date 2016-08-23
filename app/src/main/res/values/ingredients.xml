@@ -633,7 +633,7 @@
         <item>2 tablespoons fig jam</item>
     </string-array>
 
-    <string-array name="cinnamon_tost_ing">
+    <string-array name="cinnamon_toast_ing">
         <item>2 slices cinnamon raisin bread (or regular sandwich bread)</item>
         <item>2 tbsps unsalted butter (softened but not melted)</item>
         <item>1 tbsp sugar (plus more for sprinkling)</item>
@@ -650,5 +650,59 @@
         <item>2 slices whole wheat bread</item>
         <item>2 teaspoons chopped dill pickle</item>
         <item>&#188; cup shredded sharp Cheddar cheese</item>
+    </string-array>
+
+    <string-array name="potato_chip_ing">
+        <item>2 slices bread or 1 sandwich bun</item>
+        <item>2 to 3 slices of lunch meat</item>
+        <item>1 slice cheese</item>
+        <item>6 slices pickles</item>
+        <item>2 slices tomatoes</item>
+        <item>2 tablespoons mayonnaise</item>
+        <item>3 slices onions (optional)</item>
+        <item>ruffled potato chips</item>
+    </string-array>
+
+    <string-array name="yakisoba_pan_ing">
+        <item>2 packages pre-steamed Yakisoba noodles (6 ounces each)</item>
+        <item>&#189; tablespoons vegetable oil</item>
+        <item>3 large or 4 regular hot dogs, sliced in &#189; inch pieces</item>
+        <item>&#189; medium onion, thinly slice</item>
+        <item>2 medium carrots, thinly sliced on the diagonal</item>
+        <item>&#188; head green cabbage cut into 1-inch squares</item>
+        <item>6 tablespoons Yakisoba Sauce (or to suit your taste)</item>
+        <item>&#189; teaspoon salt</item>
+        <item>&#189; teaspoon freshly ground black pepper</item>
+        <item>&#188; cup water or sake</item>
+        <item>6 to 8 Hot dog buns</item>
+    </string-array>
+
+    <string-array name="fracesinha_ing">
+        <item>2 slices white bread</item>
+        <item>2 slices smoked ham</item>
+        <item>4 slices cheese, something melty like a dutch cheese</item>
+        <item>1 cooked sausage, sliced, something along the lines of chorizo</item>
+        <item>1 slice roast beef</item>
+        <item>FOR THE SAUCE</item>
+        <item>1 beer</item>
+        <item>1 chicken stock cube</item>
+        <item>1 tablespoon butter</item>
+        <item>2 tablespoons concentrated tomato paste</item>
+        <item>&#188; cup brandy or &#188; cup port wine</item>
+        <item>&#188; cup milk</item>
+        <item>1 tablespoon cornstarch</item>
+        <item>1 bay leaf</item>
+        <item>chili flakes, to taste</item>
+        <item>salt, to taste</item>
+    </string-array>
+
+    <string-array name="roasted_turkey_ing">
+        <item>&#8531; cup mayonnaise or salad dressing</item>
+        <item>1 tablespoon chopped fresh or 1 teaspoon dried basil leaves</item>
+        <item>&#188; teaspoon garlic powder</item>
+        <item>8 slices sourdough bread, &#189; inch thick</item>
+        <item>8 large spinach leaves</item>
+        <item>&#189; lb sliced oven roasted turkey breast</item>
+        <item>&#189; cup chopped drained roasted red bell peppers</item>
     </string-array>
 </resources>

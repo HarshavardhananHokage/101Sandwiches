@@ -675,7 +675,7 @@
         <item>Top each serving with 1 bread slice, jam side down.</item>
     </string-array>
     
-    <string-array name="cinnamon_tost_dir">
+    <string-array name="cinnamon_toast_dir">
         <item>In a small bowl, combine butter, sugar and cinnamon and set aside.</item>
         <item>Toast both slices of bread, then remove from toaster.</item>
         <item>While still hot, spread butter mixture over both slices, sprinkle with a little extra sugar and eat immediately.</item>
@@ -691,6 +691,46 @@
         <item>Bake for 7 minutes in the preheated oven, or until cheese is melted and tuna is heated through.</item>
         <item>Place the cheese side of the sandwich on top of the tuna side.</item>
         <item>Cut in half and serve immediately.</item>
+    </string-array>
+
+    <string-array name="potato_chip_dir">
+        <item>Spread the mayo on the bread.</item>
+        <item>Place the meat, cheese, pickle, onion if using, tomato and chips onto one slice of bread and top it off with the second slice of bread.</item>
+        <item>Smash it down a bit and hang on! It gets a bit messy!</item>
+    </string-array>
+
+    <string-array name="yakisoba_pan_dir">
+        <item>Lightly loosen Yakisoba noodles and set aside.</item>
+        <item>Heat vegetable oil in medium skillet on medium heat.</item>
+        <item>Add hot dogs, onion, carrot to the skillet and stir-fry for about 5 to 7 minutes or until onions and carrots brown slightly and soften but still have a bite to them.</item>
+        <item>Add the cabbage to the skillet and stir-fry for another 3 to 4 minutes.</item>
+        <item>Add salt and freshly ground black pepper.</item>
+        <item>Add the noodles to the skillet.</item>
+        <item>Pour &#188; cup of water or sake over the noodle mixture and cover the skillet.</item>
+        <item>Turn down the heat to low and steam for about two minutes.</item>
+        <item>Remove the lid to let the remaining liquid evaporate, about 2 minutes.</item>
+        <item>Add the Yakisoba sauce. (adjust the amount of sauce to your taste)</item>
+        <item>Stir-fry the noodles quickly so the sauce is mixed evenly. Shut off the heat.</item>
+        <item>Fill each hot dog bun with Yakisoba, sprinkle with Aonori and top with the pickled ginger and serve.</item>
+    </string-array>
+
+    <string-array name="fracesinha_dir">
+        <item>Make the sauce first by dissolving the cornstarch into the milk.</item>
+        <item>Add all the other sauce ingredients and blend in food processor.</item>
+        <item>Put it into a pan over low heat and add the bay leaf .</item>
+        <item>Stir it until it starts to boil, remove bay leaf and then set aside.</item>
+        <item>Assemble the sandwich saving 2 slices of cheese.</item>
+        <item>Put the sandwich on a plate or shallow bowl and place the 2 slices of cheese on top.</item>
+        <item>Pour the sauce over the sandwich (should be hot, so the cheese melts).</item>
+        <item>Eat &#8212; you may want a bib.</item>
+    </string-array>
+
+    <string-array name="roasted_turkey_dir">
+        <item>In small bowl, mix mayonnaise, basil and garlic powder.</item>
+        <item>Spread on one side of each bread slice.</item>
+        <item>Layer spinach, turkey and bell peppers on 4 slices of bread.</item>
+        <item>Top with remaining bread.</item>
+        <item>Savour</item>
     </string-array>
 
 </resources>

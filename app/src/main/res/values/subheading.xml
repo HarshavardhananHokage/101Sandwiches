@@ -59,8 +59,12 @@
     <string name="fluffer_nutter_sub">Peanut butter and Marshmallow</string>
     <string name="peanut_jelly_sub">Also known as PB&#38;j</string>
     <string name="prosciutto_fig_sub">Prosciutto is an Italian dry-cured ham</string>
-    <string name="cinnamon_tost_sub">Quick, easy and tasty.</string>
+    <string name="cinnamon_toast_sub">Quick, easy and tasty.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_sub">Tuna, Tuna and Only Tuna</string>
+    <string name="potato_chip_sub">Also known as "Trailer Park Cuisine"</string>
+    <string name="yakisoba_pan_sub">Literally "fried buckwheat" bread</string>
+    <string name="fracesinha_sub">The Portuguese Croque Madame</string>
+    <string name="roasted_turkey_sub">Transform your thanksgiving leftovers</string>
 </resources>

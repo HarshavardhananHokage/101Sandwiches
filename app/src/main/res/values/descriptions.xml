@@ -58,8 +58,12 @@
     <string name="fluffer_nutter_desc">The term “fluffernutter” was created by an advertising agency in 1960 as a more effective way to market the sandwich</string>
     <string name="peanut_jelly_desc">A 2002 survey showed the average American will have eaten 1,500 of these sandwiches before high school graduation</string>
     <string name="prosciutto_fig_desc">Prosciutto and fresh figs are a classic Italian combination. Along with the cheese and jam, they create a sweet-savory sandwich that's simple yet memorable.</string>
-    <string name="cinnamon_tost_desc">Cinnamon Toast’s golden brown color, crispiness and ability to melt butter gets me every time. Warm and cozy.</string>
+    <string name="cinnamon_toast_desc">Cinnamon Toast’s golden brown color, crispiness and ability to melt butter gets me every time. Warm and cozy.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>
+    <string name="potato_chip_desc">A crisp sandwich, chip sandwich, chipwich, potato chip sandwich or chippy sandwich is a sandwich that includes crisps as one of the fillings</string>
+    <string name="yakisoba_pan_desc">Pile the noodles into a bun sliced down the middle in the style of a hot dog, and garnish the top with mayonnaise and shreds of pickled ginger</string>
+    <string name="fracesinha_desc">Daniel da Silva invented it in the 1960s when he tried to adapt the croque-monsieur to Portuguese taste. It is a very popular dish in Porto, Portugal.</string>
+    <string name="roasted_turkey_desc"> It\'s a known fact that roasted turkey trumps deli turkey, so now\'s the time to make all your favorite turkey sandwiches</string>
 </resources>

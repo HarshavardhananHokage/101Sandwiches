@@ -67,4 +67,10 @@
     <string name="yakisoba_pan_sub">Literally "fried buckwheat" bread</string>
     <string name="fracesinha_sub">The Portuguese Croque Madame</string>
     <string name="roasted_turkey_sub">Transform your thanksgiving leftovers</string>
+    <string name="mexican_telera_sub">A smaller cousin of French bread</string>
+    <string name="easy_slow_french_sub">Will melt in your mouth</string>
+    <string name="porchetta_sandwich_sub">Delicious smell of roasted pork</string>
+    <string name="chicken_biscuit_sub">Biscuit and Chicken. Fun</string>
+    <string name="meat_loaf_sub">Meet the rectangular meat</string>
+    <string name="cemitas_mexican_sub">Pulled pork Mexican style</string>
 </resources>

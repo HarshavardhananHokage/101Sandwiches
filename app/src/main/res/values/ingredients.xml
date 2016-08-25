@@ -705,4 +705,79 @@
         <item>&#189; lb sliced oven roasted turkey breast</item>
         <item>&#189; cup chopped drained roasted red bell peppers</item>
     </string-array>
+
+    <string-array name="mexican_telera_ing">
+        <item>1 cup mayonnaise</item>
+        <item>2 canned chipotle chiles in adobo sauce</item>
+        <item>4 Mexican-style soft rolls (called Telera), split in half (see note)</item>
+        <item>Grilled Chicken, recipe follows</item>
+        <item>4 plum tomatoes, cut into 20 thin slices</item>
+        <item>1 Hass avocado, peeled, seeded, and cut into 16 thin slices</item>
+        <item>8 thin slices pepper Jack cheese (about 8 ounces)</item>
+        <item>&#188; cup lemon juice</item>
+        <item>1 clove garlic, crushed</item>
+        <item>1 teaspoon salt</item>
+        <item>1 teaspoon paprika</item>
+        <item>&#189; cup olive oil</item>
+        <item>4 skinless, boneless chicken breast halves (about 4 ounces each)</item>
+    </string-array>
+
+    <string-array name="easy_slow_french_ing">
+        <item>4 pounds rump roast</item>
+        <item>1 (10.5 ounce) can beef broth</item>
+        <item>1 (10.5 ounce) can condensed French onion soup</item>
+        <item>1 (12 fluid ounce) can or bottle beer</item>
+        <item>6 French rolls</item>
+        <item>2 tablespoons butter</item>
+    </string-array>
+
+    <string-array name="porchetta_sandwich_ing">
+        <item>1 tablespoon kosher salt</item>
+        <item>2 teaspoons toasted fresh rosemary, chopped</item>
+        <item>2 teaspoons toasted fennel seed, crushed</item>
+        <item>2 teaspoons chili flakes</item>
+        <item>2 teaspoons freshly ground black pepper</item>
+        <item>zest of 1 lemon</item>
+        <item>2 tablespoons roughly chopped flat leaf parsley</item>
+        <item>2 tablespoons fresh rosemary</item>
+        <item>pork tenderloin, around 3 inches in diameter, 1 to 2 pounds</item>
+        <item>12 inch slab of skin-on pork belly, skin lightly scored</item>
+        <item>oil</item>
+    </string-array>
+
+    <string-array name="chicken_biscuit_ing">
+        <item>1 tube Flaky Layers biscuits</item>
+        <item>2 large chicken breasts</item>
+        <item>1 cup flour</item>
+        <item>1 teaspoon onion powder</item>
+        <item>&#189; teaspoon red pepper</item>
+        <item>1 teaspoon chili powder</item>
+        <item>2 teaspoons paprika</item>
+        <item>1 teaspoon celery salt</item>
+        <item>2 teaspoons sugar</item>
+        <item>1 egg</item>
+        <item>&#188; cup milk</item>
+        <item>1 cup vegetable oil</item>
+        <item>3 tablespoons butter, melted</item>
+        <item>2 tablespoons honey</item>
+    </string-array>
+
+    <string-array name="meat_loaf_ing">
+        <item>1 slice meatloaf, cut &#3190;-inch thick (your favorite recipe)</item>
+        <item>2 teaspoons olive oil, divided</item>
+        <item>2 slices sourdough bread or 2 slices white bread</item>
+        <item>1 teaspoon grainy mustard, to taste</item>
+        <item>1 teaspoon ketchup, to taste</item>
+        <item>1 slice monterey jack cheese</item>
+    </string-array>
+
+    <string-array name="cemitas_mexican_ing">
+        <item>4 cemita rolls (sesame topped kaiser or hamburger rolls are good substitutes)</item>
+        <item>1 pound pulled pork such as carnitas</item>
+        <item>4 ounce shredded Oaxacan cheese (string cheese or mozzarella may be substituted)</item>
+        <item>2 ripe avocados halved, pitted, peeled and sliced</item>
+        <item>&#189; small red onion skinned and thinly sliced</item>
+        <item>1 bunch cilantro leaves</item>
+        <item>4 canned chipotle peppers in adobo sauce seeded and cut into strips</item>
+    </string-array>
 </resources>

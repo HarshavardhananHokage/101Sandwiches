@@ -733,4 +733,85 @@
         <item>Savour</item>
     </string-array>
 
+    <string-array name="mexican_telera_dir">
+        <item>Preheat oven to 350 degrees F.</item>
+        <item>Place the mayonnaise and chipotle chiles in a food processor and blend until smooth.</item>
+        <item>Generously spread the cut sides of the rolls with the chipotle mayonnaise.</item>
+        <item>Cover the bottom half of each roll with 1 thinly sliced chicken breast, overlapping the slices.</item>
+        <item>Top each portion of chicken with 5 slices of tomato and 4 slices of avocado.</item>
+        <item>Cover with 2 slices of cheese.</item>
+        <item>Place assembled sandwiches open faced on a sheet pan and bake until cheese is melted, about 8 minutes.</item>
+        <item>Cover the sandwiches, slice in half and serve immediately.</item>
+        <item>FOR GRILLED CHICKEN BELOW</item>
+        <item>In a large bowl, whisk together the lemon juice, garlic, salt, and paprika.</item>
+        <item>While whisking, drizzle in the oil until incorporated.</item>
+        <item>Add the chicken, cover, and marinate in the refrigerator for at least 8 hours and up to overnight.</item>
+        <item>Preheat a stovetop grill pan until hot.</item>
+        <item>Grill the chicken, turning once, until well marked and cooked through, about 15 to 20 minutes.</item>
+        <item>When cool enough to handle, slice very thin and make the sandwiches.</item>
+    </string-array>
+
+    <string-array name="easy_slow_french_dir">
+        <item>Trim excess fat from the rump roast, and place in a slow cooker.</item>
+        <item>Add the beef broth, onion soup and beer.</item>
+        <item>Cook on Low setting for 7 hours.</item>
+        <item>Preheat oven to 350 degrees F (175 degrees C).</item>
+        <item>Split French rolls, and spread with butter.</item>
+        <item>Bake 10 minutes, or until heated through.</item>
+        <item>Slice the meat on the diagonal, and place on the rolls.</item>
+        <item>Serve the sauce for dipping.</item>
+    </string-array>
+
+    <string-array name="porchetta_sandwich_dir">
+        <item>Combine the ingredients for the salt rub in a small bowl.</item>
+        <item>Lightly sprinkle the inside of the pork belly with half of salt rub (you won’t need to use all of it).</item>
+        <item>Sprinkle the herb rub and place the tenderloin in the centre of the belly.</item>
+        <item>Tightly roll up the belly around the tenderloin and tie together with kitchen twine.</item>
+        <item>Rub the skin generously with oil and the rest of the salt rub.</item>
+        <item>Place your porchetta in a dish, cover and place in the fridge for at least 12 hours.</item>
+        <item>Heat the oven to 275°F.</item>
+        <item>Place the porchetta on a rack in a deep roasting pan.</item>
+        <item>Lots of fat will be rendered out of the porchetta, so make sure your roasting pan is deep enough.</item>
+        <item>Roast on the centre rack of the oven for 4 hours.</item>
+        <item>Use a meat thermometer to check that the internal temperature is 160°F.</item>
+        <item>Blast the heat up to 450°F and continue to roast for 35 minutes, keeping an eye on the skin.</item>
+        <item>You want the crackling golden brown and crispy, not burnt.</item>
+        <item>Remove from the oven, let rest for 15 to 20 minutes, slice and enjoy!</item>
+    </string-array>
+
+    <string-array name="chicken_biscuit_dir">
+        <item>Preheat oven to 400°F.</item>
+        <item>Slice the chicken breasts in half lengthwise, then half again horizontally to create 8 thin, triangle-shaped pieces of chicken.</item>
+        <item>In a small bowl, stir together the flour and spices.</item>
+        <item>In a second small bowl, whisk together the egg and milk.</item>
+        <item>Heat oil in a large skillet on top of a medium-hot stove.</item>
+        <item>Open the flaky layered biscuits and place them on a baking sheet.</item>
+        <item>Bake in preheated oven for 12 to 14 minutes, or until golden brown.</item>
+        <item>While your biscuits are baking, dip the chicken pieces into the egg and milk mixture, then into the spiced flour mixture.</item>
+        <item>Fry in the hot oil.</item>
+        <item>Whisk together the melted butter and honey.</item>
+        <item>Remove the biscuits from the oven and use a basting brush to spread melted honey butter on top of the biscuits.</item>
+        <item>Slice each biscuit in half, then place a piece of cooked chicken in the center.</item>
+        <item>Serve with orange juice and enjoy!</item>
+    </string-array>
+
+    <string-array name="meat_loaf_dir">
+        <item>Spread 1 slice of bread with mustard.</item>
+        <item>Spread the other slice of bread with ketchup.</item>
+        <item>Brown meat loaf slice on both sides in 1 teaspoon of olive oil in skillet or on griddle until heated through.</item>
+        <item>Put browned meatloaf slice on the mustard-smeared bread.</item>
+        <item>Put a slice of cheese on top of the meat loaf.</item>
+        <item>Cover with the ketchup-smeared bread.</item>
+        <item>Heat remaining 1 teaspoon olive oil in skillet or on griddle.</item>
+        <item>Grill the sandwich over medium heat on both sides, until golden.</item>
+    </string-array>
+
+    <string-array name="cemitas_mexican_dir">
+        <item>Slice the rolls sandwich style, then toast or grill the cut sides until browned.</item>
+        <item>Divide the meat between each of the 4 bottoms of the rolls.</item>
+        <item>Top with cheese, avocado slices, onion and cilantro (or papalo) leaves.</item>
+        <item>Lay as much or as little of the chipotle strips on top.</item>
+        <item>You may also brush a bit of the extra adobo sauce onto the inside of the top of the rolls before closing the sandwich.</item>
+    </string-array>
+
 </resources>

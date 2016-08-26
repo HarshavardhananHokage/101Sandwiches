@@ -37,7 +37,73 @@
         <item>Yellow mustard</item>
     </string-array>
 
-    <!--Luxe-->
+    <string-array name="bombay_vada_pav_ing">
+        <item>Potatoes boiled and peeled 6 large</item>
+        <item>Oil 1 tablespoon + to deep fry</item>
+        <item>Asafoetida a pinch</item>
+        <item>Turmeric powder &#188; teaspoon</item>
+        <item>Green chili-garlic paste 1 tablespoon</item>
+        <item>Salt to taste</item>
+        <item>Fresh coriander leaves chopped &#188; cup</item>
+        <item>Lemon juice 1 tablespoon</item>
+        <item>Loaves of bread (pav) 8 small</item>
+        <item>FOR BATTER</item>
+        <item>Coarse chickpea flour 1 &#188; cups</item>
+        <item>Salt to taste</item>
+        <item>Red chili powder &#189; teaspoon</item>
+        <item>Turmeric powder &#188; teaspoon</item>
+        <item>Soda bicarbonate a small pinch</item>
+    </string-array>
+
+    <string-array name="cheese_steak_ing">
+        <item>1 loaf Italian bread or 1 loaf French bread</item>
+        <item>&#189; lb deli roast beef</item>
+        <item>1 white onion (thinly sliced)</item>
+        <item>1 green bell pepper (thinly sliced) (optional)</item>
+        <item>2 teaspoons garlic (minced)</item>
+        <item>&#189; lb provolone cheese (thinly sliced)</item>
+        <item>extra virgin olive oil (for grilling)</item>
+        <item>salt and pepper</item>
+        <item>marinara sauce (optional topping) or ketchup (optional topping)</item>
+    </string-array>
+
+    <string-array name="shripm_po_ing">
+        <item>Vegetable or peanut oil, for frying</item>
+        <item>1 large egg</item>
+        <item>1 cup milk, eyeball it</item>
+        <item>1 &#189; pounds large shrimp, deveined</item>
+        <item>Salt</item>
+        <item>&#189; cup flour</item>
+        <item>1 cup cornmeal or bread crumbs</item>
+        <item>2 tablespoons seafood seasoning a couple of palm fulls (recommended: Old Bay)</item>
+        <item>4 soft club rolls or sub rolls, split</item>
+        <item>1 beefsteak tomato, thinly sliced</item>
+        <item>8 pieces Bibb or butter lettuce</item>
+        <item>1 lemon cut into wedges</item>
+        <item>&#188; cup sweet pickle relish</item>
+        <item>&#189; cup spicy, grainy mustard</item>
+        <item>Few drops hot sauce</item>
+    </string-array>
+
+    <string-array name="italian_hero_ing">
+        <item>&#188; cup red wine vinegar</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>&#189; teaspoon dry mustard</item>
+        <item>salt and freshly ground black pepper, to taste</item>
+        <item>&#189; cup extra virgin olive oil</item>
+        <item>1 Italian bread, with sesame seeds,about 24 inches long,cut in half lengthwise</item>
+        <item>&#189; cup seeded and chopped pepperoncini pepper</item>
+        <item>&#189; cup seeded and chopped cherry pepper</item>
+        <item>2 cups finely shredded iceberg lettuce</item>
+        <item>4 tomatoes, thinly sliced</item>
+        <item>5 ounces thinly sliced salami</item>
+        <item>5 ounces thinly sliced capicola</item>
+        <item>5 ounces thinly sliced cotto salami</item>
+        <item>5 ounces thinly sliced mortadella</item>
+        <item>5 ounces thinly sliced provolone cheese</item>
+    </string-array>
+
+    <!--===================Luxe=========================-->
 
     <string-array name="steak_foie_gras_ing">
         <item>1 package or 36 oz. of sliced steaks</item>
@@ -780,4 +846,91 @@
         <item>1 bunch cilantro leaves</item>
         <item>4 canned chipotle peppers in adobo sauce seeded and cut into strips</item>
     </string-array>
+
+    <string-array name="the_falafel_ing">
+        <item>2 cups dried chickpeas</item>
+        <item>&#189; tsp baking soda</item>
+        <item>1 cup fresh parsley leaves, stems removed</item>
+        <item>&#190; cup fresh cilantro leaves, stems removed</item>
+        <item>&#189; cup fresh dill, stems removed</item>
+        <item>7 to 8 garlic cloves, peeled</item>
+        <item>Salt to taste</item>
+        <item>1 tbsp ground black pepper</item>
+        <item>1 tbsp ground cumin</item>
+        <item>1 tbsp ground coriander</item>
+        <item>1 tsp cayenne pepper, optional</item>
+        <item>1 tsp baking powder</item>
+        <item>2 tbsp toasted sesame seeds</item>
+        <item>Vegetable or Canola Oil for frying</item>
+        <item>Pita pockets</item>
+        <item>Hummus</item>
+        <item>English cucumbers, chopped or diced</item>
+        <item>Tomatoes, chopped or diced</item>
+        <item>Baby Arugula</item>
+        <item>Pickles</item>
+    </string-array>
+
+    <string-array name="the_primanti_ing">
+        <item>3 cups shredded cabbage</item>
+        <item>2 tablespoons vegetable oil</item>
+        <item>2 tablespoons apple cider vinegar</item>
+        <item>2 tablespoons white sugar</item>
+        <item>1 teaspoon adobo seasoning</item>
+        <item>1 teaspoon ground black pepper</item>
+        <item>4 cups vegetable oil for frying</item>
+        <item>3 whole russet potatoes</item>
+        <item>8 thick slices Italian bread</item>
+        <item>1 pound sliced pastrami (divided)</item>
+        <item>4 slices provolone cheese</item>
+        <item>8 slices tomato</item>
+    </string-array>
+
+    <string-array name="peanut_chicken_pitas_ing">
+        <item>1 cup shredded skinless, boneless rotisserie chicken thigh or drumstick meat</item>
+        <item>&#8531; cup thinly sliced green onions</item>
+        <item>2 tablespoons thin red bell pepper strips</item>
+        <item>2 tablespoons peanut satay sauce (such as Thai Kitchen)</item>
+        <item>1/8 teaspoon kosher salt</item>
+        <item>1 teaspoon chile paste with garlic (optional)</item>
+        <item>1 (6 inch) whole-wheat pita, cut in half</item>
+        <item>&#189; cup fresh mung bean sprouts, rinsed, drained, and patted dry</item>
+        <item>2 tablespoons diagonally cut carrot</item>
+        <item>2 tablespoons chopped fresh cilantro</item>
+    </string-array>
+
+    <string-array name="italian_beef_sandwich_ing">
+        <item>3 cups water</item>
+        <item>1 teaspoon salt</item>
+        <item>8 thick slices Italian bread</item>
+        <item>1 teaspoon ground black pepper</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>1 teaspoon dried basil</item>
+        <item>1 teaspoon onion salt</item>
+        <item>1 teaspoon dried parsley</item>
+        <item>1 teaspoon garlic powder</item>
+        <item>1 bay leaf</item>
+        <item>1 (.7 ounce) package dry Italian-style salad dressing mix</item>
+        <item>1 (5 pound) rump roast</item>
+    </string-array>
+
+    <string-array name="sloppy_joe_ing">
+        <item>1 &#189; tablespoons oil</item>
+        <item>2 cups chopped onions</item>
+        <item>3 lbs lean ground beef</item>
+        <item>2 cups barbecue sauce or 2 cups ketchup</item>
+        <item>1 cup french's classic yellow mustard</item>
+        <item>&#189; cup french's classic Worcestershire sauce</item>
+        <item>2 (15 ounce) packages hamburger slider rolls (about 24 rolls)</item>
+    </string-array>
+
+    <string-array name="gatsby_sandwich_ing">
+        <item>1 teaspoon olive oil</item>
+        <item>4 slices of Bologna</item>
+        <item>1 crusty roll, split and toasted</item>
+        <item>Ketchup</item>
+        <item>Hot sauce, such as piri-piri sauce</item>
+        <item>A big handful French fries, freshly cooked</item>
+        <item>&#189; cup finely shredded lettuce</item>
+    </string-array>
+
 </resources>

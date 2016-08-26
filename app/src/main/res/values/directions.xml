@@ -61,7 +61,69 @@
         <item>Cook another 3 to 4 minutes, until the cheese is melted and the bread is toasted.</item>
     </string-array>
 
-    <!--Luxe-->
+    <string-array name="bombay_vada_pav_dir">
+        <item>To make the batter place the gram flour in a bowl.</item>
+        <item>Add salt, red chili powder, turmeric powder, soda bicarbonate and mix.</item>
+        <item>Add sufficient water and whip to a smooth and thick batter.</item>
+        <item>Set aside for at least fifteen minutes.</item>
+        <item>Place the boiled potatoes in a bowl.</item>
+        <item>Heat one tablespoon oil in a pan.</item>
+        <item>Add asafoetida, turmeric powder, green chili-garlic paste and mix.</item>
+        <item>Add potatoes and salt and mix.</item>
+        <item>Set aside to cool.</item>
+        <item>Add coriander leaves, lemon juice and mix mashing the potatoes some more.</item>
+        <item>Divide the mixture into eight equal portions and shape them into balls.</item>
+        <item>Heat sufficient oil in a deep frying pan.</item>
+        <item>Dip the potato balls in the chickpea flour batter and deep fry till golden and crisp on the outside.</item>
+        <item>Drain on absorbent paper.</item>
+        <item>Slit each pav, spread some dry garlic chutney, place a vada and press lightly.</item>
+        <item>Serve immediately.</item>
+    </string-array>
+
+    <string-array name="cheese_steak_dir">
+        <item>Heat a griddle or a large saute pan over medium-high heat.</item>
+        <item>When hot, cover bottom with olive oil.</item>
+        <item>Add the onions and bell pepper and cook, stirring, until carmelized, which will take about 6 to 8 minutes.</item>
+        <item>Add the garlic, salt and pepper, and cook for about 30 seconds.</item>
+        <item>Then, push the mixture off to one side of the griddle.</item>
+        <item>Add the meat to the hot part of the griddle.</item>
+        <item>Cook, continuously flipping the meat over and slightly chopping the meat into slightly smaller pieces with 2 spatulas, until the meat is not pink, which should take about 2 minutes.</item>
+        <item>Mix the meat and the carmelized onions and bell pepper together.</item>
+        <item>Divide into 2 portions, and top both portions with the cheese to melt.</item>
+        <item>If using Italian or French bread, cut the bread in half, crosswise, and slice lengthwise to open for the 2 sandwiches.</item>
+        <item>Hollow out some of the soft white bread part from inside and place face down on top of the meat and cheese.</item>
+        <item>When the cheese is melted, and with 1 or 2 spatulas, flip the sandwiches over and add topping, such as marinara sauce or ketchup, if desired, and serve immediately.</item>
+    </string-array>
+
+    <string-array name="shripm_po_dir">
+        <item>Preheat 1-inch of oil in a deep skillet over medium to medium-high heat.</item>
+        <item>Beat egg and milk together.</item>
+        <item>Pull tails off shrimp. Salt shrimp then soak in milk batter.</item>
+        <item>Before you begin breading the shrimp, cover a plate with plastic wrap for easy clean up then mix together the flour, cornmeal or bread crumbs and seafood seasoning on the plate.</item>
+        <item>Using tongs, remove a few shrimp at a time and coat in breading.</item>
+        <item>Add breaded shrimp to the hot oil and fry them 5 to 6 minutes or until firm and deeply golden all over.</item>
+        <item>Pile lettuce and tomato on rolls and top with shrimp, douse the shrimp with a little lemon juice.</item>
+        <item>Mix relish, mustard and hot sauce and dot the roll tops with spoonfuls of the sauce before setting into place.</item>
+    </string-array>
+
+    <string-array name="italian_hero_dir">
+        <item>In a small bowl, combine the vinegar, oregano, mustard, salt and pepper.</item>
+        <item>Stir to mix well.</item>
+        <item>Whisk in the olive oil until incorporated.</item>
+        <item>On a work surface, lay out 3 long pieces of plastic wrap, placing them side by side and slightly overlapping.</item>
+        <item>Place the bottom half of the loaf over the wrap.</item>
+        <item>Spread the pepperoncini and cherry peppers over the bread.</item>
+        <item>Scatter evenly with the lettuce and layer with the tomatoes.</item>
+        <item>Drizzle with a few tablespoons of the dressing.</item>
+        <item>Layer the meats, one at a time, over the tomatoes, making sure to distribute them evenly.</item>
+        <item>Top with a layer of provolone cheese.</item>
+        <item>Drizzle the remaining dressing over the cut side of the top of the loaf.</item>
+        <item>Place on the layered sandwich and enclose in the plastic.</item>
+        <item>Refrigerate for at least 1 hour or for up to 4 hours to develop the flavors.</item>
+        <item>To serve, unwrap the sandwich and slice into large pieces about 3 to 4 inches wide.</item>
+    </string-array>
+
+    <!--===================Luxe=========================-->
     <string-array name="steak_foie_gras_dir">
         <item>Begin by preparing the foie mayo. Combine foie gras and mayonnaise in a blender until smooth.</item>
         <item>Adjust ratio to taste, and season with salt and pepper.</item>
@@ -812,6 +874,73 @@
         <item>Top with cheese, avocado slices, onion and cilantro (or papalo) leaves.</item>
         <item>Lay as much or as little of the chipotle strips on top.</item>
         <item>You may also brush a bit of the extra adobo sauce onto the inside of the top of the rolls before closing the sandwich.</item>
+    </string-array>
+
+    <string-array name="the_falafel_dir">
+        <item>Place the dried chickpeas and baking soda in a large bowl filled with water to cover the chicpeas by at least 2 inches.</item>
+        <item>Soak overnight for 16 to 18 hours.</item>
+        <item>When ready, drain the chickpeas completely and pat them dry.</item>
+        <item>Place the fresh leaves of parsley, cilantro and dill in a large food processor.</item>
+        <item>Pulse to finely chop the herbs.</item>
+        <item>Now add the chickpeas, garlic and spices.</item>
+        <item>Run the food processor 40 seconds at a time until all is well combined forming a smooth falafel mixture.</item>
+        <item>Transfer the falafel mixture into a container and cover tightly.</item>
+        <item>Refrigerate for at least 1 hour or until ready to fry (up to one whole night).</item>
+        <item>Just before frying, add the baking powder and sesame seeds to the falafel mixture and stir with a spoon.</item>
+        <item>Scoop tablespoonfuls of the falafel mixture and form into patties (&#189; inch in thickness each).</item>
+        <item>Fill a medium saucepan 3 inches up with oil. Heat the oil on medium-high until it bubbles softly.</item>
+        <item>Carefully drop the falafel patties in the oil, let them fry for about 3 to 4 minutes or so until medium brown.</item>
+        <item>Avoid crowding the falafel in the saucepan, fry them in batches if necessary.</item>
+        <item>Place the fried falafel patties in a colander or plate lined with paper towels to drain.</item>
+        <item>Assemble the falafel patties in pita bread with hummus, arugula, tomato and cucumbers. Enjoy!</item>
+    </string-array>
+
+    <string-array name="the_primanti_dir">
+        <item>Make the slaw by mixing together the cabbage, 2 tablespoons of vegetable oil, the vinegar, sugar, adobo seasoning, and black pepper until thoroughly combined.</item>
+        <item>Cover and refrigerate.</item>
+        <item>Heat oil in a deep-fryer or large saucepan to 375 degrees F (190 degrees C).</item>
+        <item>Cut the potatoes into &#188; inch thick fries, and fry until they float and are golden brown, 4 to 5 minutes. Set the fries aside.</item>
+        <item>Preheat oven to 225 degrees F (110 degrees C).</item>
+        <item>Place the bread on a baking sheet, and toast to a light brown in the preheated oven, 3 to 5 minutes.</item>
+        <item>Remove half the bread slices.</item>
+        <item>Place &#188; of the pastrami on the remaining 4 bread slices, and top with provolone cheese.</item>
+        <item>Return to the oven until the pastrami is hot and the cheese is melted, about 5 more minutes.</item>
+        <item>To assemble, top the melted cheese of each sandwich with French fries, cole slaw, 2 tomato slices, and the top pieces of bread.</item>
+    </string-array>
+
+    <string-array name="peanut_chicken_pitas_dir">
+        <item>Combine the first 5 ingredients, tossing well to coat.</item>
+        <item>Stir in chile paste, if desired.</item>
+        <item>Fill each pita half with about &#189; cup chicken mixture, &#188; cup bean sprouts, 1 tablespoon carrot and 1 tablespoon cilantro.</item>
+        <item>Savour the dark meat.</item>
+    </string-array>
+
+    <string-array name="italian_beef_sandwich_dir">
+        <item>Combine water with salt, ground black pepper, oregano, basil, onion salt, parsley, garlic powder, bay leaf and salad dressing mix in a saucepan.</item>
+        <item>Stir well, and bring to a boil.</item>
+        <item>Place roast in slow cooker, and pour salad dressing mixture over the meat.</item>
+        <item>Cover, and cook on Low for 10 to 12 hours, or on High for 4 to 5 hours.</item>
+        <item>When done, remove bay leaf, and shred meat with a fork.</item>
+        <item>Assemble the meat between the italian breads and enjoy.</item>
+    </string-array>
+
+    <string-array name="sloppy_joe_dir">
+        <item>Heat oil in a large pot. Saute onions 3 minutes until tender.</item>
+        <item>Add ground beef to pot. Cook until brown, stirring to separate meat. Drain well.</item>
+        <item>Stir in BBQ sauce (or Ketchup), mustard and Worcestershire.</item>
+        <item>Simmer about 5 minutes until flavors are blended.</item>
+        <item>Spoon onto slider rolls.</item>
+    </string-array>
+
+    <string-array name="gatsby_sandwich_dir">
+        <item> Heat the olive oil in a heavy skillet over medium-high heat.</item>
+        <item>Add the bologna in a single layer and cook until undersides are browned, 2–3 minutes.</item>
+        <item>Flip and continue to cook until browned, about 2 minutes more.</item>
+        <item>While the bologna cooks, stir together some ketchup and hot sauce, to taste.</item>
+        <item>Remove the griddled bologna from the heat and arrange inside the toasted roll.</item>
+        <item>Top the meat with the hot French fries, then with the spicy ketchup.</item>
+        <item>Finish with the shredded lettuce and close the sandwich.</item>
+        <item>Serve immediately.</item>
     </string-array>
 
 </resources>

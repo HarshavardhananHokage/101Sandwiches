@@ -6,8 +6,12 @@
     <string name="best_grilled_cheese_sandwich_sub">The basic grilled - with a toasty twist</string>
     <string name="roasted_vegetable_sandwich_sub">Italian style sandwich with a vinaigrette</string>
     <string name="cuban_sandwich_sub"> This humble sandwich is workingman\'s fare</string>
+    <string name="bombay_vada_pav_sub">A vegetarian fast food</string>
+    <string name="cheese_steak_sub">Also known as Philly cheesesteak</string>
+    <string name="shripm_po_sub">Classic New Orleans shrimp po'boy</string>
+    <string name="italian_hero_sub">An Italian attention grabber</string>
 
-    <!--Luxe-->
+    <!--===================Luxe=========================-->
     <string name="steak_foie_gras_sub">Steak, Foie Gras and Mayo</string>
     <string name="crab_sandwich_sub">Generous and Fresh. You will love it</string>
     <string name="caviar_quail_eggs_sub">Everything about the tiny quail eggs is better</string>
@@ -73,4 +77,10 @@
     <string name="chicken_biscuit_sub">Biscuit and Chicken. Fun</string>
     <string name="meat_loaf_sub">Meet the rectangular meat</string>
     <string name="cemitas_mexican_sub">Pulled pork Mexican style</string>
+    <string name="the_falafel_sub">A middle east crispy gold</string>
+    <string name="the_primanti_sub">A Pittsburgh classic</string>
+    <string name="peanut_chicken_pitas_sub">Rich meat and peanut sauce</string>
+    <string name="italian_beef_sandwich_sub">A messy variation to French Dip</string>
+    <string name="sloppy_joe_sub">A weeknight favourite</string>
+    <string name="gatsby_sandwich_sub">South African submarine sandwich</string>
 </resources>

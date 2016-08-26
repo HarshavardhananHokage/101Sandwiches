@@ -5,8 +5,12 @@
     <string name="best_grilled_cheese_sandwich_desc">It\'s the first meal that most of us learn how to cook at home by ourselves. It\'s salty, gooey, crisp, buttery, and comforting in all the right ways</string>
     <string name="roasted_vegetable_sandwich_desc">This wonderful Italian style sandwich is finished off with a drizzling of vinaigrette. Pile it high!</string>
     <string name="cuban_sandwich_desc">Despite being so simple, the Cuban sandwich is packed full of flavour and all of the flavours work so well together!</string>
+    <string name="bombay_vada_pav_desc">A simple creation involving a deep fried potato patty with some coriander and spices. It originated as a street food in Mumbai</string>
+    <string name="cheese_steak_desc">Cheesesteak was developed in the early 20th century "by combining frizzled beef, onions, and cheese in a small loaf of bread".</string>
+    <string name="shripm_po_desc">In this shrimp po boy recipe, the paper-thin crust and pillowy crumb of a New Orleans–style French roll is essential as is Crystal hot sauce.</string>
+    <string name="italian_hero_desc">It comes with a combination of mortadella, capicola, and Genoa salami. At a good Italian delicatessen, you'll be able to find the peppers and sliced meats</string>
 
-    <!--Luxe-->
+    <!--===================Luxe=========================-->
     <string name="steak_foie_gras_desc">Creamy, controversial foie gras comes together with freezer-aisle steak in this cheesy sandwich</string>
     <string name="crab_sandwich_desc">This delicious crab sandwich recipe is great for any outdoor party, day or night</string>
     <string name="caviar_quail_eggs_desc">When adding rich ingredients like creme fraiche and caviar, the smaller size also feels less over-indulgent</string>
@@ -72,4 +76,11 @@
     <string name="chicken_biscuit_desc">Need a hearty, flavorful dinner? Why not whip up this scrumptious Spicy Chicken Breakfast biscuit?! Breakfast for dinner is the best!</string>
     <string name="meat_loaf_desc">Meatloaf is a lot like Thanksgiving turkey, it’s almost always better the day after. At least when sandwiched between two slices of bread.</string>
     <string name="cemitas_mexican_desc">The Cemita is what happens when a pulled pork sandwich spends Spring Break south of the border. This sandwich, a fan favorite in Puebla, Mexico</string>
+    <string name="the_falafel_desc">Falafel is a deep fried ball or patty made from ground chickpeas, fava beans or both. It is commonly served in a pita, which acts as a pocket.</string>
+    <string name="the_primanti_desc">You will be charmed by their incredibly over sized warm capicola sandwich stuffed with French fries and coleslaw</string>
+    <string name="peanut_chicken_pitas_desc">Here's a tasty way to use up leftover roast chicken. Dark meat stands up to the intense flavors in the dressing</string>
+    <string name="italian_beef_sandwich_desc">Italian Beef is made by slowly roasting lean beef on a rack above a pan filled with seasoned beef-based stock</string>
+    <string name="sloppy_joe_desc">Make the sauce ahead of time, if you like. Just reheat it and toast the buns to finish the sliders</string>
+    <string name="gatsby_sandwich_desc">Gatsbys originated in Cape Town, where people would often buy large rolls and fill them with whatever leftovers they had for lunch the next day</string>
+
 </resources>

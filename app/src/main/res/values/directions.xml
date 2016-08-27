@@ -1091,4 +1091,261 @@
         <item>Serve immediately.</item>
     </string-array>
 
+    <!--=================VEGGIE=======================-->
+
+    <string-array name="grilled_zucchini_dir">
+        <item>Heat a large grill pan over medium-high heat.</item>
+        <item>Place zucchini in a shallow dish.</item>
+        <item>Add 2 teaspoons oil and garlic; toss to coat.</item>
+        <item>Arrange zucchini in grill pan; cook 2 minutes on each side or until grill marks appear.</item>
+        <item>Cut each zucchini piece in half crosswise.</item>
+        <item>Return zucchini to shallow dish.</item>
+        <item>Drizzle with vinegar.</item>
+        <item>Sprinkle with salt and black pepper.</item>
+        <item>Brush bottom halves of rolls with the remaining 2 teaspoons oil.</item>
+        <item>Top evenly with zucchini, basil, tomatoes, and mozzarella.</item>
+        <item>Brush cut side of roll tops with remaining liquid from shallow dish, and place on sandwiches.</item>
+        <item>Heat the sandwiches in pan until warm.</item>
+    </string-array>
+    
+    <string-array name="caesar_salad_dir">
+        <item>Spread dressing evenly on cut sides of bagels.</item>
+        <item>Sprinkle with pepper.</item>
+        <item>Arrange half of red onion, romaine lettuce, and cheese on bottom halves of bagels, and repeat layers.</item>
+        <item>Top with the top halves of bagels.</item>
+    </string-array>
+
+    <string-array name="roasted_red_dir">
+        <item>Spread cucumber and bell peppers onto several layers of heavy-duty paper towels.</item>
+        <item>Let stand 5 minutes to drain excess moisture.</item>
+        <item>Scrape into a medium bowl using a rubber spatula.</item>
+        <item>Add the cheeses, onion, salt, and garlic.</item>
+        <item>Stir with a fork until well blended.</item>
+        <item>Spread about &#189; cup cheese mixture over 4 bread slices.</item>
+        <item>Top each serving with 2 lettuce leaves and 1 bread slice.</item>
+    </string-array>
+
+    <string-array name="feta_basil_dir">
+        <item>Combine first 4 ingredients, tossing with a fork until well combined.</item>
+        <item>Spread about 2 &#189; tablespoons cheese mixture onto each of 4 bread slices.</item>
+        <item>Top each sandwich with 2 tomato slices and 1 bread slice.</item>
+    </string-array>
+
+    <string-array name="tomato_basil_dir">
+        <item>Bring balsamic vinegar to a boil in a small saucepan over medium-high heat.</item>
+        <item>Cook until reduced to 3 tablespoons (about 8 minutes).</item>
+        <item>While vinegar reduces, brush cut side of top half of bread with oil.</item>
+        <item>Top evenly with basil, cheese, and tomatoes.</item>
+        <item>Sprinkle evenly with salt and pepper.</item>
+        <item>Brush cut side of bottom half of bread with reduced vinegar; place on top of sandwich. Invert sandwich.</item>
+        <item>Heat a large grill pan over medium-high heat.</item>
+        <item>Coat the pan with cooking spray.</item>
+        <item>Add sandwich to pan.</item>
+        <item>Place a cast-iron or heavy skillet on top of sandwich, and gently press to flatten.</item>
+        <item>Leave skillet on; cook 3 minutes on each side or until cheese melts and bread is toasted.</item>
+        <item>Cut sandwich into 4 equal pieces.</item>
+    </string-array>
+
+    <string-array name="veggie_hummus_dir">
+        <item>Heat a large grill pan over medium-high heat.</item>
+        <item>Brush onion, bell pepper, and eggplant with 1 tablespoon oil.</item>
+        <item>Add onion and bell pepper to pan; cook 3 minutes on each side or until grill marks appear.</item>
+        <item>Remove from pan.</item>
+        <item>Add eggplant to pan; cook 3 minutes on each side or until grill marks appear.</item>
+        <item>Remove from pan; coarsely chop vegetables.</item>
+        <item>Combine vegetables, remaining 1 tablespoon oil, parsley, and salt; toss to combine.</item>
+        <item>Spread &#188; cup hummus over each flatbread, leaving a &#189; inch border around edges.</item>
+        <item>Divide vegetables over each flatbread; top each serving with 2 tablespoons cheese.</item>
+        <item>Roll up wraps, and cut diagonally in half.</item>
+    </string-array>
+
+    <string-array name="open_eggplant_dir">
+        <item>Preheat broiler to high.</item>
+        <item>Place marinara in a microwave-safe measuring cup.</item>
+        <item>Microwave at HIGH for 2 minutes or until hot; keep warm.</item>
+        <item>Place flour in a shallow dish. Place eggs in another dish. Place panko in another.</item>
+        <item>Sprinkle eggplant evenly with salt.</item>
+        <item>Dredge both sides of eggplant slices in flour; dip in egg, and dredge in panko.</item>
+        <item>Place breaded eggplant slices on a baking sheet coated with cooking spray.</item>
+        <item>Broil eggplant 3 minutes on each side or until lightly browned.</item>
+        <item>Transfer eggplant slices to a plate.</item>
+        <item>Place bread slices on baking sheet; top each slice with 1 basil leaf.</item>
+        <item>Place 1 eggplant slice over each leaf; top eggplant with 1 basil leaf and &#189; ounce cheese.</item>
+        <item>Top cheese with remaining slices of eggplant; finish with &#189; ounce of cheese over each eggplant slice.</item>
+        <item>Broil eggplant stacks 3 minutes or until cheese is lightly browned and bubbly.</item>
+        <item>Spoon 2 tablespoons marinara over each serving.</item>
+        <item>Top with remaining basil leaves.</item>
+    </string-array>
+
+    <string-array name="beet_brown_dir">
+        <item>Preheat broiler to high.</item>
+        <item>Cut each bread slice into a 3-inch circle using a round cutter.</item>
+        <item>Lightly coat bread rounds with cooking spray.</item>
+        <item>Arrange bread rounds in a single layer on a baking sheet.</item>
+        <item>Broil 2 minutes on each side or until lightly toasted. Cool on a wire rack.</item>
+        <item>Reduce oven temperature to 400°.</item>
+        <item>Place a baking sheet in oven to preheat.</item>
+        <item>Combine rice and next 7 ingredients (through pepper) in a medium bowl.</item>
+        <item>Combine mustard and egg, stirring well.</item>
+        <item>Add egg mixture to rice mixture; stir until well blended.</item>
+        <item>Spoon &#8531; cup rice mixture into a (2 &#189; inch) round cookie cutter; pack mixture down.</item>
+        <item>Remove mold. Repeat procedure 7 times to form 8 patties.</item>
+        <item>Heat a large skillet over medium-high heat.</item>
+        <item>Add 1 tablespoon oil to pan; swirl to coat.</item>
+        <item>Carefully add 4 patties to pan; cook 2 minutes.</item>
+        <item>Carefully transfer patties to preheated baking sheet, turning patties over and arranging in a single layer.</item>
+        <item>Repeat procedure with remaining 1 tablespoon oil and remaining 4 patties.</item>
+        <item>Place pan in oven; bake patties at 400° for 9 minutes.</item>
+        <item>Top each patty with 1 cheese slice; bake an additional 1 minute or until cheese is soft and patties are set.</item>
+        <item>Place 8 toasted bread rounds on a flat surface; top each round with 1 patty.</item>
+        <item>Divide watercress evenly among sliders; top with the remaining toasted bread rounds.</item>
+    </string-array>
+
+    <string-array name="farmers_market_dir">
+        <item>Preheat grill to medium-high.</item>
+        <item>Brush 1 tablespoon olive oil evenly over both sides of eggplant, onion, and zucchini.</item>
+        <item>Sprinkle with rosemary, pepper, and salt.</item>
+        <item>Combine 1 tablespoon oil and vinegar in a bowl.</item>
+        <item>Brush vinegar mixture over cut sides of bread.</item>
+        <item>Place onion on grill rack coated with cooking spray, and grill for 6 minutes on each side or until tender.</item>
+        <item>Remove from grill, and separate into rings. Grill eggplant and zucchini 4 minutes on each side or until tender.</item>
+        <item>Cut zucchini pieces in half crosswise.</item>
+        <item>Place bread, cut sides down, on grill rack; grill 2 minutes. Remove from grill.</item>
+        <item>Place 1 piece of cheese on bottom halves bread portions.</item>
+        <item>Top each serving with 1 eggplant slice, 1 tomato slice, 1 basil leaf, 2 pieces zucchini, &#188; of onion rings, 1 eggplant slice, 1 tomato slice, 1 basil leaf, 1 piece of cheese and top half of bread.</item>
+        <item>Place sandwiches on grill rack; grill 2 minutes, covered, or until cheese melts.</item>
+    </string-array>
+
+    <string-array name="baked_bean_dir">
+        <item>Butter both slices of bread.</item>
+        <item>Place one slice buttered side down on the preheated toasted sandwich maker.</item>
+        <item>Empty contents of can on to bread.</item>
+        <item>Top with cheese.</item>
+        <item>Followed by the last piece of bread buttered side up.</item>
+        <item>Toast 3 to 4 minutes, or until golden brown.</item>
+        <item>Cut into either 2 triangles or 4 triangles.</item>
+        <item>Serve.</item>
+    </string-array>
+
+    <string-array name="cucumber_sand_dir">
+        <item>Place cucumber slices between 2 paper towels set in a colander.</item>
+        <item>Allow liquid to drain, about 10 minutes.</item>
+        <item>Mix cream cheese, mayonnaise, garlic powder, onion salt, and Worcestershire sauce in a bowl until smooth.</item>
+        <item>Spread cream cheese mixture evenly on one side of each bread slice.</item>
+        <item>Divide cucumber slices over half of the bread slices; sprinkle lemon pepper on cucumber.</item>
+        <item>Stack the other half of the bread slices with spread sides down over the cucumber slices to make sandwiches.</item>
+    </string-array>
+
+    <string-array name="trini_doubles_dir">
+        <item>BARA:</item>
+        <item>Mix all the ingredients dry in a bowl.</item>
+        <item>Add the water and knead until a smooth dough is formed.</item>
+        <item>Then add the tablespoon of oil over the dough.</item>
+        <item>Cover with a cloth and leave to rest for 1 hour or until double its size.</item>
+        <item>Spread a thin layer oil over the surface you're using and make little balls about 2 inches in diameter.</item>
+        <item>Heat the oil over a medium to high flame and spread the bara dough with your hands.</item>
+        <item>Fry on both sides for 7 to 10 seconds.</item>
+        <item>Then drain on paper towels.</item>
+        <item>CHANNA:</item>
+        <item>Soak the channa overnight and place to boil.</item>
+        <item>About 25 minutes later, add the baking soda.</item>
+        <item>Continue boiling for about 30 minutes or until soft.</item>
+        <item>Heat the oil over a medium flame.</item>
+        <item>Mix the curry, geera, and masala in &#188; cup of water and add to the pot.</item>
+        <item>Add the onion and garlic; saute until golden and the curry is just about to get dry.</item>
+        <item>Add the channa; simmer for 20 minutes.</item>
+        <item>Pour enough water to cover the channa.</item>
+        <item>When its nearly finished, mash a few of the channa to form a sauce.</item>
+        <item>Mix in the finely chopped chadon beni and adjust salt and pepper to taste</item>
+    </string-array>
+
+    <string-array name="grilled_spaghetti_dir">
+        <item>Melt butter with garlic powder in a large skillet.</item>
+        <item>Cut a slice of the crust off the top and bottom of each hoagie roll.</item>
+        <item>Brush the cut sides with some of the garlic-flavored butter.</item>
+        <item>Split the rolls and line the insides with mozzarella cheese slices.</item>
+        <item>Mix spaghetti and spaghetti sauce together in a bowl.</item>
+        <item>Divide between the hoagie rolls and sandwich the rolls around the cheese and pasta mixture.</item>
+        <item>Grill the sandwiches in the skillet until the cheese melts completely, about 5 minutes per side.</item>
+    </string-array>
+
+    <string-array name="spinach_feta_dir">
+        <item>Mince the garlic and add it to a skillet with the olive oil.</item>
+        <item>Cook over medium-low heat for 1 to 2 minutes, or until it begins to soften.</item>
+        <item>Add the frozen spinach, turn the heat up to medium, and cook for about 5 minutes, or until heated through and most of the excess moisture has evaporated away.</item>
+        <item>Season lightly with salt and pepper.</item>
+        <item>Cut the rolls in half.</item>
+        <item>Add about &#188; cup of shredded mozzarella and &#189; oz. of feta to the bottom half of each roll.</item>
+        <item>Divide the cooked spinach between the two sandwiches, then top with a pinch of red pepper flakes, plus &#188; more shredded mozzarella on each.</item>
+        <item>Place the top half of the ciabatta roll on the sandwiches and transfer them to a large non-stick skillet.</item>
+        <item>Fill a large pot with a few inches of water to create weight, then place the pot on top of the sandwiches to press them down like a panini press.</item>
+        <item>Turn the heat on to medium-low and cook until the sandwiches are crispy on the bottom.</item>
+        <item>Carefully flip the sandwiches, place the weighted pot back on top, and cook until crispy on the other side and the cheese is melted.</item>
+        <item>Serve warm.</item>
+    </string-array>
+
+    <string-array name="california_grilled_dir">
+        <item>In a bowl, mix the mayonnaise, minced garlic, and lemon juice.</item>
+        <item>Set aside in the refrigerator.</item>
+        <item>Preheat the grill for high heat.</item>
+        <item>Brush vegetables with olive oil on each side.</item>
+        <item>Brush grate with oil.</item>
+        <item>Place bell peppers and zucchini closest to the middle of the grill, and set onion and squash pieces around them.</item>
+        <item>Cook for about 3 minutes, turn, and cook for another 3 minutes.</item>
+        <item>The peppers may take a bit longer.</item>
+        <item>Remove from grill, and set aside.</item>
+        <item>Spread some of the mayonnaise mixture on the cut sides of the bread, and sprinkle each one with feta cheese.</item>
+        <item>Place on the grill cheese side up, and cover with lid for 2 to 3 minutes.</item>
+        <item>This will warm the bread, and slightly melt the cheese.</item>
+        <item>Watch carefully so the bottoms don't burn.</item>
+        <item>Remove from grill, and layer with the vegetables.</item>
+        <item>Enjoy as open faced grilled sandwiches.</item>
+    </string-array>
+
+    <string-array name="mushroom_sand_dir">
+        <item>Heat a teaspoon of olive oil in a wok or a heavy bottomed pan on medium heat.</item>
+        <item>Add the chopped mushrooms and sauté until water has evaporated (mushrooms give out water while being cooked).</item>
+        <item>Once all the water and moisture is evaporated, add the green chillies, salt and black pepper and sauté until all the ingredients come together.</item>
+        <item>Turn off heat; stir in coriander leaves, mix and set aside.</item>
+        <item>You need 2 slices of bread to make 1 sandwich.</item>
+        <item>Spread the butter on the slices of bread.</item>
+        <item>Spread about 2 tablespoons of the mushroom mixture on one slice and cover with the other slice.</item>
+        <item>You can now grill the Mushroom Sandwiches using a Panini Press or Sandwich Maker and serve warm.</item>
+        <item>Serve the Grilled Mushroom Sandwich Recipe with Herbs for breakfast</item>
+    </string-array>
+
+    <string-array name="south_veggie_dir">
+        <item>Prepare the hummus by combining 1 can (drained and rinsed) black beans with the southwest black bean hummus package in a blender or food processor.</item>
+        <item>Blend or pulse until smooth.</item>
+        <item>Generously spread 4 large tortillas or pita bread with the hummus.</item>
+        <item>Deseed and remove the stems from the peppers.</item>
+        <item>Slice in thin slices.</item>
+        <item>Top the tortillas evenly with the sliced peppers.</item>
+        <item>Evenly disperse the remaining &#189; cup black beans and corn over the peppers.</item>
+        <item>Slice the tomatoes and avocado.</item>
+        <item>Add to the tortillas along with the cheese slices.</item>
+        <item>Sprinkle salt and pepper over the tortillas and then add 2 tablespoons dressing to each tortilla.</item>
+        <item>If desired add some fresh lime and coarsely chopped cilantro.</item>
+        <item>Roll up and enjoy immediately.</item>
+    </string-array>
+
+    <string-array name="portabella_mushroom_dir">
+        <item>Heat 1 tablespoon of olive oil in a large skillet over medium-high heat.</item>
+        <item>Add mushrooms and cook 3 to 4 minutes, or until softened and browned.</item>
+        <item>Add wine and increase heat to high.</item>
+        <item>Cook until liquid has evaporated, about 2 to 3 minutes. Transfer to bowl.</item>
+        <item>Preheat oven to 250 degrees.</item>
+        <item>Carefully wipe skillet clean.</item>
+        <item>Heat remaining tablespoon of olive oil over medium high heat.</item>
+        <item>Add green pepper and onions; cook until softened, about 5 to 8 minutes.</item>
+        <item>Reduce heat to low.</item>
+        <item>Return mushrooms to skillet and stir to combine, then season to taste with salt and pepper.</item>
+        <item>Top vegetable mixture with cheese slices.</item>
+        <item>Once cheese has melted, remove from heat.</item>
+        <item>Divide veggie mixture into sub rolls.</item>
+        <item>Wrap each cheesesteak tightly with foil and place on a baking sheet.</item>
+        <item>Bake for 15 minutes.</item>
+        <item>Remove from oven and unwrap carefully.</item>
+    </string-array>
+
 </resources>

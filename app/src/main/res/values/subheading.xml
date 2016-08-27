@@ -94,4 +94,25 @@
     <string name="italian_beef_sandwich_sub">A messy variation to French Dip</string>
     <string name="sloppy_joe_sub">A weeknight favourite</string>
     <string name="gatsby_sandwich_sub">South African submarine sandwich</string>
+
+    <!--=================VEGGIE=======================-->
+
+    <string name="grilled_zucchini_sub">Wondering how to use that extra zucchini?</string>
+    <string name="caesar_salad_sub">Excellent bagel sandwiches</string>
+    <string name="roasted_red_sub">A zingy red pepper spread</string>
+    <string name="feta_basil_sub">Easy yet exotic</string>
+    <string name="tomato_basil_sub">Perfect healthy recipe</string>
+    <string name="veggie_hummus_sub">Portable sandwich wraps</string>
+    <string name="open_eggplant_sub">This sandwich is a revelation</string>
+    <string name="beet_brown_sub">Beets in a slider? WOW!</string>
+    <string name="farmers_market_sub">Market at home</string>
+    <string name="baked_bean_sub">Easy Beany Love</string>
+    <string name="cucumber_sand_sub">They glory in their own delicacy</string>
+    <string name="trini_doubles_sub">A late night snack</string>
+    <string name="grilled_spaghetti_sub">Very famous in Tokyo, Japan</string>
+    <string name="spinach_feta_sub">Because I add spinach to everything</string>
+    <string name="california_grilled_sub">A great summer sandwich!</string>
+    <string name="mushroom_sand_sub">Mushroom and Herbs. What more to say</string>
+    <string name="south_veggie_sub">Practically effortless meal</string>
+    <string name="portabella_mushroom_sub">Cheesesteaks a Philadelphia tradition</string>
 </resources>

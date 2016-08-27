@@ -94,4 +94,24 @@
     <string name="sloppy_joe_desc">Make the sauce ahead of time, if you like. Just reheat it and toast the buns to finish the sliders</string>
     <string name="gatsby_sandwich_desc">Gatsbys originated in Cape Town, where people would often buy large rolls and fill them with whatever leftovers they had for lunch the next day</string>
 
+    <!--=================VEGGIE=======================-->
+
+    <string name="grilled_zucchini_desc">The fresh flavors in this Grilled Zucchini Caprese Sandwich recipe will leave you wanting more</string>
+    <string name="caesar_salad_desc">Pack sandwich components separately the leaves and the cheese; a mixture of the dressing and pepper; and the toasted bagel</string>
+    <string name="roasted_red_desc">If you like pimiento cheese, you'll enjoy this recipe. Keep the sandwiches well chilled so the cream cheese spread will remain firm</string>
+    <string name="feta_basil_desc">Feta cheese, popularly used in mediterranean cuisine, has a slightly salty taste that goes well with the tomatoes and basil</string>
+    <string name="tomato_basil_desc">Crusty Cuban bread is perfectly complemented with creamy mozzarella and a slice of juicy tomato. Serve with sweet potato chips or a simple green salad</string>
+    <string name="veggie_hummus_desc">These flavorful wraps are filled with good-for-you ingredients like hummus and fresh vegetables. They're perfect for a quick lunch or dinner</string>
+    <string name="open_eggplant_desc">Here's the key to a speedy dinner: While the eggplant broils, toast your bread slices in a toaster oven.</string>
+    <string name="beet_brown_desc">These bite-size Beet and Brown Rice Sliders will leave you satisfied and craving another. Good news: a serving size of these veggie burgers is two sliders</string>
+    <string name="farmers_market_desc">The stack of grilled eggplant, red onion, and zucchini are quite a mouthful but still tasty to eat. </string>
+    <string name="baked_bean_desc">Good old toast and sandwiches never let you down. Try this and you are bound to love it. It is so simple and delicious</string>
+    <string name="cucumber_sand_desc">The whole point about cucumber sandwiches is that, unless done really well, they're as dull as the sum of their ingredients</string>
+    <string name="trini_doubles_desc">This popular breakfast food is also a late night favorite after a good "lime." "Lime" is the Trini term for "hanging out"</string>
+    <string name="grilled_spaghetti_desc">Two favorite Italian foods, spaghetti and garlic bread, come together in this recipe which the whole family will love</string>
+    <string name="spinach_feta_desc">Spinach is a natural with a grilled cheese. Plus, thanks to all of those Popeye cartoons when you were a kid, it makes you feel extra healthy</string>
+    <string name="california_grilled_desc">Tasty and light, grilling gives the vegetables nice smoky taste. A little bit garlic and lemon juice brighten up the mayonnaise</string>
+    <string name="mushroom_sand_desc">Mushrooms are an exceptionally nutrient-dense food, with one serve offering a surprising amount and array of essential nutrients</string>
+    <string name="south_veggie_desc">A vegetarian (but trust me meat lovers, the meat is NOT missed in this one) packed wrap filled fresh veggies and a southwestern black-bean hummus</string>
+    <string name="portabella_mushroom_desc">Mushrooms (especially portabellas!) are often used as a substitute for meat, not just for their texture, but for their umami (savory) flavor</string>
 </resources>

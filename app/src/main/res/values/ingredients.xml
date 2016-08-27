@@ -1064,4 +1064,234 @@
         <item>&#189; cup finely shredded lettuce</item>
     </string-array>
 
+    <!--=================VEGGIE=======================-->
+
+    <string-array name="grilled_zucchini_ing">
+        <item>1 medium zucchini, trimmed and cut lengthwise into 6 slices</item>
+        <item>4 teaspoons extra-virgin olive oil, divided</item>
+        <item>1 garlic clove, minced</item>
+        <item>1 &#189; teaspoons balsamic vinegar</item>
+        <item>1/8 teaspoon kosher salt</item>
+        <item>1/8 teaspoon black pepper</item>
+        <item>4 (2 ounce) ciabatta rolls, split and toasted</item>
+        <item>8 large fresh basil leaves</item>
+        <item>1 medium tomato, thinly sliced</item>
+        <item>6 ounces fresh mozzarella cheese, thinly sliced</item>
+    </string-array>
+
+    <string-array name="caesar_salad_ing">
+        <item>3 tablespoons organic creamy Caesar salad dressing</item>
+        <item>2 (4 ounce) whole-grain, onion, or "everything" bagels, split and toasted</item>
+        <item>&#189; teaspoon black pepper</item>
+        <item>2 thin red onion slices</item>
+        <item>1 cup torn or shredded romaine lettuce</item>
+        <item>&#189; cup (2 ounces) shaved Parmigiano-Reggiano cheese</item>
+    </string-array>
+
+    <string-array name="roasted_red_ing">
+        <item>&#189; cup finely chopped seeded cucumber</item>
+        <item>1 (7 ounce) bottle roasted red bell peppers, drained and finely chopped</item>
+        <item>&#190; cup (6 ounces) &#8531; less fat cream cheese, softened</item>
+        <item>&#8531; cup (about 3 ounces) block-style fat-free cream cheese, softened</item>
+        <item>3 tablespoons minced red onion</item>
+        <item>&#188; teaspoon salt</item>
+        <item>1 garlic clove, minced</item>
+        <item>8 (1 &#189; ounce) slices whole grain bread</item>
+        <item>8 romaine lettuce leaves</item>
+    </string-array>
+
+    <string-array name="feta_basil_ing">
+        <item>1 cup (4 ounces) crumbled feta cheese</item>
+        <item>&#188; cup chopped fresh basil</item>
+        <item>&#188; cup fat free mayonnaise</item>
+        <item>&#188; teaspoon freshly ground black pepper</item>
+        <item>8 (1 &#189; ounce) slices firm white bread, toasted</item>
+        <item>8 (&#188; inch thick) slices tomato</item>
+    </string-array>
+
+    <string-array name="tomato_basil_ing">
+        <item>&#189; cup balsamic vinegar</item>
+        <item>1 (8 ounce) piece Cuban bread, cut in half horizontally</item>
+        <item>1 tablespoon extra-virgin olive oil</item>
+        <item>12 large basil leaves</item>
+        <item>5 ounces fresh mozzarella cheese, thinly sliced</item>
+        <item>2 medium tomatoes, thinly sliced</item>
+        <item>&#188; teaspoon salt</item>
+        <item>1/8 teaspoon freshly ground black pepper</item>
+        <item>Cooking spray</item>
+    </string-array>
+
+    <string-array name="veggie_hummus_ing">
+        <item>4 (&#189; inch thick) slices red onion</item>
+        <item>1 red bell pepper, seeded and quartered</item>
+        <item>1 (12 ounce) eggplant, cut into &#189; inch thick slices</item>
+        <item>2 tablespoons olive oil, divided</item>
+        <item>&#188; cup chopped fresh flat-leaf parsley</item>
+        <item>1/8 teaspoon kosher salt</item>
+        <item>1 (8 ounce) container plain hummus</item>
+        <item>4 (1.9 ounce) whole-grain flatbreads</item>
+        <item>&#189; cup crumbled feta cheese</item>
+        <item>1 cup sliced Avocado</item>
+        <item>3 cups torn butter lettuce</item>
+    </string-array>
+
+    <string-array name="open_eggplant_ing">
+        <item>&#189; cup lower-sodium marinara sauce</item>
+        <item>&#8531; cup all-purpose flour</item>
+        <item>2 large eggs, lightly beaten</item>
+        <item>1 cup panko (Japanese breadcrumbs)</item>
+        <item>1 medium eggplant, cut crosswise into 8 (&#189; inch thick) slices</item>
+        <item>&#188; teaspoon kosher salt</item>
+        <item>Cooking spray</item>
+        <item>4 (1 ounce) slices country wheat bread, toasted</item>
+        <item>12 large basil leaves</item>
+        <item>4 ounces fresh mozzarella cheese, shredded</item>
+    </string-array>
+
+    <string-array name="beet_brown_ing">
+        <item>16 thin slices sourdough bread</item>
+        <item>Cooking spray</item>
+        <item>1 cup cooked, cooled whole-grain brown rice blend</item>
+        <item>&#190; cup grated cooked beet (about 1 medium)</item>
+        <item>&#189; cup panko (Japanese breadcrumbs)</item>
+        <item>6 tablespoons chopped walnuts, toasted</item>
+        <item>&#188; cup chopped fresh flat-leaf parsley</item>
+        <item>2 tablespoons finely chopped shallots</item>
+        <item>&#189; teaspoon kosher salt</item>
+        <item>&#188; teaspoon freshly ground black pepper</item>
+        <item>2 tablespoons Dijon mustard</item>
+        <item>1 large egg</item>
+        <item>2 tablespoons olive oil</item>
+        <item>1 (3 ounce) log goat cheese, sliced crosswise into 8 slices</item>
+        <item>1 cup watercress</item>
+    </string-array>
+
+    <string-array name="farmers_market_ing">
+        <item>2 tablespoons olive oil, divided</item>
+        <item>8 (&#189; inch thick) slices eggplant</item>
+        <item>2 (&#189; inch thick) slices red onion</item>
+        <item>1 large zucchini, cut lengthwise into 4 pieces</item>
+        <item>2 teaspoons chopped fresh rosemary</item>
+        <item>&#188; teaspoon black pepper</item>
+        <item>1/8 teaspoon salt</item>
+        <item>1 tablespoon white balsamic vinegar</item>
+        <item>4 (2 &#189; ounce) ciabatta bread portions, cut in half horizontally</item>
+        <item>Cooking spray</item>
+        <item>4 (1 ounce) slices provolone cheese, halved</item>
+        <item>8 (&#188; inch thick) slices tomato</item>
+        <item>8 basil leaves</item>
+    </string-array>
+
+    <string-array name="baked_bean_ing">
+        <item>200 g vegetarian baked beans, in tomato sauce (1 small can)</item>
+        <item>2 slices bread</item>
+        <item>2 teaspoons butter</item>
+        <item>4 slices cheese (your favourite, good for melting, cheddar works well)</item>
+    </string-array>
+
+    <string-array name="cucumber_sand_ing">
+        <item>1 cucumber, peeled and thinly sliced</item>
+        <item>1 (8 ounce) package cream cheese, softened</item>
+        <item>&#188; cup mayonnaise</item>
+        <item>&#188; teaspoon garlic powder</item>
+        <item>&#188; teaspoon onion salt</item>
+        <item>1 dash Worcestershire sauce</item>
+        <item>1 (1 pound) loaf sliced bread, crusts removed</item>
+        <item>1 pinch lemon pepper (optional)</item>
+    </string-array>
+
+    <string-array name="trini_doubles_ing">
+        <item>BARA:</item>
+        <item>1 lb flour</item>
+        <item>1 tsp saffron powder (tumeric)</item>
+        <item>1 tbsp. baking powder</item>
+        <item>1 tsp yeast</item>
+        <item>&#188; tsp. brown sugar</item>
+        <item>1 tsp. salt</item>
+        <item>2 cups water</item>
+        <item>1 tbsp. oil</item>
+        <item>Oil for frying</item>
+        <item>CHANNA:</item>
+        <item>2 cups channa, soaked overnight</item>
+        <item>10 cups water, for boiling</item>
+        <item>2 tsp. baking soda</item>
+        <item>2 tbsp. oil</item>
+        <item>1 tsp. curry</item>
+        <item>1 tsp. saffron (tumeric)</item>
+        <item>1 tsp. geera (cumin)</item>
+        <item>1 tsp. masala</item>
+        <item>2 cloves garlic, chopped finely</item>
+        <item>&#189; onion, chopped finely</item>
+        <item>5 leaves chadon beni ( bandhania), chopped finely</item>
+        <item>Salt and pepper to taste (optional)</item>
+    </string-array>
+
+    <string-array name="grilled_spaghetti_ing">
+        <item>&#188; cup butter</item>
+        <item>garlic powder, or to taste</item>
+        <item>2 hoagie rolls</item>
+        <item>8 thin slices mozzarella cheese</item>
+        <item>2 cups cold cooked spaghetti</item>
+        <item>1 cup spaghetti sauce</item>
+    </string-array>
+
+    <string-array name="spinach_feta_ing">
+        <item>&#189; Tbsp olive oil</item>
+        <item>1 clove garlic</item>
+        <item>&#188; lb. frozen cut spinach</item>
+        <item>Pinch of salt and pepper</item>
+        <item>2 ciabatta rolls</item>
+        <item>1 cup shredded mozzarella cheese</item>
+        <item>1 oz. feta cheese</item>
+        <item>pinch red pepper flakes (optional)</item>
+    </string-array>
+
+    <string-array name="california_grilled_ing">
+        <item>&#188; cup mayonnaise</item>
+        <item>3 cloves garlic, minced</item>
+        <item>1 tablespoon lemon juice</item>
+        <item>1/8 cup olive oil</item>
+        <item>1 cup sliced red bell peppers</item>
+        <item>1 small zucchini, sliced</item>
+        <item>1 red onion, sliced</item>
+        <item>1 small yellow squash, sliced</item>
+        <item>2 (4 x 6 inch) focaccia bread pieces, split horizontally</item>
+        <item>&#189; cup crumbled feta cheese</item>
+    </string-array>
+
+    <string-array name="mushroom_sand_ing">
+        <item>8 slices of wheat bread or any bread of your choice</item>
+        <item>1.5 cups button mushrooms, chopped</item>
+        <item>2 to 3 green chillies, finely chopped</item>
+        <item>Salt and pepper to taste</item>
+        <item>a small bunch of chopped coriander leaves, finely chopped</item>
+        <item>Butter as required</item>
+        <item>olive oil for cooking</item>
+    </string-array>
+
+    <string-array name="south_veggie_ing">
+        <item>1 can plus an additional &#189; cup BUSH'S Black Beans</item>
+        <item>1 package BUSH'S Southwest Black Bean Hummus</item>
+        <item>4 pitas or large tortilla wraps</item>
+        <item>1 large red pepper</item>
+        <item>1 large orange pepper</item>
+        <item>&#189; cup canned corn, we like the roasted corn</item>
+        <item>2 roma tomatoes</item>
+        <item>1 avocado</item>
+        <item>8 tablespoons zesty Italian dressing</item>
+        <item>8 slices sharp cheddar cheese</item>
+        <item>Optional: fresh lime juice, fresh cilantro</item>
+        <item>Salt and pepper</item>
+    </string-array>
+
+    <string-array name="portabella_mushroom_ing">
+        <item>2 tbsp. olive oil, divided</item>
+        <item>2 extra large portabella mushrooms, thinly sliced</item>
+        <item>2 tbsp. red wine</item>
+        <item>1 small green pepper, thinly sliced</item>
+        <item>1 large onion, thinly sliced</item>
+        <item>Salt and pepper, to taste</item>
+        <item>8 slices provolone or mozzarella cheese</item>
+        <item>4 sub rolls, sliced lengthwise</item>
+    </string-array>
 </resources>

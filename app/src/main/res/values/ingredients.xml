@@ -103,6 +103,137 @@
         <item>5 ounces thinly sliced provolone cheese</item>
     </string-array>
 
+    <string-array name="meatball_sub_ing">
+        <item>1 pound ground beef</item>
+        <item>&#190; cup bread crumbs</item>
+        <item>2 teaspoons dried Italian seasoning</item>
+        <item>2 cloves garlic, minced</item>
+        <item>2 tablespoons chopped fresh parsley</item>
+        <item>2 tablespoons grated Parmesan cheese</item>
+        <item>1 egg, beaten</item>
+        <item>1 French baguette</item>
+        <item>1 tablespoon extra-virgin olive oil</item>
+        <item>&#189; teaspoon garlic powder</item>
+        <item>1 pinch salt, or to taste</item>
+        <item>1 (14 ounce) jar spaghetti sauce</item>
+        <item>4 slices provolone cheese</item>
+    </string-array>
+
+    <string-array name="patty_melt_ing">
+        <item>1 stick butter</item>
+        <item>1 whole large onion, halved and sliced</item>
+        <item>1 &#189; pounds ground beef</item>
+        <item>5 dashes Worcestershire sauce</item>
+        <item>8 slices rye bread</item>
+        <item>8 slices Swiss cheese</item>
+    </string-array>
+
+    <string-array name="fish_fillet_ing">
+        <item>1 (12 inch) tail piece fresh halibut (a foot long)</item>
+        <item>1 cup flour</item>
+        <item>1 egg, beaten</item>
+        <item>1 cup milk</item>
+        <item>1 &#189; cups panko breadcrumbs, breadcrumbs</item>
+        <item>kosher salt</item>
+        <item>fresh ground black pepper</item>
+        <item>olive oil</item>
+        <item>1 loaf French bread</item>
+        <item>1 avocado, ripen, peeled and sliced</item>
+        <item>1 beefsteak tomato, sliced</item>
+        <item>romaine lettuce</item>
+        <item>&#189; cup tartar sauce</item>
+        <item>butter, soften to taste</item>
+    </string-array>
+
+    <string-array name="kentuky_hot_ing">
+        <item>&#189; cup butter</item>
+        <item>6 tablespoons all-purpose flour</item>
+        <item>3 cups milk</item>
+        <item>&#189; cup freshly grated Parmesan cheese, divided</item>
+        <item>1 egg, beaten</item>
+        <item>salt and pepper to taste</item>
+        <item>1 tablespoon butter</item>
+        <item>2 cups sliced fresh mushrooms</item>
+        <item>1 tomato, thinly sliced</item>
+        <item>1 pound thinly sliced cooked turkey</item>
+        <item>8 slices bread, toasted</item>
+        <item>8 slices bacon, cooked</item>
+    </string-array>
+
+    <string-array name="the_elvis_ing">
+        <item>3 tablespoons peanut butter</item>
+        <item>2 slices white bread</item>
+        <item>1 banana, peeled and sliced</item>
+        <item>3 slices cooked bacon</item>
+        <item>1 &#189; teaspoons butter</item>
+    </string-array>
+
+    <string-array name="fried_bologna_ing">
+        <item>2 slices white bread</item>
+        <item>1 or 2 slice bologna (depending on preference)</item>
+        <item>1/8 teaspoon oil</item>
+        <item>1 slice American cheese</item>
+        <item>1 tablespoon mustard</item>
+    </string-array>
+
+    <string-array name="open_chicken_ing">
+        <item>1 tablespoon olive oil</item>
+        <item>4 (6 ounce) skinless, boneless chicken breast halves</item>
+        <item>&#188; teaspoon kosher salt, divided</item>
+        <item>&#188; teaspoon freshly ground black pepper</item>
+        <item>2 teaspoons fresh lemon juice</item>
+        <item>3 tablespoons canola mayonnaise</item>
+        <item>1 ripe peeled avocado, coarsely mashed</item>
+        <item>4 (1 ounce) slices sourdough bread, toasted</item>
+        <item>4 pieces green leaf lettuce</item>
+        <item>2 plum tomatoes, each cut into 6 slices</item>
+        <item>4 slices center-cut bacon, cooked and drained</item>
+    </string-array>
+
+    <string-array name="chicken_waffle_ing">
+        <item>4 slices lower-sodium bacon, halved crosswise</item>
+        <item>3 tablespoons canola mayonnaise</item>
+        <item>1 tablespoon low-fat buttermilk</item>
+        <item>1 teaspoon cider vinegar</item>
+        <item>&#188; teaspoon sugar</item>
+        <item>&#188; teaspoon garlic powder</item>
+        <item>1/8 teaspoon freshly ground black pepper</item>
+        <item>8 frozen whole-grain waffles, toasted</item>
+        <item>6 ounces thinly sliced, lower-sodium deli chicken breast</item>
+        <item>8 (&#188;-inch-thick) slices ripe tomato</item>
+        <item>4 Boston lettuce leaves</item>
+    </string-array>
+
+    <string-array name="jambon_beurre_ing">
+        <item>1 French baguette, sliced lenghtwise</item>
+        <item>4 tablespoons European-style butter, at room temperature</item>
+        <item>6 ounces (about 12 slices) Oscar Mayer Selects Natural Applewood Smoked Ham</item>
+        <item>3 ounces Gruyère cheese, thinly sliced (optional)</item>
+    </string-array>
+
+    <string-array name="creamed_eggs_ing">
+        <item>12 hard-cooked eggs, peeled</item>
+        <item>&#188; cup butter</item>
+        <item>&#189; cup all-purpose flour</item>
+        <item>3 cups milk</item>
+        <item>1 tablespoon chicken bouillon granules</item>
+        <item>6 slices white bread, lightly toasted</item>
+        <item>salt and white pepper to taste</item>
+    </string-array>
+
+    <string-array name="chicken_parmesan_ing">
+        <item>&#189; cup all-purpose flour</item>
+        <item>&#189; teaspoon kosher salt</item>
+        <item>&#189; teaspoon freshly ground pepper</item>
+        <item>1 pound boneless, skinless chicken breasts</item>
+        <item>2 6 ounce bags baby spinach</item>
+        <item>1 cup marinara sauce, preferably low-sodium</item>
+        <item>&#188; cup grated Parmesan cheese</item>
+        <item>&#189; cup shredded part-skim mozzarella</item>
+        <item>4 soft whole-wheat sandwich rolls, toasted</item>
+        <item>4 teaspoons extra-virgin olive oil, divided</item>
+    </string-array>
+
     <!--===================Luxe=========================-->
 
     <string-array name="steak_foie_gras_ing">

@@ -123,6 +123,154 @@
         <item>To serve, unwrap the sandwich and slice into large pieces about 3 to 4 inches wide.</item>
     </string-array>
 
+    <string-array name="meatball_sub_dir">
+        <item>Preheat the oven to 350 degrees F (175 degrees C).</item>
+        <item>In a medium bowl, gently mix by hand the ground beef, bread crumbs, Italian seasoning, garlic, parsley, Parmesan cheese, and egg.</item>
+        <item>Shape into 12 meatballs, and place in a baking dish.</item>
+        <item>Bake for 15 to 20 minutes in the preheated oven, or until cooked through.</item>
+        <item>Meanwhile, cut the baguette in half lengthwise, and remove some of the bread from the inside to make a well for the meatballs.</item>
+        <item>Brush with olive oil, and season with garlic powder and salt.</item>
+        <item>Slip the baguette into the oven during the last 5 minutes of the meatball's time, or until lightly toasted.</item>
+        <item>While the bread toasts, warm the spaghetti sauce in a saucepan over medium heat.</item>
+        <item>When the meatballs are done, use a slotted spoon to transfer them to the sauce.</item>
+        <item>Spoon onto the baguette and top with slices of provolone cheese.</item>
+        <item>Return to the oven for 2 to 3 minutes to melt the cheese.</item>
+        <item>Cool slightly, cut into servings, and enjoy!</item>
+    </string-array>
+
+    <string-array name="patty_melt_dir">
+        <item>In a medium skillet, melt 2 tablespoons of the butter over medium-low heat.</item>
+        <item>Throw in the sliced onions and cook slowly until the onions are golden brown and soft, 20 to 25 minutes, stirring occasionally.</item>
+        <item>In a medium bowl, mix together the ground beef, Worcestershire and some salt and pepper.</item>
+        <item>Form into 4 patties.</item>
+        <item>Melt 2 tablespoons of the butter in a separate skillet over medium heat.</item>
+        <item>Cook the patties on both sides until totally done in the middle.</item>
+        <item>Assemble the patty melts this way: Slice of bread, slice of cheese, hamburger patty, a quarter of the cooked onions, another slice of cheese and another slice of bread.</item>
+        <item>On a clean griddle or in a large skillet over medium heat, melt 2 tablespoons of the butter and grill the sandwiches until golden brown.</item>
+        <item>Remove the sandwiches and add the remaining 2 tablespoons butter to the skillet.</item>
+        <item>Return the sandwiches to the skillet, flipping them to the other side.</item>
+        <item>Cook until golden brown and crisp, and until the cheese is melted.</item>
+        <item>Slice in half and serve immediately!</item>
+    </string-array>
+
+    <string-array name="fish_fillet_dir">
+        <item>Preheat oven to 350'.</item>
+        <item>Place a baking sheet in oven and let heat up for a good 20 to 25 minutes.</item>
+        <item>Set up a breading station with 3 separate deep bowls or containers.</item>
+        <item>Add flour, kosher salt and black pepper to one containter and set aside.</item>
+        <item>In the 2nd containter, add egg and milk , whipped up together and adding a touch of salt and black pepper , and set aside.</item>
+        <item>In the 3rd containter add Panko breadcrumbs with more salt and black pepper.</item>
+        <item>Cut halibut tail into 2 pieces.</item>
+        <item>Dip each halibut fillet into the flour mixture first than into the egg mixture, and than into the panko breading.</item>
+        <item>Set each fillet onto a cutting board or a plate to let rest 5 minutes.</item>
+        <item>Bring out baking sheet from oven and sprinkle some olive oil over the pan.</item>
+        <item>Place halibut fillets on hot baking sheet ( it should sizzle when placing on sheet).</item>
+        <item>Bake 30 minutes or until a golden brown.</item>
+        <item>Split open the french bread and spread butter over each slice of french bread.</item>
+        <item>Toast bread in oven until a light golden brown.</item>
+        <item>Add tarter sauce to each toasted side of bread.</item>
+        <item>Add the fish fillet to one side of bread.</item>
+        <item>Add avocado, tomato and romaine lettuce on top of fish.</item>
+        <item>Top with other side of bread and serve.</item>
+    </string-array>
+
+    <string-array name="kentuky_hot_dir">
+        <item>In a large skillet, melt &#189; cup butter over medium heat.</item>
+        <item>Stir in enough flour to absorb all of the butter.</item>
+        <item>Slowly whisk in the milk, and 6 tablespoons of Parmesan cheese.</item>
+        <item>Stir in the egg to thicken the sauce, but do not allow to boil.</item>
+        <item>Remove from heat, and season with salt and pepper to taste.</item>
+        <item>Heat remaining tablespoon of butter in a small skillet.</item>
+        <item>Saute mushrooms in the butter until soft. Set aside.</item>
+        <item>Preheat your oven's broiler.</item>
+        <item>For each Hot Brown, place two slices of toast onto a heatproof plate or dish.</item>
+        <item>Cover the toast with about &#188; cup sauteed mushrooms and a couple of tomato slices.</item>
+        <item>Place a liberal amount of turkey onto each Hot Brown, and pour an even more liberal amount of sauce over.</item>
+        <item>Smother that baby.</item>
+        <item>Sprinkle remaining Parmesan cheese over the top.</item>
+        <item>Repeat with remaining ingredients.</item>
+        <item>Place the entire dish under the broiler until the sauce is speckled brown and bubbly.</item>
+        <item>Remove from broiler, criss-cross two slices of bacon on top, and serve!</item>
+    </string-array>
+    
+    <string-array name="the_elvis_dir">
+        <item>Spread the peanut butter on one side of one slice of bread.</item>
+        <item>Top with sliced banana, then slices of cooked bacon.</item>
+        <item>Cover with the other slice of bread.</item>
+        <item>Spread butter on the outside of the sandwich.</item>
+        <item>Heat a skillet over medium heat.</item>
+        <item>Fry the sandwich on each side until golden brown and peanut butter is melted, about 4 minutes total.</item>
+    </string-array>
+
+    <string-array name="fried_bologna_dir">
+        <item>Put oil in a frying pan and heat to med. high.</item>
+        <item>Put slit in bologna from middle to all the way through the end.</item>
+        <item>Put bologna in heated oil.</item>
+        <item>Brown both sides.</item>
+        <item>Add cheese to top while last side is browning.</item>
+        <item>Spread mustard on both sides of bread.</item>
+        <item>Add bologna between slices and gobble it up!</item>
+    </string-array>
+
+    <string-array name="open_chicken_dir">
+        <item>Heat a large skillet over medium-high heat.</item>
+        <item>Add oil to pan; swirl to coat.</item>
+        <item>Sprinkle chicken evenly with 1/8 teaspoon salt and pepper.</item>
+        <item>Add chicken to pan; sauté 6 minutes on each side or until done.</item>
+        <item>Remove from pan; let stand 5 minutes. Slice.</item>
+        <item>Combine remaining 1/8 teaspoon salt, juice, mayonnaise, and avocado in a small bowl; stir until well blended.</item>
+        <item>Spread about 3 tablespoons avocado mixture over each bread slice.</item>
+        <item>Top each sandwich with 1 lettuce leaf, 1 chicken breast half, 3 tomato slices, and 1 bacon slice.</item>
+        <item>Serve</item>
+    </string-array>
+
+    <string-array name="chicken_waffle_dir">
+        <item>Cook bacon in a large nonstick skillet over medium heat until crisp.</item>
+        <item>Drain on paper towels.</item>
+        <item>Combine mayonnaise and the next 5 ingredients (through black pepper) in a small bowl.</item>
+        <item>Spread mayonnaise mixture evenly over 4 waffles.</item>
+        <item>Divide chicken, bacon, tomato, and lettuce evenly among servings.</item>
+        <item>Top with remaining waffles.</item>
+    </string-array>
+
+    <string-array name="jambon_beurre_dir">
+        <item>Spread the butter on cut sides of the baguette.</item>
+        <item>Add the cheese (if using) to the bottom slice and top with the ham.</item>
+        <item>Top with the other slice of baguette.</item>
+        <item>Cut the sandwich into two equal parts.</item>
+        <item>Serve or refrigerate (wrapped in plastic) for up to one day!</item>
+    </string-array>
+
+    <string-array name="creamed_eggs_dir">
+        <item>Separate the egg whites from the egg yolks.</item>
+        <item>Place the egg yolks into a bowl and mash with a fork.</item>
+        <item>Chop the egg whites into small pieces and set aside.</item>
+        <item>Melt the butter in a saucepan set over medium heat.</item>
+        <item>Stir in flour until smooth.</item>
+        <item>Gradually mix in the milk and chicken bouillon so that no lumps form and stir constantly until the mixture comes to a boil.</item>
+        <item>Add the egg yolks and mix until dissolved.</item>
+        <item>Stir in egg whites.</item>
+        <item>Serve over toast and season with salt and white pepper.</item>
+    </string-array>
+
+    <string-array name="chicken_parmesan_dir">
+        <item>Position oven rack in top position; preheat broiler.</item>
+        <item>Combine flour, salt and pepper in a shallow dish.</item>
+        <item>Place chicken between 2 large pieces of plastic wrap.</item>
+        <item>Pound with the smooth side of a meat mallet or a heavy saucepan until the chicken is an even &#188; inch thickness.</item>
+        <item>Dip the chicken in the flour mixture and turn to coat.</item>
+        <item>Heat 2 teaspoons oil in a large nonstick skillet over medium-high heat.</item>
+        <item>Add spinach and cook, stirring often, until wilted, 2 to 3 minutes. Transfer to a small bowl.</item>
+        <item>Add 1 teaspoon oil to the pan.</item>
+        <item>Add half the chicken and cook until golden, 1 to 2 minutes per side.</item>
+        <item>Transfer to a large baking sheet.</item>
+        <item>Repeat with the remaining 1 teaspoon oil and chicken; transfer to the baking sheet.</item>
+        <item>Top each piece of chicken with the wilted spinach, marinara sauce and Parmesan.</item>
+        <item>Sprinkle with mozzarella.</item>
+        <item>Broil until the cheese is melted and the chicken is cooked through, about 3 minutes.</item>
+        <item>Serve on rolls.</item>
+    </string-array>
+
     <!--===================Luxe=========================-->
     <string-array name="steak_foie_gras_dir">
         <item>Begin by preparing the foie mayo. Combine foie gras and mayonnaise in a blender until smooth.</item>

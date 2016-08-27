@@ -10,6 +10,17 @@
     <string name="cheese_steak_sub">Also known as Philly cheesesteak</string>
     <string name="shripm_po_sub">Classic New Orleans shrimp po'boy</string>
     <string name="italian_hero_sub">An Italian attention grabber</string>
+    <string name="meatball_sub_sub">Sub is submarine sandwich</string>
+    <string name="patty_melt_sub">Who does not love a patty melt?</string>
+    <string name="fish_fillet_sub">Fish nice and crispy</string>
+    <string name="kentuky_hot_sub">Created Brown Hotel, Louisville, Kentucky</string>
+    <string name="the_elvis_sub">A favorite of The King</string>
+    <string name="fried_bologna_sub">Also known as a baloney sandwich</string>
+    <string name="open_chicken_sub">Open is love</string>
+    <string name="chicken_waffle_sub">Chicken and waffle. Nice!</string>
+    <string name="jambon_beurre_sub">The most iconic French sandwich</string>
+    <string name="creamed_eggs_sub">A traditional Easter brunch fare</string>
+    <string name="chicken_parmesan_sub">Also known as Chicken parmigiana</string>
 
     <!--===================Luxe=========================-->
     <string name="steak_foie_gras_sub">Steak, Foie Gras and Mayo</string>

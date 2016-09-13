@@ -874,7 +874,7 @@
         <item>6 to 8 Hot dog buns</item>
     </string-array>
 
-    <string-array name="fracesinha_ing">
+    <string-array name="francesinha_ing">
         <item>2 slices white bread</item>
         <item>2 slices smoked ham</item>
         <item>4 slices cheese, something melty like a dutch cheese</item>
@@ -1049,8 +1049,8 @@
         <item>2 cups chopped onions</item>
         <item>3 lbs lean ground beef</item>
         <item>2 cups barbecue sauce or 2 cups ketchup</item>
-        <item>1 cup french's classic yellow mustard</item>
-        <item>&#189; cup french's classic Worcestershire sauce</item>
+        <item>1 cup french\'s classic yellow mustard</item>
+        <item>&#189; cup french\'s classic Worcestershire sauce</item>
         <item>2 (15 ounce) packages hamburger slider rolls (about 24 rolls)</item>
     </string-array>
 
@@ -1270,8 +1270,8 @@
     </string-array>
 
     <string-array name="south_veggie_ing">
-        <item>1 can plus an additional &#189; cup BUSH'S Black Beans</item>
-        <item>1 package BUSH'S Southwest Black Bean Hummus</item>
+        <item>1 can plus an additional &#189; cup BUSH\'S Black Beans</item>
+        <item>1 package BUSH\'S Southwest Black Bean Hummus</item>
         <item>4 pitas or large tortilla wraps</item>
         <item>1 large red pepper</item>
         <item>1 large orange pepper</item>

@@ -8,10 +8,10 @@
     <string name="bombay_vada_pav_desc">A simple creation involving a deep fried potato patty with some coriander and spices. It originated as a street food in Mumbai</string>
     <string name="cheese_steak_desc">Cheesesteak was developed in the early 20th century "by combining frizzled beef, onions, and cheese in a small loaf of bread".</string>
     <string name="shripm_po_desc">In this shrimp po boy recipe, the paper-thin crust and pillowy crumb of a New Orleans–style French roll is essential as is Crystal hot sauce.</string>
-    <string name="italian_hero_desc">It comes with a combination of mortadella, capicola, and Genoa salami. At a good Italian delicatessen, you'll be able to find the peppers and sliced meats</string>
+    <string name="italian_hero_desc">It comes with a combination of mortadella, capicola, and Genoa salami. At a good Italian delicatessen, you\'ll be able to find the peppers and sliced meats</string>
     <string name="meatball_sub_desc">The art of the meatball sandwich is all about the construction&#8230; well, and the meatballs, of course. You can eat them as is</string>
     <string name="patty_melt_desc">In case you don’t know the strict definition, a patty melt is a beautiful, luscious, delicious cross between a grilled cheese and a hamburger</string>
-    <string name="fish_fillet_desc">Skip the fast-food fish sandwiches and make them at home. They're 15-minutes fast and they are much more healthier</string>
+    <string name="fish_fillet_desc">Skip the fast-food fish sandwiches and make them at home. They\'re 15-minutes fast and they are much more healthier</string>
     <string name="kentuky_hot_desc">It was one of two signature sandwiches created by chefs at the Brown Hotel shortly after its founding in 1923</string>
     <string name="the_elvis_desc">Also known as Peanut butter, banana and bacon sandwich is very tasty, especially on cold winter days!</string>
     <string name="fried_bologna_desc">The bologna sandwich, fried or unfried, has been elevated to a regional specialty in the Midwest, Appalachia, and the South</string>
@@ -19,7 +19,7 @@
     <string name="chicken_waffle_desc">Breakfast meets dinner in this play on the Southern favorite. The sauce is full of flavor that blends nicely</string>
     <string name="jambon_beurre_desc">Sold all over Paris, from boulangeries to street vendors I thought less of it. But once I tasted it, I became obsessed</string>
     <string name="creamed_eggs_desc">The dish is often used as a way to use up leftovers, common additions include chopped ham, veal, chicken, lobster, peas, etc.</string>
-    <string name="chicken_parmesan_desc">But when life gives you massive amounts of excess chicken Parm, then there's only one thing to do: Make Chicken Parm sandwiches</string>
+    <string name="chicken_parmesan_desc">But when life gives you massive amounts of excess chicken Parm, then there\'s only one thing to do: Make Chicken Parm sandwiches</string>
 
     <!--===================Luxe=========================-->
     <string name="steak_foie_gras_desc">Creamy, controversial foie gras comes together with freezer-aisle steak in this cheesy sandwich</string>
@@ -72,14 +72,14 @@
     <string name="japanese_fruit_desc">Fruit sandwich are a very popular snack in Japan. These sandwiches are had during tea time in Japan. Mostly loved by women</string>
     <string name="fluffer_nutter_desc">The term “fluffernutter” was created by an advertising agency in 1960 as a more effective way to market the sandwich</string>
     <string name="peanut_jelly_desc">A 2002 survey showed the average American will have eaten 1,500 of these sandwiches before high school graduation</string>
-    <string name="prosciutto_fig_desc">Prosciutto and fresh figs are a classic Italian combination. Along with the cheese and jam, they create a sweet-savory sandwich that's simple yet memorable.</string>
+    <string name="prosciutto_fig_desc">Prosciutto and fresh figs are a classic Italian combination. Along with the cheese and jam, they create a sweet-savory sandwich that\'s simple yet memorable.</string>
     <string name="cinnamon_toast_desc">Cinnamon Toast’s golden brown color, crispiness and ability to melt butter gets me every time. Warm and cozy.</string>
 
     <!-- GUILTY -->
     <string name="simple_tuna_melt_desc">Eating a late-night tuna melt in front of a woman is a sure sign you have completely stopped giving a crap. The taste speaks for itself</string>
     <string name="potato_chip_desc">A crisp sandwich, chip sandwich, chipwich, potato chip sandwich or chippy sandwich is a sandwich that includes crisps as one of the fillings</string>
     <string name="yakisoba_pan_desc">Pile the noodles into a bun sliced down the middle in the style of a hot dog, and garnish the top with mayonnaise and shreds of pickled ginger</string>
-    <string name="fracesinha_desc">Daniel da Silva invented it in the 1960s when he tried to adapt the croque-monsieur to Portuguese taste. It is a very popular dish in Porto, Portugal.</string>
+    <string name="francesinha_desc">Daniel da Silva invented it in the 1960s when he tried to adapt the croque-monsieur to Portuguese taste. It is a very popular dish in Porto, Portugal.</string>
     <string name="roasted_turkey_desc"> It\'s a known fact that roasted turkey trumps deli turkey, so now\'s the time to make all your favorite turkey sandwiches</string>
     <string name="mexican_telera_desc">Telera refers to a Mexican bread similar to a French roll with a scored and flour-dusted crust. It can be found in Mexican markets</string>
     <string name="easy_slow_french_desc">Sometimes you create a recipe that’s so melt in your mouth –  savor every meaty, cheesy bite – delicious. This is one of them</string>
@@ -89,7 +89,7 @@
     <string name="cemitas_mexican_desc">The Cemita is what happens when a pulled pork sandwich spends Spring Break south of the border. This sandwich, a fan favorite in Puebla, Mexico</string>
     <string name="the_falafel_desc">Falafel is a deep fried ball or patty made from ground chickpeas, fava beans or both. It is commonly served in a pita, which acts as a pocket.</string>
     <string name="the_primanti_desc">You will be charmed by their incredibly over sized warm capicola sandwich stuffed with French fries and coleslaw</string>
-    <string name="peanut_chicken_pitas_desc">Here's a tasty way to use up leftover roast chicken. Dark meat stands up to the intense flavors in the dressing</string>
+    <string name="peanut_chicken_pitas_desc">Here\'s a tasty way to use up leftover roast chicken. Dark meat stands up to the intense flavors in the dressing</string>
     <string name="italian_beef_sandwich_desc">Italian Beef is made by slowly roasting lean beef on a rack above a pan filled with seasoned beef-based stock</string>
     <string name="sloppy_joe_desc">Make the sauce ahead of time, if you like. Just reheat it and toast the buns to finish the sliders</string>
     <string name="gatsby_sandwich_desc">Gatsbys originated in Cape Town, where people would often buy large rolls and fill them with whatever leftovers they had for lunch the next day</string>
@@ -98,15 +98,15 @@
 
     <string name="grilled_zucchini_desc">The fresh flavors in this Grilled Zucchini Caprese Sandwich recipe will leave you wanting more</string>
     <string name="caesar_salad_desc">Pack sandwich components separately the leaves and the cheese; a mixture of the dressing and pepper; and the toasted bagel</string>
-    <string name="roasted_red_desc">If you like pimiento cheese, you'll enjoy this recipe. Keep the sandwiches well chilled so the cream cheese spread will remain firm</string>
+    <string name="roasted_red_desc">If you like pimiento cheese, you\'ll enjoy this recipe. Keep the sandwiches well chilled so the cream cheese spread will remain firm</string>
     <string name="feta_basil_desc">Feta cheese, popularly used in mediterranean cuisine, has a slightly salty taste that goes well with the tomatoes and basil</string>
     <string name="tomato_basil_desc">Crusty Cuban bread is perfectly complemented with creamy mozzarella and a slice of juicy tomato. Serve with sweet potato chips or a simple green salad</string>
-    <string name="veggie_hummus_desc">These flavorful wraps are filled with good-for-you ingredients like hummus and fresh vegetables. They're perfect for a quick lunch or dinner</string>
-    <string name="open_eggplant_desc">Here's the key to a speedy dinner: While the eggplant broils, toast your bread slices in a toaster oven.</string>
+    <string name="veggie_hummus_desc">These flavorful wraps are filled with good-for-you ingredients like hummus and fresh vegetables. They\'re perfect for a quick lunch or dinner</string>
+    <string name="open_eggplant_desc">Here\'s the key to a speedy dinner: While the eggplant broils, toast your bread slices in a toaster oven.</string>
     <string name="beet_brown_desc">These bite-size Beet and Brown Rice Sliders will leave you satisfied and craving another. Good news: a serving size of these veggie burgers is two sliders</string>
     <string name="farmers_market_desc">The stack of grilled eggplant, red onion, and zucchini are quite a mouthful but still tasty to eat. </string>
     <string name="baked_bean_desc">Good old toast and sandwiches never let you down. Try this and you are bound to love it. It is so simple and delicious</string>
-    <string name="cucumber_sand_desc">The whole point about cucumber sandwiches is that, unless done really well, they're as dull as the sum of their ingredients</string>
+    <string name="cucumber_sand_desc">The whole point about cucumber sandwiches is that, unless done really well, they\'re as dull as the sum of their ingredients</string>
     <string name="trini_doubles_desc">This popular breakfast food is also a late night favorite after a good "lime." "Lime" is the Trini term for "hanging out"</string>
     <string name="grilled_spaghetti_desc">Two favorite Italian foods, spaghetti and garlic bread, come together in this recipe which the whole family will love</string>
     <string name="spinach_feta_desc">Spinach is a natural with a grilled cheese. Plus, thanks to all of those Popeye cartoons when you were a kid, it makes you feel extra healthy</string>

@@ -103,6 +103,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
         String format = String.format(Locale.ENGLISH, "%d/%d", position + 1, getItemCount());
         String cookingTime = String.format("%s minutes", sandwich.getCookingTime());
         int id = mContext.getResources().getIdentifier(sandwich.getImageName(), "drawable", mContext.getPackageName());
+        Log.e(TAG, "Sandwich Name: " +sandwich.getName());
         Drawable sandwichImage = ContextCompat.getDrawable(mContext, id);
         holder.tv_sandwichNumber.setText(format);
         holder.tv_sandwichName.setText(sandwich.getName());

@@ -83,6 +83,11 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
         replaceFragment(introFragment, IntroFragment.TAG);
     }
 
+    public static Intent newIntent(Context context)
+    {
+        return new Intent(context, IntroActivity.class);
+    }
+
     @Override
     public void onBackPressed() {
         if(getFragmentManager().getBackStackEntryCount() > 0)

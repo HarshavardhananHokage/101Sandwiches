@@ -34,4 +34,17 @@
     <string name="menu_sub_head_2">SUPPORT</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    
+    <!-- App Guide Texts -->
+    <string name="ag_skip">Skip</string>
+    <string name="ag_next">Next</string>
+
+    <string name="ag_intro_subtext">An exquisite app that provides you recipes to 101 sandwiches from all over the world.
+        Surprise everyone with exotic sandwich recipes from the Hawaiian islands to the Japanese sea shores.</string>
+    <string name="ag_intro_img_des">App Icon</string>
+
+    <string name="ag_groups_mainText">Six Categories</string>
+    <string name="ag_groups_subText">Sandwiches are categorized into six - Classic, Luxe, Spice, Sweet, Veggies and Guilty.
+        Choose a category based on your mood and have fun making one from the listed choices.</string>
+    <string name="ag_groups_img_des">Six Categories</string>
 </resources>

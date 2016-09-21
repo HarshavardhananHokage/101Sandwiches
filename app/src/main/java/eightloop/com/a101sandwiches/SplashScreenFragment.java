@@ -22,6 +22,7 @@ public class SplashScreenFragment extends Fragment {
 
     Typeface tf_pacifico;
     Typeface tf_handOfSean;
+    Typeface tf_fabfelt;
 
     @Nullable
     @Override
@@ -31,10 +32,8 @@ public class SplashScreenFragment extends Fragment {
         tv_appName = (TextView) splashView.findViewById(R.id.fss_tv_appName);
 
         tf_pacifico = Typeface.createFromAsset(getActivity().getAssets(), "fonts/pacifico.ttf");
-        tf_handOfSean = Typeface.createFromAsset(getActivity().getAssets(), "fonts/handsean.ttf");
 
         tv_appName.setTypeface(tf_pacifico);
-        //tv_appName.setTypeface(tf_handOfSean);
 
         return splashView;
     }

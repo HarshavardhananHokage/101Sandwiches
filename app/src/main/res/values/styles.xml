@@ -9,4 +9,12 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

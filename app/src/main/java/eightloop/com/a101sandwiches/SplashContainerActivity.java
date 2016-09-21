@@ -21,13 +21,16 @@ public class SplashContainerActivity extends Activity {
     Handler handler;
 
     SplashScreenFragment splashScreenFragment;
+    AppGuideIntroFragment appGuideFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_container);
+
         splashScreenFragment = new SplashScreenFragment();
         loadFragment(splashScreenFragment, SplashScreenFragment.TAG);
+
         handler =  new Handler();
         handler.postDelayed(new Runnable() {
             @Override

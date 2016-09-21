@@ -8,4 +8,24 @@
     <color name="darkGreen">#4caf50</color>
     <color name="white">#FEFEFE</color>
     <color name="gold">#fbc02d</color>
+
+    <!-- Colors for App Guide-->
+
+    <color name="ag_green">#66bb6a</color>
+    <color name="ag_contrastGreen">#4caf50</color>
+
+    <color name="ag_indigo">#7e57c2</color>
+    <color name="ag_contrastIndigo">#673ab7</color>
+
+    <color name="ag_blue">#42a5f5</color>
+    <color name="ag_contrastBlue">#2196f3</color>
+
+    <color name="ag_red">#ef5350</color>
+    <color name="ag_contrastRed">#e53935</color>
+
+    <color name="ag_gold">#ffb74d</color>
+    <color name="ag_contrastGold">#ff9800</color>
+
+    <color name="ag_pink">#ec407a</color>
+    <color name="ag_contrastPink">#e91e63</color>
 </resources>

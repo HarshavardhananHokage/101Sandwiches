@@ -19,17 +19,35 @@ public class AppGuideActivity extends Activity {
 
     AppGuideIntroFragment appGuideIntroFragment;
     AppGuideGroupsFragment appGuideGroupsFragment;
+    AppGuideMainFragment appGuideMainFragment;
+    AppGuideDetailsFragment appGuideDetailsFragment;
+    AppGuideSurpriseFragment appGuideSurpriseFragment;
+    AppGuideRateFragment appGuideRateFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_guide);
+
         /*appGuideIntroFragment = new AppGuideIntroFragment();
         loadFragment(appGuideIntroFragment, AppGuideIntroFragment.TAG);*/
 
-        appGuideGroupsFragment = new AppGuideGroupsFragment();
-        loadFragment(appGuideGroupsFragment, AppGuideGroupsFragment.TAG);
+        /*appGuideGroupsFragment = new AppGuideGroupsFragment();
+        loadFragment(appGuideGroupsFragment, AppGuideGroupsFragment.TAG);*/
+
+        /*appGuideMainFragment = new AppGuideMainFragment();
+        loadFragment(appGuideMainFragment, AppGuideMainFragment.TAG);*/
+
+        /*appGuideDetailsFragment = new AppGuideDetailsFragment();
+        loadFragment(appGuideDetailsFragment, AppGuideDetailsFragment.TAG);*/
+
+        /*appGuideSurpriseFragment = new AppGuideSurpriseFragment();
+        loadFragment(appGuideSurpriseFragment, AppGuideSurpriseFragment.TAG);*/
+
+        appGuideRateFragment = new AppGuideRateFragment();
+        loadFragment(appGuideRateFragment, AppGuideRateFragment.TAG);
     }
+
 
     public void loadFragment(Fragment fragment, String fragTag)
     {

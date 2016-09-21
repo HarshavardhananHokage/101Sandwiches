@@ -13,9 +13,9 @@ import android.widget.TextView;
  * Created on 9/21/2016.
  */
 
-public class AppGuideMainFragment extends Fragment {
+public class AppGuideRateFragment extends Fragment {
 
-    public static final String TAG = "AppGuideMainFragment";
+    public static final String TAG = "AppGuideRateFragment";
 
     View view;
 
@@ -27,10 +27,10 @@ public class AppGuideMainFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_app_guide_3_main_list, container, false);
+        view = inflater.inflate(R.layout.fragment_app_guide_6_rate_us, container, false);
 
-        tv_mainText = (TextView) view.findViewById(R.id.fag3_tv_mainText);
-        tv_subText = (TextView) view.findViewById(R.id.fag3_tv_subText);
+        tv_mainText = (TextView) view.findViewById(R.id.fag6_tv_mainText);
+        tv_subText = (TextView) view.findViewById(R.id.fag6_tv_subText);
 
         type_bariol = Typeface.createFromAsset(getActivity().getAssets(), "fonts/bariol.otf");
 

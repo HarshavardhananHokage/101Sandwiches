@@ -47,4 +47,26 @@
     <string name="ag_groups_subText">Sandwiches are categorized into six - Classic, Luxe, Spice, Sweet, Veggies and Guilty.
         Choose a category based on your mood and have fun making one from the listed choices.</string>
     <string name="ag_groups_img_des">Six Categories</string>
+
+    <string name="ag_main_list_mainText">Beautiful Lists</string>
+    <string name="ag_main_list_subText">A spectacular side scrolling list that houses all the 101 sandwiches.
+        Each recipe card displays the sandwich image, name and time to make for easier selection.</string>
+    <string name="ag_main_list_img_des">Main List Icon</string>
+
+    <string name="ag_details_mainText">In Fine Detail</string>
+    <string name="ag_details_subText">Each sandwich recipe is meticulously detailed. The ingredients and directions
+        are thorough and in a separate layout for ease during preparation. Also check the calories of each sandwich.</string>
+    <string name="ag_details_img_des">Details Icon</string>
+
+    <string name="ag_surprise_mainText">Life Made Easy</string>
+    <string name="ag_surprise_subText">Love suspense? Try "Surprise Me" to select a random sandwich. Heart your favorite sandwiches
+        for quick view later. Search sandwiches with just a touch. Finding recipes was never this easy.</string>
+    <string name="ag_surprise_img_des">Surprise Icon</string>
+
+    <string name="ag_rate_mainText">Need Your Love</string>
+    <string name="ag_rate_subText">The app needs your love and support. If you like it, rate in on play store and share it
+        with your family and friends. The love we give away is the only love we keep. Spread some sunshine for us will you.</string>
+    <string name="ag_rate_img_des">Love Icon</string>
+
+
 </resources>

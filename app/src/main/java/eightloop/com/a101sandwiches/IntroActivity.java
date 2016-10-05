@@ -173,6 +173,9 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                 case "Sweet":
                     ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Sweet");
                     break;
+                case "Veggies":
+                    ((SandwichListFragment) currVisibleFrag).getClassifiedSandwiches("Veggies");
+                    break;
                 case "Rate App":
                     GeneralHelperMethods.rateAppAtPlayStore(this);
                     break;
@@ -215,6 +218,9 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                     break;
                 case "Sweet":
                     bundle.putString(AppConstants.FROM_INTRO_FRAG, "Sweet");
+                    break;
+                case "Veggies":
+                    bundle.putString(AppConstants.FROM_INTRO_FRAG, "Veggies");
                     break;
                 case "Rate App":
                     GeneralHelperMethods.rateAppAtPlayStore(this);

@@ -25,4 +25,14 @@ public class AppPreferenceHandler {
     {
         sharedPreferenceManager.setBoolPreference(SharedPrefConstants.IS_LIST_FAVOURITE, value);
     }
+
+    public int getIsAppLaunchedFirstTime()
+    {
+        return sharedPreferenceManager.getIntPreference(SharedPrefConstants.IS_FIRST_TIME);
+    }
+
+    public void setIsAppLaunchedFirstTime(int value)
+    {
+        sharedPreferenceManager.setIntPreference(SharedPrefConstants.IS_FIRST_TIME, value);
+    }
 }

@@ -35,6 +35,9 @@
                     android:id="@+id/md_sub_item_sweet"
                     android:title="@string/menu_sweet"
                     android:icon="@drawable/ic_action_sandwich_sweet"/>
+                <item android:id="@+id/md_sub_item_veggies"
+                    android:title="@string/menu_veggies"
+                    android:icon="@drawable/ic_action_veggies"/>
                 </group>
             </menu>
         </item>
@@ -59,6 +62,5 @@
                 </group>
             </menu>
         </item>
-
     </group>
 </menu>

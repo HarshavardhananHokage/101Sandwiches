@@ -7,6 +7,12 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 
+import eightloop.com.a101sandwiches.appguide.AppGuideDetailsFragment;
+import eightloop.com.a101sandwiches.appguide.AppGuideGroupsFragment;
+import eightloop.com.a101sandwiches.appguide.AppGuideIntroFragment;
+import eightloop.com.a101sandwiches.appguide.AppGuideMainFragment;
+import eightloop.com.a101sandwiches.appguide.AppGuideRateFragment;
+import eightloop.com.a101sandwiches.appguide.AppGuideSurpriseFragment;
 import eightloop.com.a101sandwiches.interfaces.AppGuideCallbackInterface;
 
 /**

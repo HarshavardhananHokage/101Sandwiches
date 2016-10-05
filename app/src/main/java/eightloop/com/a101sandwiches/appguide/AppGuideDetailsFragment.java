@@ -1,4 +1,4 @@
-package eightloop.com.a101sandwiches;
+package eightloop.com.a101sandwiches.appguide;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import eightloop.com.a101sandwiches.AppGuideActivity;
+import eightloop.com.a101sandwiches.R;
 import eightloop.com.a101sandwiches.interfaces.AppGuideCallbackInterface;
 
 /**

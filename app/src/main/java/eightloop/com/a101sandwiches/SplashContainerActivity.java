@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.app.FragmentManager;
 import android.os.Handler;
 
+import eightloop.com.a101sandwiches.appguide.AppGuideIntroFragment;
+
 /**
  * Created on 9/17/2016.
  */

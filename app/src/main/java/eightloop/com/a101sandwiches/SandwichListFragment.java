@@ -196,6 +196,9 @@ public class SandwichListFragment extends Fragment implements SandwichListAdapte
             case "Sweet":
                 getClassifiedSandwiches("Sweet");
                 break;
+            case "Veggies":
+                getClassifiedSandwiches("Veggies");
+                break;
         }
     }
 }

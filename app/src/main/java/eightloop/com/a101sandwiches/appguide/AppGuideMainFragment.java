@@ -1,4 +1,4 @@
-package eightloop.com.a101sandwiches;
+package eightloop.com.a101sandwiches.appguide;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -13,15 +13,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import eightloop.com.a101sandwiches.AppGuideActivity;
+import eightloop.com.a101sandwiches.R;
 import eightloop.com.a101sandwiches.interfaces.AppGuideCallbackInterface;
 
 /**
  * Created on 9/21/2016.
  */
 
-public class AppGuideSurpriseFragment extends Fragment {
-    
-    public static final String TAG = "AppGuideSurpFragment";
+public class AppGuideMainFragment extends Fragment {
+
+    public static final String TAG = "AppGuideMainFragment";
 
     View view;
 
@@ -38,30 +40,31 @@ public class AppGuideSurpriseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_app_guide_5_surprise_me, container, false);
+        view = inflater.inflate(R.layout.fragment_app_guide_3_main_list, container, false);
 
-        tv_mainText = (TextView) view.findViewById(R.id.fag5_tv_mainText);
-        tv_subText = (TextView) view.findViewById(R.id.fag5_tv_subText);
+        tv_mainText = (TextView) view.findViewById(R.id.fag3_tv_mainText);
+        tv_subText = (TextView) view.findViewById(R.id.fag3_tv_subText);
 
         type_bariol = Typeface.createFromAsset(getActivity().getAssets(), "fonts/bariol.otf");
 
         tv_mainText.setTypeface(type_bariol);
         tv_subText.setTypeface(type_bariol);
 
-        bt_next = (Button) view.findViewById(R.id.fag5_ll_bt_next);
-        bt_skip = (Button) view.findViewById(R.id.fag5_ll_bt_skip);
+
+        bt_next = (Button) view.findViewById(R.id.fag3_ll_bt_next);
+        bt_skip = (Button) view.findViewById(R.id.fag3_ll_bt_skip);
 
         bt_skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                appGuideCallbackInterface.skipCalled(5);
+                appGuideCallbackInterface.skipCalled(3);
             }
         });
 
         bt_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                appGuideCallbackInterface.nextCalled(5);
+                appGuideCallbackInterface.nextCalled(3);
             }
         });
 

@@ -38,6 +38,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/greyishBlack"
                 android:text="@string/app_name"
+                android:textStyle="bold"
                 android:textAllCaps="true"
                 android:textSize="15sp" />
 
@@ -59,6 +60,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/fsl_toolbar_sandwich_list"
             android:layout_centerHorizontal="true"
+            android:background="@color/green"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
             android:textSize="15sp"/>
 
         <android.support.v7.widget.RecyclerView

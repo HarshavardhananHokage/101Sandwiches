@@ -1,9 +1,9 @@
 package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
-import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -21,19 +21,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import eightloop.com.a101sandwiches.adapters.SandwichListAdapter;
 import eightloop.com.a101sandwiches.constants.AppConstants;
 import eightloop.com.a101sandwiches.database.SandwichManager;
-import eightloop.com.a101sandwiches.helpers.GeneralHelperMethods;
 import eightloop.com.a101sandwiches.models.Sandwich;
 import eightloop.com.a101sandwiches.sharedprefs.AppPreferenceHandler;
 
@@ -56,9 +53,13 @@ public class SandwichListFragment extends Fragment implements SandwichListAdapte
     List<Sandwich> allSandwiches;
 
     TextView tv_currListDisplayed;
+    TextView tv_toolbarTitle;
 
     AdView adView_listPage;
     AdRequest adRequest_listPage;
+
+    Typeface tf_arconregular;
+    Typeface tf_quicksandbold;
 
     @Nullable
     @Override
@@ -122,6 +123,13 @@ public class SandwichListFragment extends Fragment implements SandwichListAdapte
             }
         });
 
+        tv_toolbarTitle = (TextView) toolbar_sandwichList.findViewById(R.id.fsl_toolbar_text);
+
+        tf_arconregular = Typeface.createFromAsset(getActivity().getAssets(), "fonts/arconregular.otf");
+        tf_quicksandbold = Typeface.createFromAsset(getActivity().getAssets(), "fonts/quicksandbold.otf");
+
+        tv_toolbarTitle.setTypeface(tf_quicksandbold);
+        tv_currListDisplayed.setTypeface(tf_arconregular);
         return sandwichListFragView;
     }
 

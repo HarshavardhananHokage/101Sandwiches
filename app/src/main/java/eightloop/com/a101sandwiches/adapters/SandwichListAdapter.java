@@ -2,6 +2,7 @@ package eightloop.com.a101sandwiches.adapters;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
@@ -35,6 +36,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
     List<Sandwich> sandwiches;
     Context mContext;
     MoveSandwichListener moveSandwichListener;
+    static Typeface tf_quicksandbold;
 
     public interface OnClickLoadSandwichDetails
     {
@@ -51,6 +53,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
         this.mContext = context;
         this.sandwiches = sandwichList;
         this.moveSandwichListener = moveSandwichListener;
+        tf_quicksandbold = Typeface.createFromAsset(context.getAssets(), "fonts/quicksandbold.otf");
     }
 
     public static class SandwichViewHolder extends RecyclerView.ViewHolder
@@ -67,12 +70,14 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
         ImageButton ibt_moveRight;
         ImageButton ibt_moveLeft;
 
+
         public SandwichViewHolder(View view)
         {
             super(view);
             card_sandwichView = (CardView) view.findViewById(R.id.fsl_cv_sandwich_list);
             tv_sandwichNumber = (TextView) view.findViewById(R.id.fsl_cv_tv_sandwich_number);
             tv_sandwichName = (TextView) view.findViewById(R.id.fsl_cv_tv_sandwich_name);
+            tv_sandwichName.setTypeface(tf_quicksandbold);
             tv_cookingTime = (TextView) view.findViewById(R.id.fsl_cv_tv_cooking_time);
             iv_sandwichImage = (ImageView) view.findViewById(R.id.fsl_cv_iv_sandwich_image);
             bt_tryItNow = (Button) view.findViewById(R.id.fsl_cv_bt_try_now);

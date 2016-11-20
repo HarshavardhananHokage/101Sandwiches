@@ -90,7 +90,6 @@ public class AppGuideMainFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        Log.e(TAG, "Came Here");
 
         if(context instanceof AppGuideActivity)
         {

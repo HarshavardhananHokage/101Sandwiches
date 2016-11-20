@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/fsl_rl_ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/fsl_adv_googleAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fsl_rl_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fsl_rl_ads_layout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/fsl_toolbar_sandwich_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize">
+
+            <TextView
+                android:id="@+id/fsl_toolbar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/greyishBlack"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fsl_iv_action_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_magnifying_glass"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/search_sandwiches_cont_desc"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/fsl_tv_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fsl_toolbar_sandwich_list"
+            android:layout_centerHorizontal="true"
+            android:background="@color/green"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fsl_recv_sandwich_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fsl_tv_header_text"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

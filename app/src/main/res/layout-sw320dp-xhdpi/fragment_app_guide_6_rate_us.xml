@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ag_pink">
+
+    <TextView
+        android:id="@+id/fag6_tv_mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ag_rate_mainText"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/fag6_iv_mainImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/rate"
+        android:layout_above="@id/fag6_tv_mainText"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/ag_rate_img_des"/>
+
+    <TextView
+        android:id="@+id/fag6_tv_subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fag6_tv_mainText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="@string/ag_rate_subText"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/fag6_ll_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarStyle"
+        android:background="@color/ag_contrastPink">
+        <Button
+            android:id="@+id/fag6_ll_bt_skip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/ag_skip"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/fag6_ll_bt_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/ag_toApp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</RelativeLayout>

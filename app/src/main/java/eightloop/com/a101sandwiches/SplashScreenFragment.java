@@ -21,8 +21,6 @@ public class SplashScreenFragment extends Fragment {
     TextView tv_appName;
 
     Typeface tf_pacifico;
-    Typeface tf_handOfSean;
-    Typeface tf_fabfelt;
 
     @Nullable
     @Override

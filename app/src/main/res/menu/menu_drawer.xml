@@ -18,7 +18,7 @@
                 <item
                     android:id="@+id/md_sub_item_classic"
                     android:title="@string/menu_classic"
-                    android:icon="@drawable/ic_action_sandwich_classic"/>
+                    android:icon="@drawable/ic_action_sandwich_classic" />
                 <item
                     android:id="@+id/md_sub_item_luxe"
                     android:title="@string/menu_luxe"

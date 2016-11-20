@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -41,6 +42,11 @@ public class AppGuideActivity extends Activity implements AppGuideCallbackInterf
         appGuideIntroFragment = new AppGuideIntroFragment();
         loadFragment(appGuideIntroFragment, AppGuideIntroFragment.TAG);
 
+    }
+
+    public static Intent newIntent(Context context)
+    {
+        return new Intent(context, AppGuideActivity.class);
     }
 
 

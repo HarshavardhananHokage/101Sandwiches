@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:id="@+id/fsi_rl_ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/fsi_adv_googleAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fsi_rl_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fsi_rl_ads_layout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/fsi_toolbar_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/fsi_iv_cancel_searched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_cancel"
+                android:visibility="gone"
+                android:contentDescription="@string/close_search"/>
+
+            <TextView
+                android:id="@+id/fsi_toolbar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/greyishBlack"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/fsi_iv_sandwich_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_heart"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@string/favourite_sandwich_cont_desc"/>
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/fsi_iv_sandwich_image"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@id/fsi_toolbar_custom"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:contentDescription="@string/sandwich_image"/>
+
+        <TextView
+            android:id="@+id/fsi_tv_sandwich_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fsi_iv_sandwich_image"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen" />
+
+        <TextView
+            android:id="@+id/fsi_tv_sandwich_subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fsi_tv_sandwich_name"/>
+
+        <TextView
+            android:id="@+id/fsi_tv_sandwich_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fsi_tv_sandwich_subheading"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="italic"/>
+
+        <View
+            android:id="@+id/fsi_view_dummy_1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/fsi_tv_cooking_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
+            android:layout_toLeftOf="@id/fsi_view_dummy_1"
+            android:layout_toStartOf="@id/fsi_view_dummy_1"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="bottom"
+            android:drawableStart="@drawable/ic_cooking"
+            android:drawableLeft="@drawable/ic_cooking"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/fsi_tv_calories_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fsi_tv_sandwich_desc"
+            android:layout_toRightOf="@id/fsi_view_dummy_1"
+            android:layout_toEndOf="@id/fsi_view_dummy_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="bottom"
+            android:drawableStart="@drawable/ic_count_calories"
+            android:drawableLeft="@drawable/ic_count_calories"
+            android:drawablePadding="10dp"/>
+
+       <View
+           android:id="@+id/fsi_view_dummy_2"
+           android:layout_width="1dp"
+           android:layout_height="1dp"
+           android:layout_below="@id/fsi_tv_calories_count"
+           android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/fsi_bt_ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/fsi_view_dummy_2"
+            android:layout_toStartOf="@id/fsi_view_dummy_2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green"
+            android:text="@string/ingredients"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/fsi_bt_directions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/fsi_view_dummy_2"
+            android:layout_toEndOf="@id/fsi_view_dummy_2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/directions"
+            android:textColor="@color/white"
+            android:background="@color/green"/>
+
+    </RelativeLayout>
+    <!--<include layout="@layout/layout_ingre_directions"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@id/fsi_rl_ads_layout"/> -->
+    <ViewStub
+        android:id="@+id/fsi_vs_ing_directions_stub"
+        android:inflatedId="@+id/fsi_lid_rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_ingre_directions"
+        android:layout_above="@id/fsi_rl_ads_layout"/>
+</RelativeLayout>

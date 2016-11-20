@@ -37,7 +37,7 @@ public class SplashContainerActivity extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = IntroActivity.newIntent(SplashContainerActivity.this);
+                Intent intent = AppGuideActivity.newIntent(SplashContainerActivity.this);
                 startActivity(intent);
                 finish();
             }
@@ -50,5 +50,11 @@ public class SplashContainerActivity extends Activity {
         ft = fm.beginTransaction();
         ft.replace(R.id.asc_fragmentContainer, fragment, fragTag);
         ft.commit();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeCallbacksAndMessages(null);
     }
 }

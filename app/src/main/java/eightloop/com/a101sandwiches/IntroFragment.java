@@ -8,6 +8,7 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.widget.TextViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -341,6 +342,7 @@ public class IntroFragment extends Fragment {
             CheckBox checkBox = new CheckBox(getActivity());
             checkBox.setText(ingredient);
             checkBox.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
+            TextViewCompat.setTextAppearance(checkBox, R.style.INgAndDIrTextSize320XHDPI);
             //checkBox.setLayoutParams(layoutParams);
             if(selectedCheckBoxes.size() > 0 && selectedCheckBoxes.contains(count))
             {
@@ -388,6 +390,7 @@ public class IntroFragment extends Fragment {
             textView.setText(formattedDirection);
             textView.setTypeface(null, Typeface.ITALIC);
             textView.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
+            TextViewCompat.setTextAppearance(textView, R.style.INgAndDIrTextSize320XHDPI);
             textView.setLayoutParams(layoutParams);
             ll_ing_directions_lists.addView(textView);
         }

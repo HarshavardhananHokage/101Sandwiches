@@ -47,7 +47,7 @@
                 android:textColor="@color/greyishBlack"
                 android:text="@string/app_name"
                 android:textAllCaps="true"
-                android:textSize="15sp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/fsi_iv_sandwich_favourite"
@@ -62,12 +62,14 @@
 
         <ImageView
             android:id="@+id/fsi_iv_sandwich_image"
-            android:layout_width="300dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
             android:layout_below="@id/fsi_toolbar_custom"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:scaleType="fitXY"
             android:adjustViewBounds="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:layout_centerHorizontal="true"
             android:background="@android:drawable/dialog_holo_light_frame"
             android:contentDescription="@string/sandwich_image"/>
@@ -81,7 +83,7 @@
             android:layout_below="@id/fsi_iv_sandwich_image"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:textSize="17sp"
+            android:textSize="26sp"
             android:textStyle="bold"
             android:textColor="@color/darkGreen" />
 
@@ -91,6 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:gravity="center"
+            android:textSize="20sp"
             android:layout_below="@id/fsi_tv_sandwich_name"/>
 
         <TextView
@@ -98,10 +101,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/fsi_tv_sandwich_subheading"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:layout_marginTop="20dp"
             android:gravity="center"
+            android:textSize="20sp"
             android:textStyle="italic"/>
 
         <View
@@ -123,6 +127,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="20dp"
             android:gravity="bottom"
+            android:textSize="20sp"
             android:drawableStart="@drawable/ic_cooking"
             android:drawableLeft="@drawable/ic_cooking"
             android:drawablePadding="10dp"/>
@@ -139,6 +144,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:gravity="bottom"
+            android:textSize="20sp"
             android:drawableStart="@drawable/ic_count_calories"
             android:drawableLeft="@drawable/ic_count_calories"
             android:drawablePadding="10dp"/>
@@ -162,6 +168,7 @@
             android:layout_alignParentBottom="true"
             android:background="@color/green"
             android:text="@string/ingredients"
+            android:textSize="18sp"
             android:textColor="@color/white" />
 
         <Button
@@ -175,6 +182,7 @@
             android:layout_alignParentRight="true"
             android:text="@string/directions"
             android:textColor="@color/white"
+            android:textSize="18sp"
             android:background="@color/green"/>
 
     </RelativeLayout>

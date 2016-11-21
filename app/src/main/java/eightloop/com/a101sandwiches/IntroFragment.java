@@ -58,13 +58,15 @@ public class IntroFragment extends Fragment {
     Button bt_lid_ingredients_list;
     Button bt_lid_directions_list;
 
-    ImageView iv_sandwichImage;
+
     TextView tv_sandwichName;
     TextView tv_sandwichSubheading;
     TextView tv_sandwichDescription;
     TextView tv_sandwichCookingTime;
     TextView tv_sandwichCalorieCount;
+    TextView tv_toolbarTitle;
 
+    ImageView iv_sandwichImage;
     ImageView iv_sandwichFavourite;
 
     RelativeLayout rl_detailsPane;
@@ -80,6 +82,8 @@ public class IntroFragment extends Fragment {
     boolean isSandwichFav = false;
 
     Sandwich sandwich;
+
+    Typeface tf_quicksandbold;
 
     ArrayList<Integer> selectedCheckBoxes;
 
@@ -188,6 +192,12 @@ public class IntroFragment extends Fragment {
                 }
             }
         });
+
+        tv_toolbarTitle = (TextView) introToolbar.findViewById(R.id.fsi_toolbar_text);
+
+        tf_quicksandbold = Typeface.createFromAsset(getActivity().getAssets(), "fonts/quicksandbold.otf");
+
+        tv_toolbarTitle.setTypeface(tf_quicksandbold);
 
         return introFragView;
     }
@@ -332,10 +342,12 @@ public class IntroFragment extends Fragment {
         int ingArrayId = getResources().getIdentifier(sandwich.getIngredients(), "array", getActivity().getPackageName());
         ingredients = getResources().getStringArray(ingArrayId);
         //recipes = getResources().getStringArray(R.array.classic_blt_sandwich_rec);
-        /*LinearLayout.LayoutParams layoutParams =
+        LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getActivity().getResources().getDisplayMetrics());
-        layoutParams.leftMargin = layoutParams.rightMargin = margin;*/
+        int checkBoxMargBottom = getActivity().getResources().getInteger(R.integer.checkboxMarginBottom);
+        Log.e(TAG, ""+checkBoxMargBottom);
+        int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, checkBoxMargBottom, getActivity().getResources().getDisplayMetrics());
+        layoutParams.bottomMargin = margin;
         int count = 0;
         for(String ingredient: ingredients)
         {
@@ -343,7 +355,7 @@ public class IntroFragment extends Fragment {
             checkBox.setText(ingredient);
             checkBox.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
             TextViewCompat.setTextAppearance(checkBox, R.style.INgAndDIrTextSize320XHDPI);
-            //checkBox.setLayoutParams(layoutParams);
+            checkBox.setLayoutParams(layoutParams);
             if(selectedCheckBoxes.size() > 0 && selectedCheckBoxes.contains(count))
             {
                 checkBox.setChecked(true);
@@ -388,9 +400,9 @@ public class IntroFragment extends Fragment {
             count++;
             TextView textView = new TextView(getActivity());
             textView.setText(formattedDirection);
-            textView.setTypeface(null, Typeface.ITALIC);
             textView.setTextColor(ContextCompat.getColor(getActivity(), R.color.greyishBlack));
             TextViewCompat.setTextAppearance(textView, R.style.INgAndDIrTextSize320XHDPI);
+            textView.setTypeface(null, Typeface.ITALIC);
             textView.setLayoutParams(layoutParams);
             ll_ing_directions_lists.addView(textView);
         }

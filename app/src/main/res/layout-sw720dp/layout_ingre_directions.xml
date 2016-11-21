@@ -12,33 +12,35 @@
     <Button
         android:id="@+id/fsi_lid_bt_ingredients"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_toLeftOf="@id/fsi_lid_view_dummy_1"
         android:layout_toStartOf="@id/fsi_lid_view_dummy_1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/green"
         android:text="@string/ingredients"
+        android:textSize="25sp"
         android:textColor="@color/white" />
 
     <Button
         android:id="@+id/fsi_lid_bt_directions"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_toRightOf="@id/fsi_lid_view_dummy_1"
         android:layout_toEndOf="@id/fsi_lid_view_dummy_1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:text="@string/directions"
         android:textColor="@color/white"
+        android:textSize="25sp"
         android:background="@color/green"/>
 
     <ScrollView
         android:id="@+id/fsi_lid_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="100dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="170dp"
+        android:layout_marginTop="60dp"
         android:layout_below="@id/fsi_lid_bt_ingredients"
         android:scrollbarThumbVertical="@drawable/drawable_scroll_bar_green"
         android:scrollbarSize="4dp">
@@ -46,20 +48,21 @@
             android:id="@+id/fsi_lid_ll_lists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
             android:orientation="vertical">
         </LinearLayout>
     </ScrollView>
 
     <ImageButton
         android:id="@+id/fsi_lid_ib_close_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
         android:src="@drawable/drawable_close_list"
         android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp"
+        android:scaleType="fitXY"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/close_list_cont_desc"/>
 </RelativeLayout>

@@ -21,4 +21,8 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="NavDrawerMenuItemSize">
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

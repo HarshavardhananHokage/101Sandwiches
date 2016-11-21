@@ -40,7 +40,7 @@
                 android:text="@string/app_name"
                 android:textStyle="bold"
                 android:textAllCaps="true"
-                android:textSize="15sp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/fsl_iv_action_search"
@@ -63,15 +63,16 @@
             android:background="@color/green"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
             android:textColor="@color/white"
-            android:textSize="15sp"/>
+            android:textSize="20sp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/fsl_recv_sandwich_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/fsl_tv_header_text"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="30dp"/>
     </RelativeLayout>
 
 </RelativeLayout>

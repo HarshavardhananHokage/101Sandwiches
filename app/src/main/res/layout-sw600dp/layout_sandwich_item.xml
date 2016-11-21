@@ -4,8 +4,8 @@
     android:id="@+id/fsl_cv_sandwich_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginRight="20dp"
-    android:layout_marginLeft="20dp"
+    android:layout_marginRight="70dp"
+    android:layout_marginLeft="70dp"
     android:layout_marginBottom="10dp"
     card:cardElevation="10dp">
 
@@ -16,8 +16,8 @@
 
         <ImageButton
             android:id="@+id/fsl_cv_ibt_go_left"
-            android:layout_width="50dp"
-            android:layout_height="40dp"
+            android:layout_width="85dp"
+            android:layout_height="60dp"
             android:background="@color/green"
             android:src="@drawable/ic_left_arrow"
             android:scaleType="center"
@@ -26,8 +26,8 @@
 
         <ImageButton
             android:id="@+id/fsl_cv_ibt_go_right"
-            android:layout_width="50dp"
-            android:layout_height="40dp"
+            android:layout_width="85dp"
+            android:layout_height="60dp"
             android:background="@color/green"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
@@ -38,21 +38,24 @@
 
         <TextView
             android:id="@+id/fsl_cv_tv_sandwich_number"
-            android:layout_width="55dp"
-            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
             android:layout_centerHorizontal="true"
             android:gravity="center"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/fsl_cv_iv_sandwich_image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="280dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/fsl_cv_ibt_go_left"
             android:scaleType="fitXY"
             android:adjustViewBounds="true"
             android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:contentDescription="@string/sandwich_image"
             android:background="@android:drawable/dialog_holo_light_frame"/>
 
@@ -64,7 +67,7 @@
             android:layout_marginTop="13dp"
             android:layout_centerHorizontal="true"
             android:gravity="center"
-            android:textSize="20sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="@color/darkGreen" />
 
@@ -76,8 +79,9 @@
             android:layout_below="@id/fsl_cv_tv_sandwich_name"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:gravity="bottom"
+            android:textSize="18sp"
             android:drawableLeft="@drawable/ic_cooking"
             android:drawableStart="@drawable/ic_cooking"
             android:drawablePadding="10dp"/>
@@ -87,10 +91,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/fsl_cv_tv_cooking_time"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
             android:background="@color/green"
             android:text="@string/try_out_now"
             android:textColor="@color/white" />

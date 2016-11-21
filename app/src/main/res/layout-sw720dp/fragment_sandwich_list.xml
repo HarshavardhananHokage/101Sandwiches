@@ -40,12 +40,12 @@
                 android:text="@string/app_name"
                 android:textStyle="bold"
                 android:textAllCaps="true"
-                android:textSize="15sp" />
+                android:textSize="25sp" />
 
             <ImageView
                 android:id="@+id/fsl_iv_action_search"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:src="@drawable/ic_action_magnifying_glass"
                 android:layout_gravity="end"
                 android:layout_marginRight="10dp"
@@ -63,15 +63,16 @@
             android:background="@color/green"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
+            android:layout_marginTop="30dp"
             android:textColor="@color/white"
-            android:textSize="15sp"/>
+            android:textSize="28sp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/fsl_recv_sandwich_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/fsl_tv_header_text"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="30dp"/>
     </RelativeLayout>
 
 </RelativeLayout>

@@ -19,6 +19,7 @@
         android:layout_alignParentStart="true"
         android:background="@color/green"
         android:text="@string/ingredients"
+        android:textSize="18sp"
         android:textColor="@color/white" />
 
     <Button
@@ -31,6 +32,7 @@
         android:layout_alignParentRight="true"
         android:text="@string/directions"
         android:textColor="@color/white"
+        android:textSize="18sp"
         android:background="@color/green"/>
 
     <ScrollView
@@ -38,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="100dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_below="@id/fsi_lid_bt_ingredients"
         android:scrollbarThumbVertical="@drawable/drawable_scroll_bar_green"
         android:scrollbarSize="4dp">
@@ -46,8 +48,8 @@
             android:id="@+id/fsi_lid_ll_lists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:orientation="vertical">
         </LinearLayout>
     </ScrollView>
@@ -59,7 +61,7 @@
         android:src="@drawable/drawable_close_list"
         android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="30dp"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/close_list_cont_desc"/>
 </RelativeLayout>

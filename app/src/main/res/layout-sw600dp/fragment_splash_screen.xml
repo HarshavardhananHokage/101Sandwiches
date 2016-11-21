@@ -9,12 +9,12 @@
         android:layout_centerInParent="true"
         android:text="@string/app_name"
         android:textColor="@color/green"
-        android:textSize="40sp"/>
+        android:textSize="60sp"/>
 
     <ImageView
         android:id="@+id/fss_iv_appIcon"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:src="@drawable/sand"
         android:layout_above="@id/fss_tv_appName"
         android:layout_centerHorizontal="true"

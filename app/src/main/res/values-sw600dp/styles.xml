@@ -18,7 +18,11 @@
     </style>
 
     <style name="INgAndDIrTextSize320XHDPI">
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="NavDrawerMenuItemSize">
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>

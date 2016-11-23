@@ -37,7 +37,7 @@ public class SplashContainerActivity extends Activity {
         splashScreenFragment = new SplashScreenFragment();
         loadFragment(splashScreenFragment, SplashScreenFragment.TAG);
 
-        /*handler =  new Handler();
+        handler =  new Handler();
         if(appPreferenceHandler.getIsAppLaunchedFirstTime() == 0)
         {
             appPreferenceHandler.setIsAppLaunchedFirstTime(1);
@@ -60,7 +60,7 @@ public class SplashContainerActivity extends Activity {
                     finish();
                 }
             }, 3000);
-        }*/
+        }
     }
 
     public void loadFragment(Fragment fragment, String fragTag)
@@ -74,6 +74,6 @@ public class SplashContainerActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        //handler.removeCallbacksAndMessages(null);
+        handler.removeCallbacksAndMessages(null);
     }
 }

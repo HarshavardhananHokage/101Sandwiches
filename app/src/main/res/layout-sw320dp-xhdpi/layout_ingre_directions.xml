@@ -41,7 +41,8 @@
         android:layout_marginTop="20dp"
         android:layout_below="@id/fsi_lid_bt_ingredients"
         android:scrollbarThumbVertical="@drawable/drawable_scroll_bar_green"
-        android:scrollbarSize="4dp">
+        android:scrollbarSize="4dp"
+        android:fadeScrollbars="false">
         <LinearLayout
             android:id="@+id/fsi_lid_ll_lists"
             android:layout_width="match_parent"

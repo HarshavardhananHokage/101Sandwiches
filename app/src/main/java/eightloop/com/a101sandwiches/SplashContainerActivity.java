@@ -9,6 +9,7 @@ import android.app.FragmentManager;
 import android.os.Handler;
 
 import eightloop.com.a101sandwiches.appguide.AppGuideIntroFragment;
+import eightloop.com.a101sandwiches.sharedprefs.AppPreferenceHandler;
 
 /**
  * Created on 9/17/2016.
@@ -24,24 +25,42 @@ public class SplashContainerActivity extends Activity {
 
     SplashScreenFragment splashScreenFragment;
     AppGuideIntroFragment appGuideFragment;
+    AppPreferenceHandler appPreferenceHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_container);
 
+        appPreferenceHandler = new AppPreferenceHandler(this);
+
         splashScreenFragment = new SplashScreenFragment();
         loadFragment(splashScreenFragment, SplashScreenFragment.TAG);
 
-        handler =  new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = AppGuideActivity.newIntent(SplashContainerActivity.this);
-                startActivity(intent);
-                finish();
-            }
-        }, 3000);
+        /*handler =  new Handler();
+        if(appPreferenceHandler.getIsAppLaunchedFirstTime() == 0)
+        {
+            appPreferenceHandler.setIsAppLaunchedFirstTime(1);
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent = AppGuideActivity.newIntent(SplashContainerActivity.this);
+                    startActivity(intent);
+                    finish();
+                }
+            }, 3000);
+        }
+        else
+        {
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent = IntroActivity.newIntent(SplashContainerActivity.this);
+                    startActivity(intent);
+                    finish();
+                }
+            }, 3000);
+        }*/
     }
 
     public void loadFragment(Fragment fragment, String fragTag)
@@ -55,6 +74,6 @@ public class SplashContainerActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        handler.removeCallbacksAndMessages(null);
+        //handler.removeCallbacksAndMessages(null);
     }
 }

@@ -2,19 +2,24 @@ package eightloop.com.a101sandwiches.adapters;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -37,6 +42,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
     Context mContext;
     MoveSandwichListener moveSandwichListener;
     static Typeface tf_quicksandbold;
+    static Resources r;
 
     public interface OnClickLoadSandwichDetails
     {
@@ -51,6 +57,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
     public SandwichListAdapter(Context context, List<Sandwich> sandwichList, MoveSandwichListener moveSandwichListener)
     {
         this.mContext = context;
+        r = mContext.getResources();
         this.sandwiches = sandwichList;
         this.moveSandwichListener = moveSandwichListener;
         tf_quicksandbold = Typeface.createFromAsset(context.getAssets(), "fonts/quicksandbold.otf");
@@ -83,6 +90,23 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
             bt_tryItNow = (Button) view.findViewById(R.id.fsl_cv_bt_try_now);
             ibt_moveLeft = (ImageButton) view.findViewById(R.id.fsl_cv_ibt_go_left);
             ibt_moveRight = (ImageButton) view.findViewById(R.id.fsl_cv_ibt_go_right);
+
+            if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT)
+            {
+                if(r.getDisplayMetrics().density <= 3.0)
+                {
+                    RecyclerView.LayoutParams clp = (RecyclerView.LayoutParams) card_sandwichView.getLayoutParams();
+                    clp.bottomMargin = 0;
+
+                    card_sandwichView.setLayoutParams(clp);
+
+
+                    RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) bt_tryItNow.getLayoutParams();
+                    lp.bottomMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 5, r.getDisplayMetrics());
+                    lp.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, r.getDisplayMetrics());
+                    bt_tryItNow.setLayoutParams(lp);
+                }
+            }
             /*bt_tryItNow.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

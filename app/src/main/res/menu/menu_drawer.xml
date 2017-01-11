@@ -52,10 +52,6 @@
                     android:icon="@drawable/ic_action_rate_app"
                     android:title="@string/menu_rate_app" />
                 <item
-                    android:id="@+id/md_sub_item_remove_ads"
-                    android:icon="@drawable/ic_action_remove_ads"
-                    android:title="@string/menu_remove_ads"/>
-                <item
                     android:id="@+id/md_sub_item_other_apps"
                     android:icon="@drawable/ic_action_other_apps"
                     android:title="@string/menu_other_apps"/>

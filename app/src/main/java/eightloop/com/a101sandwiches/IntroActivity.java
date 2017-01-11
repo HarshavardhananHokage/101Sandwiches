@@ -179,9 +179,6 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                 case "Rate App":
                     GeneralHelperMethods.rateAppAtPlayStore(this);
                     break;
-                case "Remove Ads":
-                    Toast.makeText(this, "Ads Removed", Toast.LENGTH_SHORT).show();
-                    break;
                 case "Other Apps":
                     GeneralHelperMethods.otherAppsByDeveloper(this);
                     break;
@@ -224,10 +221,6 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                     break;
                 case "Rate App":
                     GeneralHelperMethods.rateAppAtPlayStore(this);
-                    shouldLoad = false;
-                    break;
-                case "Remove Ads":
-                    Toast.makeText(this, "Ads Removed", Toast.LENGTH_SHORT).show();
                     shouldLoad = false;
                     break;
                 case "Other Apps":

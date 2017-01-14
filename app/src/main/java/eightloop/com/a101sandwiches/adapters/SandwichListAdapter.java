@@ -97,13 +97,16 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
                 {
                     RecyclerView.LayoutParams clp = (RecyclerView.LayoutParams) card_sandwichView.getLayoutParams();
                     clp.bottomMargin = 0;
+                    clp.height = RecyclerView.LayoutParams.MATCH_PARENT;
 
                     card_sandwichView.setLayoutParams(clp);
+
+                    tv_sandwichName.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 12, r.getDisplayMetrics()));
 
 
                     RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) bt_tryItNow.getLayoutParams();
                     lp.bottomMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 5, r.getDisplayMetrics());
-                    lp.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, r.getDisplayMetrics());
+                    lp.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 5, r.getDisplayMetrics());
                     bt_tryItNow.setLayoutParams(lp);
                 }
             }

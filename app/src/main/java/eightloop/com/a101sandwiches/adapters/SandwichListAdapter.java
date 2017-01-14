@@ -103,6 +103,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
 
                     tv_sandwichName.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 12, r.getDisplayMetrics()));
 
+                    Log.e(TAG, "Came here");
 
                     RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) bt_tryItNow.getLayoutParams();
                     lp.bottomMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 5, r.getDisplayMetrics());

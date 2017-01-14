@@ -102,7 +102,6 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        Log.e(TAG, "Item Selected: " +item.getTitle());
         drawLay_introDrawer.closeDrawer(GravityCompat.START);
         navItemSelected(item.getTitle().toString());
         return true;

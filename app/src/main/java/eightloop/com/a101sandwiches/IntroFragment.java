@@ -345,7 +345,6 @@ public class IntroFragment extends Fragment {
         LinearLayout.LayoutParams layoutParams =
                 new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         int checkBoxMargBottom = getActivity().getResources().getInteger(R.integer.checkboxMarginBottom);
-        Log.e(TAG, ""+checkBoxMargBottom);
         int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, checkBoxMargBottom, getActivity().getResources().getDisplayMetrics());
         layoutParams.bottomMargin = margin;
         int count = 0;

@@ -22,6 +22,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import org.w3c.dom.Text;
 
 import java.util.List;
@@ -141,7 +143,8 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
         holder.tv_sandwichNumber.setText(format);
         holder.tv_sandwichName.setText(sandwich.getName());
         holder.tv_cookingTime.setText(cookingTime);
-        holder.iv_sandwichImage.setImageDrawable(sandwichImage);
+        //holder.iv_sandwichImage.setImageDrawable(sandwichImage);
+        Picasso.with(mContext).load(id).into(holder.iv_sandwichImage);
         holder.bt_tryItNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,7 +167,9 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
                 {
                     currPositon = currPositon - 1;
                 }
+
                 moveSandwichListener.moveToPosition(currPositon);
+
             }
         });
 

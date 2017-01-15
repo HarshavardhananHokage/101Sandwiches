@@ -1,6 +1,7 @@
 package eightloop.com.a101sandwiches;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.Editable;
@@ -8,6 +9,7 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -82,6 +84,10 @@ public class SearchViewFragment extends Fragment {
         lv_sandwichList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                InputMethodManager in = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                in.hideSoftInputFromWindow(view.getWindowToken(), 0);
+
                 Sandwich selectedSandwich = searchItemAdapter.getItem(position);
                 ((LoadSelectedSandwichFromSearch) getActivity()).loadSandwich(selectedSandwich);
             }

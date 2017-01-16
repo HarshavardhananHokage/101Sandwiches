@@ -134,8 +134,15 @@ public class SandwichListFragment extends Fragment implements SandwichListAdapte
     }
 
     @Override
-    public void moveToPosition(int postion) {
-        recView_sandwichListItem.smoothScrollToPosition(postion);
+    public void moveToPosition(int postion, boolean isSmoothScroll) {
+        if(isSmoothScroll)
+        {
+            recView_sandwichListItem.smoothScrollToPosition(postion);
+        }
+        else
+        {
+            recView_sandwichListItem.scrollToPosition(postion);
+        }
     }
 
     public void getFavSandwiches()
@@ -184,7 +191,7 @@ public class SandwichListFragment extends Fragment implements SandwichListAdapte
                 break;
             case "Surprise Me":
                 getAllSandwiches();
-                moveToPosition(new Random().nextInt(101));
+                moveToPosition(new Random().nextInt(101), false);
                 break;
             case "Favourites":
                 getFavSandwiches();

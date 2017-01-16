@@ -53,7 +53,7 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
 
     public interface MoveSandwichListener
     {
-        void moveToPosition(int postion);
+        void moveToPosition(int postion, boolean smoothScroll);
     }
 
     public SandwichListAdapter(Context context, List<Sandwich> sandwichList, MoveSandwichListener moveSandwichListener)
@@ -162,13 +162,13 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
                 if(currPositon == 0)
                 {
                     currPositon = getItemCount() - 1;
+                    moveSandwichListener.moveToPosition(currPositon, false);
                 }
                 else
                 {
                     currPositon = currPositon - 1;
+                    moveSandwichListener.moveToPosition(currPositon, true);
                 }
-
-                moveSandwichListener.moveToPosition(currPositon);
 
             }
         });
@@ -180,12 +180,13 @@ public class SandwichListAdapter extends RecyclerView.Adapter<SandwichListAdapte
                 if(currPositon == getItemCount() - 1)
                 {
                     currPositon = 0;
+                    moveSandwichListener.moveToPosition(currPositon, false);
                 }
                 else
                 {
                     currPositon = currPositon + 1;
+                    moveSandwichListener.moveToPosition(currPositon, true);
                 }
-                moveSandwichListener.moveToPosition(currPositon);
             }
         });
     }

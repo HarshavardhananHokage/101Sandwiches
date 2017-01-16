@@ -151,7 +151,7 @@ public class IntroActivity extends AppCompatActivity implements SandwichListAdap
                     break;
                 case "Surprise Me":
                     int count = ((SandwichListFragment) currVisibleFrag).getCount();
-                    ((SandwichListFragment) currVisibleFrag).moveToPosition(new Random().nextInt(count));
+                    ((SandwichListFragment) currVisibleFrag).moveToPosition(new Random().nextInt(count), false);
                     Toast.makeText(this, "Surprise!", Toast.LENGTH_SHORT).show();
                     break;
                 case "Favourites":

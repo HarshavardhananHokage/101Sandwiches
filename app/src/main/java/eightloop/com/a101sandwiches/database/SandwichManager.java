@@ -53,7 +53,6 @@ public class SandwichManager {
         }finally {
             sandCursor.close();
         }
-
         return list_allSandwiches;
     }
 
